@@ -17562,7 +17562,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://gitee.com/starlinkapi/jar/raw/master/mijar/mi.jar"
+      "jar": "https://gitee.com/starlinkapi/jar/raw/master/jar/pg.jar"
     },
     {
       "key": "天天_1256",
@@ -17573,7 +17573,7 @@
       "api": "csp_AppRJ",
       "timeout": 12,
       "ext": "vxw35/hHSj07Q+maxQzOVMq1rjRCOTXpUCx8iKu5jIg=",
-      "jar": "https://gitee.com/starlinkapi/jar/raw/master/mijar/mi.jar",
+      "jar": "https://gitee.com/starlinkapi/jar/raw/master/jar/pg.jar",
       "filterable": 1
     },
     {
@@ -17589,7 +17589,7 @@
         "ratio": 1.333
       },
       "ext": "",
-      "jar": "https://gitee.com/starlinkapi/jar/raw/master/mijar/mi.jar",
+      "jar": "https://gitee.com/starlinkapi/jar/raw/master/jar/pg.jar",
       "filterable": 1
     },
     {
@@ -17608,7 +17608,7 @@
         "type": "rect",
         "ratio": 1.333
       },
-      "jar": "https://gitee.com/starlinkapi/jar/raw/master/mijar/mi.jar",
+      "jar": "https://gitee.com/starlinkapi/jar/raw/master/jar/pg.jar",
       "filterable": 1
     },
     {
@@ -17617,7 +17617,7 @@
       "type": 3,
       "api": "csp_AppGet",
       "ext": "https://mobile-1251126973.cos.ap-guangzhou.myqcloud.com/maccos_config.txt|8R33VQSxzmCaHpEX|V122|okhttp/3.10.0",
-      "jar": "https://gitee.com/starlinkapi/jar/raw/master/mijar/mi.jar",
+      "jar": "https://gitee.com/starlinkapi/jar/raw/master/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -17628,7 +17628,7 @@
       "type": 3,
       "api": "csp_AppGet",
       "ext": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/601.txt|FTgP4Gq8zPiqbt7M|V122|okhttp/3.10.0",
-      "jar": "https://gitee.com/starlinkapi/jar/raw/master/mijar/mi.jar",
+      "jar": "https://gitee.com/starlinkapi/jar/raw/master/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -17639,7 +17639,7 @@
       "type": 3,
       "api": "csp_AppGet",
       "ext": "https://yzysap.oss-cn-hangzhou.aliyuncs.com/sss.txt|wNCwbXzr0Bm6cS2C|V122|okhttp/3.10.0",
-      "jar": "https://gitee.com/starlinkapi/jar/raw/master/mijar/mi.jar",
+      "jar": "https://gitee.com/starlinkapi/jar/raw/master/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -17652,7 +17652,7 @@
       "changeable": 1,
       "api": "csp_AppGet",
       "ext": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q23.txt|nzEqOgYk3QzHuEP8|V122|okhttp/3.10.0",
-      "jar": "https://gitee.com/starlinkapi/jar/raw/master/mijar/mi.jar",
+      "jar": "https://gitee.com/starlinkapi/jar/raw/master/jar/pg.jar",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -17663,7 +17663,7 @@
       "timeout": 15,
       "api": "csp_App3Q",
       "ext": "https://duoduozhuiju.com",
-      "jar": "https://gitee.com/starlinkapi/jar/raw/master/mijar/mi.jar",
+      "jar": "https://gitee.com/starlinkapi/jar/raw/master/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -17683,7 +17683,7 @@
         "buildNumber": "2001",
         "buildSignature": "B07C8F6DBEBD3ABEE6A4A4DE2BFBBF29A0AC3F984D532A39448EC3BF5DD36311"
       },
-      "jar": "https://gitee.com/starlinkapi/jar/raw/master/mijar/mi.jar",
+      "jar": "https://gitee.com/starlinkapi/jar/raw/master/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -17704,7 +17704,7 @@
         "buildNumber": "2001",
         "buildSignature": "03DD38CE4C3D62D0F0DEFACC06768D14EB382C7BD77A05B2EBF4D66E154A0D47"
       },
-      "jar": "https://gitee.com/starlinkapi/jar/raw/master/mijar/mi.jar",
+      "jar": "https://gitee.com/starlinkapi/jar/raw/master/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -17724,7 +17724,7 @@
         "buildNumber": "2001",
         "buildSignature": "5AD4436C4730FFE26910C86278B80F3E661C317FFC3616F702D20A729262624A"
       },
-      "jar": "https://gitee.com/starlinkapi/jar/raw/master/mijar/mi.jar",
+      "jar": "https://gitee.com/starlinkapi/jar/raw/master/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -17767,7 +17767,7 @@
       "type": 3,
       "timeout": 12,
       "api": "csp_DuanJu",
-      "jar": "https://gitee.com/starlinkapi/jar/raw/master/mijar/mi.jar",
+      "jar": "https://gitee.com/starlinkapi/jar/raw/master/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -17777,7 +17777,7 @@
       "name": "[【8月8日】最新【影视仓】高清【1080P】高速接口地址【支持弹幕】] 听书┃娱乐",
       "type": 3,
       "api": "csp_TingBook",
-      "jar": "https://gitee.com/starlinkapi/jar/raw/master/mijar/mi.jar",
+      "jar": "https://gitee.com/starlinkapi/jar/raw/master/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
