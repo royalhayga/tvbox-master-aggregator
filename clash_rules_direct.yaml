@@ -270,6 +270,7 @@ payload:
   - DOMAIN-SUFFIX,c2v2.com
   - DOMAIN-SUFFIX,c494.com
   - DOMAIN-SUFFIX,c6dd5cc.com
+  - DOMAIN-SUFFIX,c9z7j.top
   - DOMAIN-SUFFIX,cainisi.cf
   - DOMAIN-SUFFIX,cam4.com
   - DOMAIN-SUFFIX,caoliu28.cc
@@ -701,6 +702,7 @@ payload:
   - DOMAIN-SUFFIX,iysdq.cc
   - DOMAIN-SUFFIX,iysdq.tv
   - DOMAIN-SUFFIX,izhida.com
+  - DOMAIN-SUFFIX,j2r7q.top
   - DOMAIN-SUFFIX,j7y675.com
   - DOMAIN-SUFFIX,jable.sbs
   - DOMAIN-SUFFIX,jable.tv
@@ -828,6 +830,7 @@ payload:
   - DOMAIN-SUFFIX,lbapiby.com
   - DOMAIN-SUFFIX,lbbb.cc
   - DOMAIN-SUFFIX,lebozy5.com
+  - DOMAIN-SUFFIX,lemoncams.com
   - DOMAIN-SUFFIX,leuse.top
   - DOMAIN-SUFFIX,lezhutv.com
   - DOMAIN-SUFFIX,lfthirtytwo.com
@@ -881,6 +884,7 @@ payload:
   - DOMAIN-SUFFIX,lz15uu.com
   - DOMAIN-SUFFIX,lzcdn10.com
   - DOMAIN-SUFFIX,lzcdn23.com
+  - DOMAIN-SUFFIX,lzcdn26.com
   - DOMAIN-SUFFIX,lzcdn27.com
   - DOMAIN-SUFFIX,lzcdn28.com
   - DOMAIN-SUFFIX,lzcdn31.com
@@ -899,6 +903,7 @@ payload:
   - DOMAIN-SUFFIX,madou365.cc
   - DOMAIN-SUFFIX,magicetech.com
   - DOMAIN-SUFFIX,maihaolian.com
+  - DOMAIN-SUFFIX,maiyoux.com
   - DOMAIN-SUFFIX,maomi66.cc
   - DOMAIN-SUFFIX,maotaizy.cc
   - DOMAIN-SUFFIX,maoyanapi.top
@@ -981,6 +986,7 @@ payload:
   - DOMAIN-SUFFIX,mzrjk.top
   - DOMAIN-SUFFIX,mzstatic.com
   - DOMAIN-SUFFIX,n13.club
+  - DOMAIN-SUFFIX,n2d4z.top
   - DOMAIN-SUFFIX,naifei.im
   - DOMAIN-SUFFIX,naitang8.top
   - DOMAIN-SUFFIX,naixxzy.com
@@ -1021,6 +1027,7 @@ payload:
   - DOMAIN-SUFFIX,nxog.top
   - DOMAIN-SUFFIX,nxxzyuan.vip
   - DOMAIN-SUFFIX,nycvod.com
+  - DOMAIN-SUFFIX,o4z6i.top
   - DOMAIN-SUFFIX,oiio.fun
   - DOMAIN-SUFFIX,okcdn100.top
   - DOMAIN-SUFFIX,okttbipbu.cc
@@ -1230,6 +1237,7 @@ payload:
   - DOMAIN-SUFFIX,sta-cafe.com
   - DOMAIN-SUFFIX,starlink.fan
   - DOMAIN-SUFFIX,stonelodgeacademy.com
+  - DOMAIN-SUFFIX,stripchat.com
   - DOMAIN-SUFFIX,stripol.com
   - DOMAIN-SUFFIX,subocaiji.com
   - DOMAIN-SUFFIX,subocj.com
@@ -1375,6 +1383,7 @@ payload:
   - DOMAIN-SUFFIX,xamddegree.com
   - DOMAIN-SUFFIX,xb6v.com
   - DOMAIN-SUFFIX,xbl2.pro
+  - DOMAIN-SUFFIX,xchina001.site
   - DOMAIN-SUFFIX,xds2435u23422342342u.top
   - DOMAIN-SUFFIX,xgitv.com
   - DOMAIN-SUFFIX,xgzyapi.com
@@ -1442,6 +1451,7 @@ payload:
   - DOMAIN-SUFFIX,xpgtv.com
   - DOMAIN-SUFFIX,xpgtv.net
   - DOMAIN-SUFFIX,xptv.cc
+  - DOMAIN-SUFFIX,xqjzvcvt.top
   - DOMAIN-SUFFIX,xqxq1.cc
   - DOMAIN-SUFFIX,xrbsp.com
   - DOMAIN-SUFFIX,xsmp3.com
@@ -1602,6 +1612,7 @@ payload:
   - IP-CIDR,103.217.190.91/32
   - IP-CIDR,103.224.182.244/32
   - IP-CIDR,103.224.182.251/32
+  - IP-CIDR,103.231.12.104/32
   - IP-CIDR,103.236.61.19/32
   - IP-CIDR,103.236.61.192/32
   - IP-CIDR,103.30.79.90/32
@@ -1614,8 +1625,8 @@ payload:
   - IP-CIDR,104.18.12.30/32
   - IP-CIDR,104.18.40.15/32
   - IP-CIDR,104.18.42.16/32
-  - IP-CIDR,104.18.42.163/32
   - IP-CIDR,104.18.42.197/32
+  - IP-CIDR,104.18.42.54/32
   - IP-CIDR,104.19.150.230/32
   - IP-CIDR,104.194.8.74/32
   - IP-CIDR,104.21.10.38/32
@@ -1685,6 +1696,7 @@ payload:
   - IP-CIDR,107.151.246.198/32
   - IP-CIDR,107.167.23.138/32
   - IP-CIDR,107.173.211.148/32
+  - IP-CIDR,110.0.0.0/32
   - IP-CIDR,110.242.74.10/32
   - IP-CIDR,110.242.75.40/32
   - IP-CIDR,110.42.3.99/32
@@ -1699,11 +1711,13 @@ payload:
   - IP-CIDR,113.0.0.0/32
   - IP-CIDR,113.200.43.4/32
   - IP-CIDR,113.200.43.43/32
+  - IP-CIDR,113.62.253.22/32
   - IP-CIDR,114.0.0.0/32
   - IP-CIDR,114.134.187.25/32
   - IP-CIDR,115.0.0.0/32
   - IP-CIDR,115.42.65.14/32
   - IP-CIDR,115.42.65.142/32
+  - IP-CIDR,116.0.0.0/32
   - IP-CIDR,116.198.198.98/32
   - IP-CIDR,116.90.120.149/32
   - IP-CIDR,117.0.0.0/32
@@ -1786,6 +1800,7 @@ payload:
   - IP-CIDR,158.101.222.193/32
   - IP-CIDR,158.69.253.6/32
   - IP-CIDR,159.75.85.6/32
+  - IP-CIDR,159.75.85.63/32
   - IP-CIDR,160.124.190.16/32
   - IP-CIDR,162.209.128.126/32
   - IP-CIDR,162.209.146.8/32
@@ -1967,6 +1982,7 @@ payload:
   - IP-CIDR,39.134.115.16/32
   - IP-CIDR,39.134.115.163/32
   - IP-CIDR,39.134.65.17/32
+  - IP-CIDR,39.134.65.173/32
   - IP-CIDR,39.134.65.179/32
   - IP-CIDR,39.134.65.181/32
   - IP-CIDR,39.134.66.110/32
@@ -2012,6 +2028,7 @@ payload:
   - IP-CIDR,46.8.8.220/32
   - IP-CIDR,46.8.9.220/32
   - IP-CIDR,47.111.172.130/32
+  - IP-CIDR,47.120.41.246/32
   - IP-CIDR,47.122.22.78/32
   - IP-CIDR,47.93.209.214/32
   - IP-CIDR,5.254.89.106/32
