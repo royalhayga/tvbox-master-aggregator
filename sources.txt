@@ -1,4 +1,4 @@
-# 2026-10-05 04:30:53
+# 2026-10-05 13:50:26
 
 💎可可影视┃4K高清
 https://gh-proxy.com/https://raw.githubusercontent.com/haygcao/tvbox-master-aggregator/main/scripts/kkys_master.py
@@ -1910,6 +1910,9 @@ https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/main/lib/ge
 
 💎getsearchtxt┃[GAOTIANLIUYUN]
 https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/main/json/getsearchtxt.py
+
+💎spider┃[CATVODSPIDER]
+https://gh-proxy.com/https://raw.githubusercontent.com/CatVodSpider/main/examples/python/spider.py
 
 💎publish-typecho┃[LAOMA2053]
 https://gh-proxy.com/https://raw.githubusercontent.com/laoma2053/main/scripts/publish-typecho.py
