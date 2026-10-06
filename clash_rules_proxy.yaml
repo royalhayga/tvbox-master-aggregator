@@ -18,7 +18,6 @@ payload:
   - DOMAIN-SUFFIX,3vcn.work
   - DOMAIN-SUFFIX,501690658.xyz
   - DOMAIN-SUFFIX,51111666.com
-  - DOMAIN-SUFFIX,51zmt.top
   - DOMAIN-SUFFIX,5dy6.vip
   - DOMAIN-SUFFIX,61.com
   - DOMAIN-SUFFIX,61c76a0.com
@@ -52,6 +51,7 @@ payload:
   - DOMAIN-SUFFIX,bdpsjp.com
   - DOMAIN-SUFFIX,belwfufv.cc
   - DOMAIN-SUFFIX,bfapi.cyou
+  - DOMAIN-SUFFIX,bfllvip.com
   - DOMAIN-SUFFIX,bfvp26.com
   - DOMAIN-SUFFIX,bfvvs.com
   - DOMAIN-SUFFIX,bh432.sbs
@@ -79,7 +79,6 @@ payload:
   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,cmxzettb.com
   - DOMAIN-SUFFIX,cranemarsh.com
-  - DOMAIN-SUFFIX,csdnimg.cn
   - DOMAIN-SUFFIX,cyepzjnb.com
   - DOMAIN-SUFFIX,cyscyy.com
   - DOMAIN-SUFFIX,dbokutv.com
@@ -113,11 +112,14 @@ payload:
   - DOMAIN-SUFFIX,feifwp.top
   - DOMAIN-SUFFIX,fengbao8.com
   - DOMAIN-SUFFIX,fenwe.tk
+  - DOMAIN-SUFFIX,ffzy-bofang.com
+  - DOMAIN-SUFFIX,ffzy-online3.com
   - DOMAIN-SUFFIX,ffzy-online5.com
   - DOMAIN-SUFFIX,ffzy-online6.com
   - DOMAIN-SUFFIX,ffzy-play5.com
   - DOMAIN-SUFFIX,ffzy-plays.com
   - DOMAIN-SUFFIX,ffzyapi.com
+  - DOMAIN-SUFFIX,ffzyread2.com
   - DOMAIN-SUFFIX,fongmi.cc
   - DOMAIN-SUFFIX,foshanshow.com
   - DOMAIN-SUFFIX,fzms12.cc
@@ -165,7 +167,6 @@ payload:
   - DOMAIN-SUFFIX,in.ua
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,iomycdn.com
-  - DOMAIN-SUFFIX,iqiyizy.com
   - DOMAIN-SUFFIX,iseseav101.buzz
   - DOMAIN-SUFFIX,j7y675.com
   - DOMAIN-SUFFIX,jav36.com
@@ -191,6 +192,7 @@ payload:
   - DOMAIN-SUFFIX,kkys14.com
   - DOMAIN-SUFFIX,kkys15.com
   - DOMAIN-SUFFIX,kkys20.com
+  - DOMAIN-SUFFIX,knvod.com
   - DOMAIN-SUFFIX,ksse.cn
   - DOMAIN-SUFFIX,kstore.dev
   - DOMAIN-SUFFIX,kuaichezy.org
@@ -203,7 +205,6 @@ payload:
   - DOMAIN-SUFFIX,lingqi.co
   - DOMAIN-SUFFIX,llkk.cc
   - DOMAIN-SUFFIX,lreeok.vip
-  - DOMAIN-SUFFIX,ltzypic.com
   - DOMAIN-SUFFIX,luojubj.xyz
   - DOMAIN-SUFFIX,luwangi.cc
   - DOMAIN-SUFFIX,lyyytv.cn
@@ -259,6 +260,7 @@ payload:
   - DOMAIN-SUFFIX,pnwkult.com
   - DOMAIN-SUFFIX,pomo.mom
   - DOMAIN-SUFFIX,pppppppp.top
+  - DOMAIN-SUFFIX,ppqrrs.com
   - DOMAIN-SUFFIX,psbolddeltaco.site
   - DOMAIN-SUFFIX,qhimgs1.com
   - DOMAIN-SUFFIX,qingfupo02.xyz
@@ -306,15 +308,16 @@ payload:
   - DOMAIN-SUFFIX,themoviedb.org
   - DOMAIN-SUFFIX,ticktockwow.com
   - DOMAIN-SUFFIX,tinise.cn
+  - DOMAIN-SUFFIX,tlkqc.com
   - DOMAIN-SUFFIX,tmdb.org
   - DOMAIN-SUFFIX,token}@{self.registry}
   - DOMAIN-SUFFIX,tupian.click
   - DOMAIN-SUFFIX,twitter.com
-  - DOMAIN-SUFFIX,txnp.cn
   - DOMAIN-SUFFIX,ukuapi.com
   - DOMAIN-SUFFIX,ukuapi88.com
   - DOMAIN-SUFFIX,ukubf3.com
   - DOMAIN-SUFFIX,ukubf4.com
+  - DOMAIN-SUFFIX,ukubf5.com
   - DOMAIN-SUFFIX,ukubf8.com
   - DOMAIN-SUFFIX,umygrx3.com
   - DOMAIN-SUFFIX,uozvr.com
