@@ -1,0 +1,148 @@
+{
+  "home_classes": [
+    {
+      "type_id": "1",
+      "type_name": "电影"
+    },
+    {
+      "type_id": "2",
+      "type_name": "连续剧"
+    },
+    {
+      "type_id": "3",
+      "type_name": "动漫"
+    },
+    {
+      "type_id": "4",
+      "type_name": "综艺"
+    },
+    {
+      "type_id": "6",
+      "type_name": "短剧"
+    }
+  ],
+  "home_video_sample": [
+    {
+      "vod_id": "337539",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "正片"
+    },
+    {
+      "vod_id": "369061",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "正片"
+    },
+    {
+      "vod_id": "381429",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "HD"
+    },
+    {
+      "vod_id": "378202",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "HD中字"
+    },
+    {
+      "vod_id": "375951",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "更新至HD"
+    },
+    {
+      "vod_id": "333694",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "正片"
+    },
+    {
+      "vod_id": "382095",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "HD国语"
+    },
+    {
+      "vod_id": "359436",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "正片"
+    },
+    {
+      "vod_id": "333704",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "正片"
+    },
+    {
+      "vod_id": "377948",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "完结"
+    }
+  ],
+  "category_video_sample": [
+    {
+      "vod_id": "384726",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "正片"
+    },
+    {
+      "vod_id": "384102",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "正片"
+    },
+    {
+      "vod_id": "383666",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "正片"
+    },
+    {
+      "vod_id": "383665",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "正片"
+    },
+    {
+      "vod_id": "381736",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "正片"
+    },
+    {
+      "vod_id": "381735",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "HD国语"
+    },
+    {
+      "vod_id": "381271",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "更新至HD"
+    },
+    {
+      "vod_id": "381025",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "TC中字"
+    },
+    {
+      "vod_id": "380615",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "正片"
+    },
+    {
+      "vod_id": "379942",
+      "vod_name": "影片",
+      "vod_pic": "https://vf.esadj.com/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=123456666",
+      "vod_remarks": "正片"
+    }
+  ]
+}
