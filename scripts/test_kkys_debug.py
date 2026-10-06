@@ -8,12 +8,15 @@ WORK_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROCESS_DIR = os.path.join(WORK_DIR, "process")
 os.makedirs(PROCESS_DIR, exist_ok=True)
 
-# 导入 repos/cat/TVBOX/PY 目录，解决 base.spider 导入依赖
+# 强行将 repos/cat/TVBOX/PY 与 scripts 插入 sys.path，保证 100% 导入成功
 cat_py_dir = os.path.join(WORK_DIR, "repos", "cat", "TVBOX", "PY")
 if os.path.exists(cat_py_dir):
-    sys.path.append(cat_py_dir)
+    sys.path.insert(0, cat_py_dir)
 
-sys.path.append(os.path.join(WORK_DIR, "scripts"))
+scripts_dir = os.path.join(WORK_DIR, "scripts")
+if os.path.exists(scripts_dir):
+    sys.path.insert(0, scripts_dir)
+
 from kkys_master import Spider
 
 def debug_kkys():
