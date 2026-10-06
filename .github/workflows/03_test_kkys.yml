@@ -18,7 +18,8 @@ jobs:
         uses: actions/setup-python@v5
         with: { python-version: '3.11', cache: 'pip' }
 
-      - run: pip install -r requirements.txt
+      - name: 强行安装必要依赖
+        run: pip install -r requirements.txt lxml requests tldextract urllib3
 
       - name: 运行 03号可可独立数据调试脚本
         env: { PYTHONUNBUFFERED: "1" }
