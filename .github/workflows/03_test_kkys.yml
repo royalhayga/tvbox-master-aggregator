@@ -21,6 +21,11 @@ jobs:
       - name: 强行安装必要依赖
         run: pip install -r requirements.txt lxml requests tldextract urllib3
 
+      - name: 克隆 cat 依赖仓库
+        run: |
+          mkdir -p repos
+          git clone --depth 1 https://github.com/jie20091116/cat.git repos/cat || true
+
       - name: 运行 03号可可独立数据调试脚本
         env: { PYTHONUNBUFFERED: "1" }
         run: python3 scripts/test_kkys_debug.py
