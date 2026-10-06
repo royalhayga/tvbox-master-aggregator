@@ -18,6 +18,7 @@ payload:
   - DOMAIN-SUFFIX,3vcn.work
   - DOMAIN-SUFFIX,501690658.xyz
   - DOMAIN-SUFFIX,51111666.com
+  - DOMAIN-SUFFIX,51gy.top
   - DOMAIN-SUFFIX,5dy6.vip
   - DOMAIN-SUFFIX,61.com
   - DOMAIN-SUFFIX,61c76a0.com
@@ -66,13 +67,6 @@ payload:
   - DOMAIN-SUFFIX,ccjxweesh.cc
   - DOMAIN-SUFFIX,cd-zj.com
   - DOMAIN-SUFFIX,cdn-xj.cc
-  - DOMAIN-SUFFIX,cdnlz13.com
-  - DOMAIN-SUFFIX,cdnlz14.com
-  - DOMAIN-SUFFIX,cdnlz18.com
-  - DOMAIN-SUFFIX,cdnlz21.com
-  - DOMAIN-SUFFIX,cdnlz4.com
-  - DOMAIN-SUFFIX,cdnlz7.com
-  - DOMAIN-SUFFIX,cdnlz9.com
   - DOMAIN-SUFFIX,cenguigui.cn
   - DOMAIN-SUFFIX,chimei69.com
   - DOMAIN-SUFFIX,chirmyram.com
@@ -90,11 +84,8 @@ payload:
   - DOMAIN-SUFFIX,doubleclick.net
   - DOMAIN-SUFFIX,douyinpaly.com
   - DOMAIN-SUFFIX,dyfcbkggxn.work
-  - DOMAIN-SUFFIX,dytt-cine.com
   - DOMAIN-SUFFIX,dytt-cinema.com
-  - DOMAIN-SUFFIX,dytt-hot.com
   - DOMAIN-SUFFIX,dytt-kan.com
-  - DOMAIN-SUFFIX,dytt-network.com
   - DOMAIN-SUFFIX,dytt-tupian.com
   - DOMAIN-SUFFIX,dytt-tvs.com
   - DOMAIN-SUFFIX,dyttzyapi.com
@@ -105,6 +96,8 @@ payload:
   - DOMAIN-SUFFIX,ediayikma.cc
   - DOMAIN-SUFFIX,eisees.com
   - DOMAIN-SUFFIX,em1oifd0.com
+  - DOMAIN-SUFFIX,enbymae.com
+  - DOMAIN-SUFFIX,esadj.com
   - DOMAIN-SUFFIX,externulls.com
   - DOMAIN-SUFFIX,facebook.com
   - DOMAIN-SUFFIX,feifei-kan.com
@@ -153,7 +146,6 @@ payload:
   - DOMAIN-SUFFIX,hhkan2.com
   - DOMAIN-SUFFIX,hikerfans.com
   - DOMAIN-SUFFIX,hls.one
-  - DOMAIN-SUFFIX,hnsxdnyjyjcyjfkzx.org
   - DOMAIN-SUFFIX,hongjiuchang.com
   - DOMAIN-SUFFIX,huadutx.com
   - DOMAIN-SUFFIX,huaduys.org
@@ -173,7 +165,6 @@ payload:
   - DOMAIN-SUFFIX,jbezfkd.cc
   - DOMAIN-SUFFIX,jiabaide.cn,域名2,域名3
   - DOMAIN-SUFFIX,jiabaide.xn--cn,2,3-5h6jc219fda
-  - DOMAIN-SUFFIX,jimxtc.com
   - DOMAIN-SUFFIX,jinchancaiji.com
   - DOMAIN-SUFFIX,jisuimage.com
   - DOMAIN-SUFFIX,jisuzyv.com
@@ -192,7 +183,6 @@ payload:
   - DOMAIN-SUFFIX,kkys14.com
   - DOMAIN-SUFFIX,kkys15.com
   - DOMAIN-SUFFIX,kkys20.com
-  - DOMAIN-SUFFIX,knvod.com
   - DOMAIN-SUFFIX,ksse.cn
   - DOMAIN-SUFFIX,kstore.dev
   - DOMAIN-SUFFIX,kuaichezy.org
@@ -208,18 +198,8 @@ payload:
   - DOMAIN-SUFFIX,luojubj.xyz
   - DOMAIN-SUFFIX,luwangi.cc
   - DOMAIN-SUFFIX,lyyytv.cn
-  - DOMAIN-SUFFIX,lz-cdn11.com
-  - DOMAIN-SUFFIX,lz-cdn12.com
-  - DOMAIN-SUFFIX,lz-cdn13.com
-  - DOMAIN-SUFFIX,lz-cdn14.com
-  - DOMAIN-SUFFIX,lz-cdn5.com
-  - DOMAIN-SUFFIX,lz-cdn9.com
   - DOMAIN-SUFFIX,lz15uu.com
-  - DOMAIN-SUFFIX,lzcdn10.com
-  - DOMAIN-SUFFIX,lzcdn23.com
-  - DOMAIN-SUFFIX,lzcdn26.com
   - DOMAIN-SUFFIX,lzcdn27.com
-  - DOMAIN-SUFFIX,lzcdn28.com
   - DOMAIN-SUFFIX,lzcdn31.com
   - DOMAIN-SUFFIX,lziapi.com
   - DOMAIN-SUFFIX,lzipic.com
@@ -243,6 +223,7 @@ payload:
   - DOMAIN-SUFFIX,naifei.im
   - DOMAIN-SUFFIX,naitang8.top
   - DOMAIN-SUFFIX,nbajkbq.com
+  - DOMAIN-SUFFIX,ncat25.com
   - DOMAIN-SUFFIX,newhttestre666.cc
   - DOMAIN-SUFFIX,nigx.cn
   - DOMAIN-SUFFIX,nlwkmsv.cc
@@ -280,13 +261,8 @@ payload:
   - DOMAIN-SUFFIX,rstuuv.com
   - DOMAIN-SUFFIX,rycjapi.com
   - DOMAIN-SUFFIX,ryiplay18.com
-  - DOMAIN-SUFFIX,ryiplay21.com
-  - DOMAIN-SUFFIX,ryplay10.com
-  - DOMAIN-SUFFIX,ryplay11.com
   - DOMAIN-SUFFIX,ryplay12.com
   - DOMAIN-SUFFIX,ryplay14.com
-  - DOMAIN-SUFFIX,ryplay17.com
-  - DOMAIN-SUFFIX,ryplay4.com
   - DOMAIN-SUFFIX,sacfedge.com
   - DOMAIN-SUFFIX,sdzhgt.com
   - DOMAIN-SUFFIX,shddlcd.cn
@@ -297,6 +273,7 @@ payload:
   - DOMAIN-SUFFIX,sihuhu.xyz
   - DOMAIN-SUFFIX,sinparty.com{href}
   - DOMAIN-SUFFIX,slkanfengjing.site
+  - DOMAIN-SUFFIX,sogou.com
   - DOMAIN-SUFFIX,sorani.cc
   - DOMAIN-SUFFIX,souavzy.vip
   - DOMAIN-SUFFIX,sq1005.top
@@ -318,7 +295,6 @@ payload:
   - DOMAIN-SUFFIX,ukubf3.com
   - DOMAIN-SUFFIX,ukubf4.com
   - DOMAIN-SUFFIX,ukubf5.com
-  - DOMAIN-SUFFIX,ukubf8.com
   - DOMAIN-SUFFIX,umygrx3.com
   - DOMAIN-SUFFIX,uozvr.com
   - DOMAIN-SUFFIX,upfuhn.com
@@ -371,6 +347,7 @@ payload:
   - DOMAIN-SUFFIX,xn--91shen-cy3k.com
   - DOMAIN-SUFFIX,xn--dkw.xn--6qq986b3xl
   - DOMAIN-SUFFIX,xn--eck5a0ba3a2b.com
+  - DOMAIN-SUFFIX,xn--sss604efuw.art
   - DOMAIN-SUFFIX,xn--sss604efuw.net
   - DOMAIN-SUFFIX,xn--v4q818bf34b.cc
   - DOMAIN-SUFFIX,xn--yetu07f.icu
