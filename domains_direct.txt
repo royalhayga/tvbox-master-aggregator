@@ -286,6 +286,8 @@ cd-zj.com
 cdn-fileserver.com
 cdn-xj.cc
 cdnhop.com
+cdnlz11.com
+cdnlz12.com
 cdnlz13.com
 cdnlz14.com
 cdnlz18.com
@@ -310,8 +312,6 @@ ckzy.me
 ckzy1.com
 clbug.com
 clewm.net
-cloudflare-dns.com
-cloudflare.com
 cloudflareinsights.com
 cloudfront.net
 clun.top
@@ -393,7 +393,6 @@ dmbus.cc
 dmhyy.com
 dmxq39.com
 dns.com
-dns.google
 dns.la
 dns.watch
 dnspod.cn
@@ -1126,7 +1125,6 @@ qpsp.cc
 qq.com
 qqqrst.com
 qswyt4444.com
-quad9.net
 quankan.app
 quanmingjiexi.com
 quark.cn
@@ -1368,6 +1366,7 @@ win1img.com
 wjizxlxa2.com
 wkvip.net
 wlmrpodg.cc
+wmdb.tv
 wogg.net
 woknyy.cn
 wolongzy.cc
@@ -1613,7 +1612,6 @@ zzzypro.com
 1.0.0.3
 1.0.0.4
 1.0.4.5
-1.1.1.1
 1.2.3.4
 1.5.0.0
 103.106.191.84
@@ -1639,6 +1637,7 @@ zzzypro.com
 103.99.178.254
 103.99.179.101
 104.18.12.30
+104.18.33.196
 104.18.40.15
 104.18.42.16
 104.18.42.197
@@ -1915,7 +1914,6 @@ zzzypro.com
 191.102.39.254
 192.151.245.34
 192.157.56.14
-192.168.1.4
 193.123.86.190
 194.147.100.155
 194.147.100.208
@@ -1924,7 +1922,6 @@ zzzypro.com
 195.189.60.25
 195.189.60.253
 195.225.24.128
-198.18.0.0
 198.27.81.111
 198.44.248.10
 198.44.248.101
