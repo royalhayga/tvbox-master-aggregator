@@ -35,7 +35,7 @@ jobs:
           git clone --depth 1 https://github.com/jie20091116/cat.git repos/cat || true
           git clone --depth 1 https://github.com/qist/tvbox.git repos/qist || true
 
-      - name: 运行 01号纯净分类合并器
+      - name: 运行 01号纯净分类合并器 (0 联网发包)
         run: python3 scripts/merge_sources.py
 
       - name: 运行 07号强力语法净化器
@@ -44,7 +44,7 @@ jobs:
       - name: 运行 08号离线纯内存路由分类器 (0 网络发包)
         run: python3 scripts/classify_offline_domains.py
 
-      - name: 运行 10号策略导出器 (YAML与.mrs双重导出)
+      - name: 运行 10号策略导出器 (原版 YAML 与 Mihomo .mrs 双重导出)
         run: python3 scripts/export_router_rules.py
 
       - name: 提交并推送构建结果
