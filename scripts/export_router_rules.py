@@ -5,7 +5,7 @@
  独立脚本十：策略导出器 (Task 10: 原版 YAML 与 Mihomo .mrs 二进制双重导出)
 =============================================================================
 重点更新：
-  1. 完美符合 Mihomo 官方 payload 字符串规范 (纯字符串无 +. 杂质，保证 .mrs 编译 100% 成功)；
+  1. 严格分离纯域名与纯 IP：确保纯域名 YAML 里绝不混入纯 IP 地址；
   2. 纯域名规则集 (domains_direct.yaml / domains_proxy.yaml): behavior: domain；
   3. 纯 IP 规则集 (ips_direct.yaml): behavior: ipcidr；
   4. 调用 mihomo CLI 100% 成功编译产出 .mrs 二进制规则集：
@@ -87,7 +87,8 @@ def final_clean_before_write(dom):
     return clean
 
 def read_existing_historical_rules(file_path):
-    existing = set()
+    existing_doms = set()
+    existing_ips = set()
     if os.path.exists(file_path):
         try:
             with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
@@ -95,10 +96,13 @@ def read_existing_historical_rules(file_path):
                     line = line.strip()
                     if line and not line.startswith("#") and not line.startswith("!") and not line.startswith("payload:"):
                         clean_item = re.sub(r'^(?:@@\|\||- DOMAIN-SUFFIX,|- IP-CIDR,|- \'\+\.|- \')\s*', '', line).rstrip("^'/32").strip()
-                        final_item = final_clean_before_write(clean_item)
-                        if final_item: existing.add(final_item)
+                        if clean_item.replace('.', '').isdigit():
+                            existing_ips.add(clean_item)
+                        else:
+                            final_item = final_clean_before_write(clean_item)
+                            if final_item: existing_doms.add(final_item)
         except Exception: pass
-    return existing
+    return existing_doms, existing_ips
 
 def compile_mihomo_mrs(behavior, yaml_path, mrs_path):
     """调用 mihomo CLI 编译产生 .mrs 二进制规则文件"""
@@ -136,9 +140,11 @@ def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_im
         try: proxy_domains.update(json.load(open(sanitized_proxy_path)))
         except Exception: pass
 
-    # 读取历史规则增量累加
+    # 读取历史规则增量累加，严格分离域名与纯 IP
     hist_direct_path = os.path.join(work_dir, "domains_direct.txt")
-    historical_items = read_existing_historical_rules(hist_direct_path)
+    hist_doms, hist_ips = read_existing_historical_rules(hist_direct_path)
+
+    direct_domains.update(hist_doms)
 
     # 读取 process/extracted_ip_addresses.json
     process_ip_path = os.path.join(PROCESS_DIR, "extracted_ip_addresses.json")
@@ -148,12 +154,7 @@ def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_im
             if isinstance(ips, list): extracted_ips = (extracted_ips or []) + ips
         except Exception: pass
 
-    pure_ips = set(extracted_ips or [])
-    for h in historical_items:
-        if h.replace('.', '').isdigit(): pure_ips.add(h)
-        else:
-            final_h = final_clean_before_write(h)
-            if final_h: direct_domains.add(final_h)
+    pure_ips = set(extracted_ips or []).union(hist_ips)
 
     def expand_and_final_clean(raw_list):
         expanded = set()
