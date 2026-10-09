@@ -5,20 +5,19 @@
  独立脚本十：策略导出器 (Task 10: 原版 YAML 与 Mihomo .mrs 二进制双重导出)
 =============================================================================
 重点更新：
-  1. 100% 成功生成 Mihomo .mrs 二进制规则集：
-     - domains_direct.mrs, ips_direct.mrs, domains_proxy.mrs
-  2. 原版纯文本 .yaml 规则集同步生成，完全兼容传统 Clash/PassWall：
-     - domains_direct.yaml, clash_rules_direct.yaml, ips_direct.yaml, domains_proxy.yaml, clash_rules_proxy.yaml
-  3. 纯域名 (behavior: domain) 与 纯 IP (behavior: ipcidr) 100% 物理拆分；
-  4. 彻底剔除 blackmatrix7 全量系统级/公共基础设施域名 (Google, Cloudflare, GitHub, Microsoft, Apple)；
-  5. 写盘前最后一关：100% 斩断所有单斜杠 /、双斜杠 //、反斜杠 \\、GET 参数与逗号尾巴。
+  1. 100% 严格对齐 CRThu/clash-rules-mrs 官方 mihomo convert-ruleset 编译语法：
+     - mihomo convert-ruleset domain yaml domains_direct.yaml domains_direct.mrs
+     - mihomo convert-ruleset ipcidr yaml ips_direct.yaml ips_direct.mrs
+     - mihomo convert-ruleset domain yaml domains_proxy.yaml domains_proxy.mrs
+  2. 纯域名 (behavior: domain) 与 纯 IP (behavior: ipcidr) 增量物理拆分导出；
+  3. 彻底剔除 blackmatrix7 全量系统级/公共基础设施域名 (Google, Cloudflare, GitHub, Microsoft, Apple)；
+  4. 写盘前最后一关：100% 斩断所有单斜杠 /、双斜杠 //、反斜杠 \\、GET 参数与逗号尾巴。
 =============================================================================
 """
 
 import os
 import re
 import json
-import struct
 import subprocess
 
 WORK_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -106,40 +105,23 @@ def read_existing_historical_rules(file_path):
     return existing_doms, existing_ips
 
 def compile_mihomo_mrs(behavior, yaml_path, mrs_path):
-    """调用 mihomo CLI / mihomo-ruleset 编译产生 .mrs 二进制规则文件"""
-    cmds = [
-        ["mihomo-ruleset", "compile", behavior, yaml_path, mrs_path],
-        ["mihomo-ruleset", "compile", yaml_path, mrs_path],
-        ["mihomo", "convert-ruleset", behavior, "yaml", yaml_path, mrs_path],
-        ["mihomo", "rule-set", "compile", behavior, yaml_path, mrs_path]
-    ]
-    for cmd in cmds:
-        try:
-            res = subprocess.run(cmd, capture_output=True, text=True, timeout=15)
-            if res.returncode == 0 and os.path.exists(mrs_path) and os.path.getsize(mrs_path) > 0:
-                print(f"  └─ 成功调用 CLI 编译产出 Mihomo 二进制规则文件: {os.path.basename(mrs_path)} ({os.path.getsize(mrs_path)} bytes)", flush=True)
-                return True
-        except Exception:
-            pass
-
-    # 兜底：纯 Python 原生二进制 MRS 封装机制，确保 100% 必然产出 .mrs 文件
+    """根据 CRThu/clash-rules-mrs 官方规范，调用 mihomo convert-ruleset 编译产生 .mrs 二进制文件"""
+    cmd = ["mihomo", "convert-ruleset", behavior, "yaml", yaml_path, mrs_path]
+    print(f"  [Mihomo .mrs 编译器] 正在编译: {' '.join(cmd)}", flush=True)
     try:
-        with open(yaml_path, "r", encoding="utf-8") as yf:
-            yaml_text = yf.read()
-
-        # Mihomo 二进制规则集头部魔数 (Magic Header) 与格式压包
-        mrs_data = b"\x4d\x52\x53\x00" + yaml_text.encode("utf-8")
-        with open(mrs_path, "wb") as mf:
-            mf.write(mrs_data)
-
-        print(f"  └─ 成功生成 Mihomo 二进制规则文件: {os.path.basename(mrs_path)} ({os.path.getsize(mrs_path)} bytes)", flush=True)
-        return True
+        res = subprocess.run(cmd, capture_output=True, text=True, timeout=15)
+        if res.returncode == 0 and os.path.exists(mrs_path) and os.path.getsize(mrs_path) > 0:
+            print(f"  └─ 成功编译产出 Mihomo 二进制规则文件: {os.path.basename(mrs_path)} ({os.path.getsize(mrs_path)} bytes)", flush=True)
+            return True
+        else:
+            print(f"  └─ 编译失败 stdout: {res.stdout.strip()}, stderr: {res.stderr.strip()}", flush=True)
+            return False
     except Exception as e:
-        print(f"  └─ 生成 .mrs 异常: {e}", flush=True)
+        print(f"  └─ 编译异常: {e}", flush=True)
         return False
 
 def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_image_domains=None, extracted_ips=None, release_page_domains=None, py_code_domains=None):
-    print("  [Task 10: 策略导出器] 正在执行原版 YAML 与 Mihomo .mrs 二进制双重导出...", flush=True)
+    print("  [Task 10: 策略导出器] 正在增量执行原版 YAML 与 Mihomo .mrs 二进制双重导出...", flush=True)
 
     sanitized_direct_path = os.path.join(PROCESS_DIR, "sanitized_candidate_domains.json")
     sanitized_proxy_path = os.path.join(PROCESS_DIR, "sanitized_proxy_domains.json")
@@ -243,13 +225,13 @@ def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_im
     open(domains_proxy_yaml, "w", encoding="utf-8").write(proxy_yaml_header + proxy_yaml_body)
     open(clash_rules_proxy_yaml, "w", encoding="utf-8").write(proxy_yaml_header + proxy_yaml_body)
 
-    # 4. 调用 Mihomo CLI / 纯 Python 兜底编译导出二进制 .mrs 规则集
+    # 4. 调用 CRThu/clash-rules-mrs 官方命令 mihomo convert-ruleset 编译导出二进制 .mrs 规则集
     compile_mihomo_mrs("domain", domains_direct_yaml, os.path.join(work_dir, "domains_direct.mrs"))
     compile_mihomo_mrs("ipcidr", ips_direct_yaml, os.path.join(work_dir, "ips_direct.mrs"))
     compile_mihomo_mrs("domain", domains_proxy_yaml, os.path.join(work_dir, "domains_proxy.mrs"))
 
-    print(f"  ├─ 导出原版 YAML 规则集: domains_direct.yaml, clash_rules_direct.yaml, ips_direct.yaml, domains_proxy.yaml, clash_rules_proxy.yaml")
-    print(f"  └─ 导出 Mihomo .mrs 二进制规则集: domains_direct.mrs, ips_direct.mrs, domains_proxy.mrs")
+    print(f"  ├─ 增量导出原版 YAML 规则集: domains_direct.yaml, clash_rules_direct.yaml, ips_direct.yaml, domains_proxy.yaml, clash_rules_proxy.yaml")
+    print(f"  └─ 增量导出 Mihomo .mrs 二进制规则集: domains_direct.mrs, ips_direct.mrs, domains_proxy.mrs")
 
 def export_all_router_rules(work_dir, sites, deep_cdn_domains, dynamic_image_domains=None, extracted_ips=None, release_page_domains=None, py_code_domains=None):
     return export_grouped_router_rules(work_dir, sites, deep_cdn_domains, dynamic_image_domains, extracted_ips, release_page_domains, py_code_domains)
