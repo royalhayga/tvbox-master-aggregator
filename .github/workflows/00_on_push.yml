@@ -21,13 +21,13 @@ jobs:
       - name: 安装 Python 依赖
         run: pip install -r requirements.txt lxml requests tldextract urllib3
 
-      - name: 100% 强行安装 Mihomo 官方 CLI 编译器
+      - name: 1:1 安装 Mihomo 官方原装 CLI 编译器进程
         run: |
           mkdir -p bin
           curl -sSL https://github.com/MetaCubeX/mihomo/releases/download/v1.18.10/mihomo-linux-amd64-v1.18.10.gz | gzip -d > bin/mihomo
           chmod +x bin/mihomo
           sudo mv bin/mihomo /usr/local/bin/mihomo
-          mihomo --version || true
+          mihomo -v || true
 
       - name: 克隆依赖仓库
         run: |
@@ -44,7 +44,7 @@ jobs:
       - name: 运行 08号离线纯内存路由分类器 (0 网络发包)
         run: python3 scripts/classify_offline_domains.py
 
-      - name: 运行 10号策略导出器 (原版 YAML 与 Mihomo .mrs 双重导出)
+      - name: 运行 10号策略导出器 (调用 CRThu/clash-rules-mrs 官方命令打包 .mrs)
         run: python3 scripts/export_router_rules.py
 
       - name: 提交并推送构建结果
@@ -53,6 +53,6 @@ jobs:
           git config user.name "GitHub Actions"
           git add -A || true
           git diff --cached --quiet && exit 0
-          git commit -m "auto: 包含 Mihomo .mrs 二进制规则集与全量 YAML 的自动增量更新 [$(date -u '+%Y-%m-%d %H:%M:%S')]"
+          git commit -m "auto: 1:1 严格对齐 CRThu/clash-rules-mrs 产出 Mihomo .mrs 二进制规则集 [$(date -u '+%Y-%m-%d %H:%M:%S')]"
           git pull --rebase origin main || true
           git push origin HEAD:main --force
