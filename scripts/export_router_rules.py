@@ -5,15 +5,13 @@
  独立脚本十：策略导出器 (Task 10: 原版 YAML 与 Mihomo .mrs 二进制双重导出)
 =============================================================================
 重点更新：
-  1. 100% 修复文件名不对齐问题：同时输出 domains_direct.yaml / clash_rules_direct.yaml；
-  2. 原版纯文本 .yaml 规则集与 Mihomo 二进制 .mrs 规则集并行双重导出，互不冲突：
-     - 原版 YAML 规则集：domains_direct.yaml, clash_rules_direct.yaml, ips_direct.yaml, domains_proxy.yaml, clash_rules_proxy.yaml
-     - 二进制 .mrs 规则集：domains_direct.mrs, ips_direct.mrs, domains_proxy.mrs
-  3. 域名与 IP 100% 物理拆分导出：
-     - 纯域名规则集 (behavior: domain)
-     - 纯 IP 规则集 (behavior: ipcidr)
-  4. 彻底剔除 blackmatrix7 全量系统级/公共基础设施域名 (Google, Cloudflare, GitHub, Microsoft, Apple)；
-  5. 写盘前最后一关：100% 斩断所有单斜杠 /、双斜杠 //、反斜杠 \\、GET 参数与逗号尾巴。
+  1. 完美符合 Mihomo 官方语法规范：
+     - 纯域名规则集 (domains_direct.yaml / domains_proxy.yaml): 使用 `+.domain` 语法 (behavior: domain)；
+     - 纯 IP 规则集 (ips_direct.yaml): 使用 `ip/32` 语法 (behavior: ipcidr)；
+  2. 调用 mihomo CLI 100% 成功编译产出 .mrs 二进制规则集：
+     - domains_direct.mrs, ips_direct.mrs, domains_proxy.mrs
+  3. 彻底剔除 blackmatrix7 全量系统级/公共基础设施域名 (Google, Cloudflare, GitHub, Microsoft, Apple)；
+  4. 写盘前最后一关：100% 斩断所有单斜杠 /、双斜杠 //、反斜杠 \\、GET 参数与逗号尾巴。
 =============================================================================
 """
 
@@ -72,8 +70,8 @@ def final_clean_before_write(dom):
     if is_system_or_global_domain(clean):
         return None
 
-    # 5. 滤掉纯文件后缀与无前缀脏数据
-    if not clean or clean.startswith(".") or "." not in clean:
+    # 5. 滤掉纯文件后缀与无前缀脏数据，以及纯 IP 地址（纯 IP 独立放入 IP 列表）
+    if not clean or clean.startswith(".") or "." not in clean or clean.replace('.', '').isdigit():
         return None
 
     parts = clean.split(".")
@@ -96,7 +94,7 @@ def read_existing_historical_rules(file_path):
                 for line in f:
                     line = line.strip()
                     if line and not line.startswith("#") and not line.startswith("!") and not line.startswith("payload:"):
-                        clean_item = re.sub(r'^(?:@@\|\||- DOMAIN-SUFFIX,|- IP-CIDR,)\s*', '', line).rstrip("^/32").strip()
+                        clean_item = re.sub(r'^(?:@@\|\||- DOMAIN-SUFFIX,|- IP-CIDR,|- \'\+\.)\s*', '', line).rstrip("^'/32").strip()
                         final_item = final_clean_before_write(clean_item)
                         if final_item: existing.add(final_item)
         except Exception: pass
@@ -170,7 +168,7 @@ def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_im
     sorted_proxy_doms = expand_and_final_clean(proxy_domains)
     sorted_ips = sorted(list(pure_ips))
 
-    # 1. 导出原版纯域名直连列表与 YAML 规则集 (同时写出 clash_rules_direct.yaml 和 domains_direct.yaml)
+    # 1. 导出纯域名直连列表与 100% 符合 Mihomo 官方规范的 YAML (domains_direct.yaml 与 clash_rules_direct.yaml)
     domains_direct_yaml = os.path.join(work_dir, "domains_direct.yaml")
     clash_rules_direct_yaml = os.path.join(work_dir, "clash_rules_direct.yaml")
 
@@ -180,8 +178,8 @@ def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_im
             final_d = final_clean_before_write(d)
             if final_d: f.write(f"{final_d}\n")
 
-    yaml_header = "# TVBox 纯域名原版 Clash / PassWall 直连规则集 (behavior: domain)\npayload:\n"
-    yaml_body = "".join(f"  - DOMAIN-SUFFIX,{final_clean_before_write(d)}\n" for d in sorted_direct_doms if final_clean_before_write(d))
+    yaml_header = "# TVBox 纯域名 Mihomo / Clash 直连规则集 (behavior: domain)\npayload:\n"
+    yaml_body = "".join(f"  - '+.{final_clean_before_write(d)}'\n" for d in sorted_direct_doms if final_clean_before_write(d))
 
     open(domains_direct_yaml, "w", encoding="utf-8").write(yaml_header + yaml_body)
     open(clash_rules_direct_yaml, "w", encoding="utf-8").write(yaml_header + yaml_body)
@@ -192,17 +190,19 @@ def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_im
             final_d = final_clean_before_write(d)
             if final_d: f.write(f"@@||{final_d}^\n")
 
-    # 2. 导出原版纯 IP 直连列表与 YAML 规则集 (ips_direct.txt / ips_direct.yaml)
+    # 2. 导出纯 IP 直连列表与 100% 符合 Mihomo 官方规范的 YAML (ips_direct.txt / ips_direct.yaml)
     ips_direct_yaml = os.path.join(work_dir, "ips_direct.yaml")
     with open(os.path.join(work_dir, "ips_direct.txt"), "w", encoding="utf-8") as f:
         f.write("# TVBox 视频切片纯 IPv4 地址直连列表\n")
         for ip in sorted_ips: f.write(f"{ip}\n")
 
     with open(ips_direct_yaml, "w", encoding="utf-8") as f:
-        f.write("# TVBox 纯 IP 原版 Clash / PassWall 直连规则集 (behavior: ipcidr)\npayload:\n")
-        for ip in sorted_ips: f.write(f"  - IP-CIDR,{ip}/32\n")
+        f.write("# TVBox 纯 IP Mihomo / Clash 直连规则集 (behavior: ipcidr)\npayload:\n")
+        for ip in sorted_ips:
+            if "/" in ip: f.write(f"  - '{ip}'\n")
+            else: f.write(f"  - '{ip}/32'\n")
 
-    # 3. 导出原版强制代理规则列表 (domains_proxy.txt / domains_proxy.yaml / clash_rules_proxy.yaml)
+    # 3. 导出纯域名强制代理规则列表 (domains_proxy.txt / domains_proxy.yaml / clash_rules_proxy.yaml)
     domains_proxy_yaml = os.path.join(work_dir, "domains_proxy.yaml")
     clash_rules_proxy_yaml = os.path.join(work_dir, "clash_rules_proxy.yaml")
 
@@ -218,8 +218,8 @@ def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_im
             final_d = final_clean_before_write(d)
             if final_d: f.write(f"@@||{final_d}^\n")
 
-    proxy_yaml_header = "# TVBox 强制代理原版 Clash / PassWall 规则集 (behavior: domain)\npayload:\n"
-    proxy_yaml_body = "".join(f"  - DOMAIN-SUFFIX,{final_clean_before_write(d)}\n" for d in sorted_proxy_doms if final_clean_before_write(d))
+    proxy_yaml_header = "# TVBox 强制代理 Mihomo / Clash 规则集 (behavior: domain)\npayload:\n"
+    proxy_yaml_body = "".join(f"  - '+.{final_clean_before_write(d)}'\n" for d in sorted_proxy_doms if final_clean_before_write(d))
 
     open(domains_proxy_yaml, "w", encoding="utf-8").write(proxy_yaml_header + proxy_yaml_body)
     open(clash_rules_proxy_yaml, "w", encoding="utf-8").write(proxy_yaml_header + proxy_yaml_body)
