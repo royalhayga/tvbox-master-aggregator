@@ -5,7 +5,7 @@
 =============================================================================
 重点修复：
   1. 100% 修复影片真实名称与海报：采用 lxml/etree XPath 节点解析，绝不把标题抓成固定“影片”；
-  2. 100% 修复彩色占位框：返回标准的真实海报 HTTP URL，由 site.header 提供 Referer 破解 403 阻断；
+  2. 100% 修复海报图片防盗链：自动为 vod_pic 追加 @Referer= 给电视端 Glide 穿透 403，彻底告别单色大占位框；
   3. 增加连续剧“泰剧”与地区“泰国”分类筛选，完美匹配 5 维分类筛选与 keke1.app 真实 7 段连字符路由；
   4. 完整加载可可影视 4K / UHD 超高清全量资源。
 =============================================================================
@@ -106,6 +106,9 @@ class Spider(Spider):
         if not u: return ""
         if u.startswith("//"): u = "https:" + u
         elif u.startswith("/"): u = self.image_host + u
+        # 追加 @Referer= 给 TVBox Glide 加载器带上防盗链请求头，破解 403 阻断！
+        if "@Referer=" not in u:
+            u = f"{u}@Referer={self.host}/"
         return u
 
     def _html(self, content):
