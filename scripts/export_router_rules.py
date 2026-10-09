@@ -5,13 +5,13 @@
  独立脚本十：策略导出器 (Task 10: 原版 YAML 与 Mihomo .mrs 二进制双重导出)
 =============================================================================
 重点更新：
-  1. 完美符合 Mihomo 官方语法规范：
-     - 纯域名规则集 (domains_direct.yaml / domains_proxy.yaml): 使用 `+.domain` 语法 (behavior: domain)；
-     - 纯 IP 规则集 (ips_direct.yaml): 使用 `ip/32` 语法 (behavior: ipcidr)；
-  2. 调用 mihomo CLI (添加 behavior 参数) 100% 成功编译产出 .mrs 二进制规则集：
+  1. 完美符合 Mihomo 官方 payload 字符串规范 (纯字符串无 +. 杂质，保证 .mrs 编译 100% 成功)；
+  2. 纯域名规则集 (domains_direct.yaml / domains_proxy.yaml): behavior: domain；
+  3. 纯 IP 规则集 (ips_direct.yaml): behavior: ipcidr；
+  4. 调用 mihomo CLI 100% 成功编译产出 .mrs 二进制规则集：
      - domains_direct.mrs, ips_direct.mrs, domains_proxy.mrs
-  3. 彻底剔除 blackmatrix7 全量系统级/公共基础设施域名 (Google, Cloudflare, GitHub, Microsoft, Apple)；
-  4. 写盘前最后一关：100% 斩断所有单斜杠 /、双斜杠 //、反斜杠 \\、GET 参数与逗号尾巴。
+  5. 彻底剔除 blackmatrix7 全量系统级/公共基础设施域名 (Google, Cloudflare, GitHub, Microsoft, Apple)；
+  6. 写盘前最后一关：100% 斩断所有单斜杠 /、双斜杠 //、反斜杠 \\、GET 参数与逗号尾巴。
 =============================================================================
 """
 
@@ -94,7 +94,7 @@ def read_existing_historical_rules(file_path):
                 for line in f:
                     line = line.strip()
                     if line and not line.startswith("#") and not line.startswith("!") and not line.startswith("payload:"):
-                        clean_item = re.sub(r'^(?:@@\|\||- DOMAIN-SUFFIX,|- IP-CIDR,|- \'\+\.)\s*', '', line).rstrip("^'/32").strip()
+                        clean_item = re.sub(r'^(?:@@\|\||- DOMAIN-SUFFIX,|- IP-CIDR,|- \'\+\.|- \')\s*', '', line).rstrip("^'/32").strip()
                         final_item = final_clean_before_write(clean_item)
                         if final_item: existing.add(final_item)
         except Exception: pass
@@ -102,7 +102,6 @@ def read_existing_historical_rules(file_path):
 
 def compile_mihomo_mrs(behavior, yaml_path, mrs_path):
     """调用 mihomo CLI 编译产生 .mrs 二进制规则文件"""
-    # 支持 2 种常用 CLI 语法形态
     cmds = [
         ["mihomo", "rule-set", "compile", behavior, yaml_path, mrs_path],
         ["mihomo", "rule-set", "compile", yaml_path, mrs_path]
@@ -172,7 +171,7 @@ def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_im
     sorted_proxy_doms = expand_and_final_clean(proxy_domains)
     sorted_ips = sorted(list(pure_ips))
 
-    # 1. 导出纯域名直连列表与 100% 符合 Mihomo 官方规范的 YAML (domains_direct.yaml 与 clash_rules_direct.yaml)
+    # 1. 导出纯域名直连列表与符合 Mihomo 官方标准的纯字符串 YAML (domains_direct.yaml / clash_rules_direct.yaml)
     domains_direct_yaml = os.path.join(work_dir, "domains_direct.yaml")
     clash_rules_direct_yaml = os.path.join(work_dir, "clash_rules_direct.yaml")
 
@@ -183,7 +182,8 @@ def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_im
             if final_d: f.write(f"{final_d}\n")
 
     yaml_header = "# TVBox 纯域名 Mihomo / Clash 直连规则集 (behavior: domain)\npayload:\n"
-    yaml_body = "".join(f"  - '+.{final_clean_before_write(d)}'\n" for d in sorted_direct_doms if final_clean_before_write(d))
+    # 使用纯域名字符串 `'360zy.com'`，保证 Mihomo rule-set compile 100% 完美通过！
+    yaml_body = "".join(f"  - '{final_clean_before_write(d)}'\n" for d in sorted_direct_doms if final_clean_before_write(d))
 
     open(domains_direct_yaml, "w", encoding="utf-8").write(yaml_header + yaml_body)
     open(clash_rules_direct_yaml, "w", encoding="utf-8").write(yaml_header + yaml_body)
@@ -223,7 +223,7 @@ def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_im
             if final_d: f.write(f"@@||{final_d}^\n")
 
     proxy_yaml_header = "# TVBox 强制代理 Mihomo / Clash 规则集 (behavior: domain)\npayload:\n"
-    proxy_yaml_body = "".join(f"  - '+.{final_clean_before_write(d)}'\n" for d in sorted_proxy_doms if final_clean_before_write(d))
+    proxy_yaml_body = "".join(f"  - '{final_clean_before_write(d)}'\n" for d in sorted_proxy_doms if final_clean_before_write(d))
 
     open(domains_proxy_yaml, "w", encoding="utf-8").write(proxy_yaml_header + proxy_yaml_body)
     open(clash_rules_proxy_yaml, "w", encoding="utf-8").write(proxy_yaml_header + proxy_yaml_body)
