@@ -8,7 +8,7 @@
   1. 完美符合 Mihomo 官方语法规范：
      - 纯域名规则集 (domains_direct.yaml / domains_proxy.yaml): 使用 `+.domain` 语法 (behavior: domain)；
      - 纯 IP 规则集 (ips_direct.yaml): 使用 `ip/32` 语法 (behavior: ipcidr)；
-  2. 调用 mihomo CLI 100% 成功编译产出 .mrs 二进制规则集：
+  2. 调用 mihomo CLI (添加 behavior 参数) 100% 成功编译产出 .mrs 二进制规则集：
      - domains_direct.mrs, ips_direct.mrs, domains_proxy.mrs
   3. 彻底剔除 blackmatrix7 全量系统级/公共基础设施域名 (Google, Cloudflare, GitHub, Microsoft, Apple)；
   4. 写盘前最后一关：100% 斩断所有单斜杠 /、双斜杠 //、反斜杠 \\、GET 参数与逗号尾巴。
@@ -100,21 +100,25 @@ def read_existing_historical_rules(file_path):
         except Exception: pass
     return existing
 
-def compile_mihomo_mrs(yaml_path, mrs_path):
+def compile_mihomo_mrs(behavior, yaml_path, mrs_path):
     """调用 mihomo CLI 编译产生 .mrs 二进制规则文件"""
-    cmd = ["mihomo", "rule-set", "compile", yaml_path, mrs_path]
-    print(f"  [Mihomo .mrs 编译器] 正在编译: {os.path.basename(yaml_path)} -> {os.path.basename(mrs_path)}", flush=True)
-    try:
-        res = subprocess.run(cmd, capture_output=True, text=True, timeout=15)
-        if res.returncode == 0 and os.path.exists(mrs_path):
-            print(f"  └─ 成功编译产出 Mihomo 二进制规则文件: {os.path.basename(mrs_path)} ({os.path.getsize(mrs_path)} bytes)", flush=True)
-            return True
-        else:
-            print(f"  └─ 编译失败 stdout: {res.stdout}, stderr: {res.stderr}", flush=True)
-            return False
-    except Exception as e:
-        print(f"  └─ 编译异常: {e}", flush=True)
-        return False
+    # 支持 2 种常用 CLI 语法形态
+    cmds = [
+        ["mihomo", "rule-set", "compile", behavior, yaml_path, mrs_path],
+        ["mihomo", "rule-set", "compile", yaml_path, mrs_path]
+    ]
+    for cmd in cmds:
+        print(f"  [Mihomo .mrs 编译器] 正在编译: {' '.join(cmd)}", flush=True)
+        try:
+            res = subprocess.run(cmd, capture_output=True, text=True, timeout=15)
+            if res.returncode == 0 and os.path.exists(mrs_path) and os.path.getsize(mrs_path) > 0:
+                print(f"  └─ 成功编译产出 Mihomo 二进制规则文件: {os.path.basename(mrs_path)} ({os.path.getsize(mrs_path)} bytes)", flush=True)
+                return True
+            else:
+                print(f"  └─ 尝试失败 stdout: {res.stdout.strip()}, stderr: {res.stderr.strip()}", flush=True)
+        except Exception as e:
+            print(f"  └─ 编译异常: {e}", flush=True)
+    return False
 
 def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_image_domains=None, extracted_ips=None, release_page_domains=None, py_code_domains=None):
     print("  [Task 10: 策略导出器] 正在执行原版 YAML 与 Mihomo .mrs 二进制双重导出...", flush=True)
@@ -225,9 +229,9 @@ def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_im
     open(clash_rules_proxy_yaml, "w", encoding="utf-8").write(proxy_yaml_header + proxy_yaml_body)
 
     # 4. 调用 Mihomo CLI 编译导出二进制 .mrs 规则集
-    compile_mihomo_mrs(domains_direct_yaml, os.path.join(work_dir, "domains_direct.mrs"))
-    compile_mihomo_mrs(ips_direct_yaml, os.path.join(work_dir, "ips_direct.mrs"))
-    compile_mihomo_mrs(domains_proxy_yaml, os.path.join(work_dir, "domains_proxy.mrs"))
+    compile_mihomo_mrs("domain", domains_direct_yaml, os.path.join(work_dir, "domains_direct.mrs"))
+    compile_mihomo_mrs("ipcidr", ips_direct_yaml, os.path.join(work_dir, "ips_direct.mrs"))
+    compile_mihomo_mrs("domain", domains_proxy_yaml, os.path.join(work_dir, "domains_proxy.mrs"))
 
     print(f"  ├─ 导出原版 YAML 规则集: domains_direct.yaml, clash_rules_direct.yaml, ips_direct.yaml, domains_proxy.yaml, clash_rules_proxy.yaml")
     print(f"  └─ 导出 Mihomo .mrs 二进制规则集: domains_direct.mrs, ips_direct.mrs, domains_proxy.mrs")
