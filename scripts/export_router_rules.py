@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 =============================================================================
- 独立脚本十：策略导出器 (Task 10: 原版 YAML 与 Mihomo 二进制 .mrs 并行双导出)
+ 独立脚本十：策略导出器 (Task 10: 原版 YAML 与 Mihomo .mrs 二进制双重导出)
 =============================================================================
 重点更新：
   1. 完美满足双需求：原版纯文本 .yaml 规则集与 Mihomo 二进制 .mrs 规则集并行双重导出，互不冲突：
@@ -103,10 +103,18 @@ def read_existing_historical_rules(file_path):
 
 def compile_mihomo_mrs(yaml_path, mrs_path):
     """尝试调用 mihomo CLI 编译产生 .mrs 二进制规则文件"""
+    cmd = ["mihomo", "rule-set", "compile", yaml_path, mrs_path]
+    print(f"  [Mihomo .mrs 编译器] 正在执行: {' '.join(cmd)}", flush=True)
     try:
-        res = subprocess.run(["mihomo", "rule-set", "compile", yaml_path, mrs_path], capture_output=True, text=True, timeout=10)
-        return res.returncode == 0
-    except Exception:
+        res = subprocess.run(cmd, capture_output=True, text=True, timeout=15)
+        if res.returncode == 0 and os.path.exists(mrs_path):
+            print(f"  └─ 成功编译产出 Mihomo 二进制规则文件: {os.path.basename(mrs_path)} ({os.path.getsize(mrs_path)} bytes)", flush=True)
+            return True
+        else:
+            print(f"  └─ 编译失败 stdout: {res.stdout}, stderr: {res.stderr}", flush=True)
+            return False
+    except Exception as e:
+        print(f"  └─ 编译异常: {e}", flush=True)
         return False
 
 def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_image_domains=None, extracted_ips=None, release_page_domains=None, py_code_domains=None):
@@ -211,14 +219,13 @@ def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_im
             final_d = final_clean_before_write(d)
             if final_d: f.write(f"  - DOMAIN-SUFFIX,{final_d}\n")
 
-    # 4. 尝试并行编译导出 Mihomo 二进制 .mrs 规则集 (互不干扰)
+    # 4. 尝试编译导出 Mihomo 二进制 .mrs 规则集
     compile_mihomo_mrs(domains_direct_yaml, os.path.join(work_dir, "domains_direct.mrs"))
     compile_mihomo_mrs(ips_direct_yaml, os.path.join(work_dir, "ips_direct.mrs"))
     compile_mihomo_mrs(proxy_yaml, os.path.join(work_dir, "domains_proxy.mrs"))
 
     print(f"  ├─ 导出原版 YAML 规则集: clash_rules_direct.yaml, ips_direct.yaml, clash_rules_proxy.yaml")
-    print(f"  ├─ 导出 Mihomo .mrs 二进制规则集: domains_direct.mrs, ips_direct.mrs, domains_proxy.mrs")
-    print(f"  └─ 导出结果: 原版 YAML 与 Mihomo .mrs 完美并行双产出！")
+    print(f"  └─ 导出结果: 原版 YAML 与 Mihomo .mrs 双重完成！")
 
 def export_all_router_rules(work_dir, sites, deep_cdn_domains, dynamic_image_domains=None, extracted_ips=None, release_page_domains=None, py_code_domains=None):
     return export_grouped_router_rules(work_dir, sites, deep_cdn_domains, dynamic_image_domains, extracted_ips, release_page_domains, py_code_domains)

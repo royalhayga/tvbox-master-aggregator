@@ -18,16 +18,16 @@ jobs:
         uses: actions/setup-python@v5
         with: { python-version: '3.11', cache: 'pip' }
 
-      - name: 安装依赖
+      - name: 安装 Python 依赖
         run: pip install -r requirements.txt lxml requests tldextract urllib3
 
-      - name: 安装 Mihomo 规则集编译器 CLI
+      - name: 100% 强行安装 Mihomo 官方 CLI 编译器
         run: |
           mkdir -p bin
-          curl -sSL -o mihomo.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.18.10/mihomo-linux-amd64-v1.18.10.gz || true
-          gunzip -f mihomo.gz || true
-          chmod +x mihomo || true
-          sudo mv mihomo /usr/local/bin/mihomo || true
+          curl -sSL https://github.com/MetaCubeX/mihomo/releases/download/v1.18.10/mihomo-linux-amd64-v1.18.10.gz | gzip -d > bin/mihomo
+          chmod +x bin/mihomo
+          sudo mv bin/mihomo /usr/local/bin/mihomo
+          mihomo --version || true
 
       - name: 克隆依赖仓库
         run: |
@@ -53,6 +53,6 @@ jobs:
           git config user.name "GitHub Actions"
           git add tvbox.json tvbox_full.json tvbox_multi.json live.txt domains_direct.txt domains_direct.yaml ips_direct.txt ips_direct.yaml domains_proxy.txt clash_rules_direct.yaml clash_rules_proxy.yaml adguard_direct.txt adguard_proxy.txt domains_direct.mrs ips_direct.mrs domains_proxy.mrs not_suitable/ || true
           git diff --cached --quiet && exit 0
-          git commit -m "auto: 定时流水线纯净化数据构建更新 [$(date -u '+%Y-%m-%d %H:%M:%S')]"
+          git commit -m "auto: 包含 Mihomo .mrs 二进制规则集的自动全量更新 [$(date -u '+%Y-%m-%d %H:%M:%S')]"
           git pull --rebase origin main || true
           git push origin HEAD:main --force
