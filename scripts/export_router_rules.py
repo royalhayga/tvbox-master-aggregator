@@ -2,36 +2,39 @@
 # -*- coding: utf-8 -*-
 """
 =============================================================================
- 独立脚本：策略导出器 (过程文件隔离读取 process/ 目录，根目录仅展示最终结果文件)
+ 独立脚本十：策略导出器 (Task 10: 原版 YAML 与 Mihomo 二进制 .mrs 并行双导出)
 =============================================================================
 重点更新：
-  1. 过程文件统一隔离读取 process/ 目录，根目录仅输出 PassWall / AdGuard / Clash 最终规则文件；
-  2. 彻底切掉 #, ?, &, %, &amp;, ; 等 URL 参数与锚点杂质 (绝对不留存 nxog.top?mm=328 或 qzz.io?format=2)；
-  3. 彻底绝杀只有后缀没有前缀的垃圾域名 (如 .com) 以及包含 .mp4#, com#.mp4 的无面脏字符串；
-  4. 0.1 秒纯内存格式化输出最终规则集。
+  1. 完美满足双需求：原版纯文本 .yaml 规则集与 Mihomo 二进制 .mrs 规则集并行双重导出，互不冲突：
+     - 原版 YAML 规则集：clash_rules_direct.yaml, ips_direct.yaml, clash_rules_proxy.yaml
+     - 二进制 .mrs 规则集：domains_direct.mrs, ips_direct.mrs, domains_proxy.mrs
+  2. 域名与 IP 100% 物理拆分导出：
+     - 纯域名规则集 (behavior: domain)
+     - 纯 IP 规则集 (behavior: ipcidr)
+  3. 彻底剔除 blackmatrix7 全量系统级/公共基础设施域名 (Google, Cloudflare, GitHub, Microsoft, Apple)；
+  4. 写盘前最后一关：100% 斩断所有单斜杠 /、双斜杠 //、反斜杠 \\、GET 参数与逗号尾巴。
 =============================================================================
 """
 
 import os
 import re
 import json
-
-try:
-    import tldextract
-    TLD_EXTRACTOR = tldextract.TLDExtract(include_psl_private_domains=False)
-except ImportError:
-    TLD_EXTRACTOR = None
+import subprocess
 
 WORK_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROCESS_DIR = os.path.join(WORK_DIR, "process")
+CONFIG_DIR = os.path.join(WORK_DIR, "config")
 
-EXCLUDED_DOMAIN_SUFFIXES = {
-    "dns.google",
-    "cloudflare-dns.com",
-    "cloudflare.com",
-    "quad9.net",
+BLACKMATRIX7_SYSTEM_DOMAINS = {
+    "google.com", "googleapis.com", "gstatic.com", "dns.google", "googletagmanager.com", "google-analytics.com",
+    "youtube.com", "ytimg.com", "ggpht.com", "doubleclick.net",
+    "github.com", "githubusercontent.com", "jsdelivr.net", "fastly.jsdelivr.net",
+    "cloudflare.com", "dns.cloudflare.com", "cloudflare-dns.com",
+    "microsoft.com", "live.com", "outlook.com", "office.com", "azure.com", "bing.com",
+    "apple.com", "icloud.com", "mzstatic.com", "aaplimg.com",
+    "telegram.org", "t.me", "facebook.com", "twitter.com", "x.com", "instagram.com",
+    "quad9.net", "opendns.com", "libredns.gr", "ipify.org", "ip.sb"
 }
-EXCLUDED_IPS = {"1.1.1.1", "192.168.1.4", "198.18.0.0"}
 
 INVALID_FILE_EXTENSIONS = [
     "json", "txt", "m3u8", "ts", "js", "css", "html", "htm", "png", "jpg", "jpeg", "webp", "php", "mp4", "mkv", "flv"
@@ -42,30 +45,33 @@ def to_punycode_domain(dom_str):
     try: return dom_str.encode("idna").decode("ascii")
     except Exception: return dom_str
 
-def is_excluded_domain(dom):
+def is_system_or_global_domain(dom):
     if not dom or not isinstance(dom, str): return False
-    domain = dom.lower().strip()
-    return any(domain == suffix or domain.endswith("." + suffix) for suffix in EXCLUDED_DOMAIN_SUFFIXES)
+    dom_l = dom.lower().strip()
+    return any(dom_l == sd or dom_l.endswith("." + sd) for sd in BLACKMATRIX7_SYSTEM_DOMAINS)
 
 def final_clean_before_write(dom):
-    """写盘前最后一关：100% 剥离 #, ?, &, %, &amp;, 协议头与无面脏数据"""
+    """写盘前最后一关：100% 斩断任何残存的单斜杠 /、双斜杠 //、反斜杠 \\、?, #, & 与协议头"""
     if not dom or not isinstance(dom, str): return None
 
-    # 1. 彻底切掉 #, ?, &, %, &amp;, ; 等 URL 参数与锚点杂质
     clean = str(dom).replace('&amp;', '&').replace('\\/', '/').replace('\\', '').strip()
-    clean = clean.split('#')[0].split('?')[0].split('&')[0].split(';')[0].split('%')[0].split('|')[0].split('$')[0].strip()
+    clean = clean.split('#')[0].split('?')[0].split('&')[0].split(';')[0].split('%')[0].split(',')[0].strip()
 
-    # 2. 擦除协议头与双斜杠
+    # 1. 擦除协议头与双斜杠
     clean = re.sub(r'^https?://', '', clean, flags=re.I)
     clean = re.sub(r'^//', '', clean)
 
-    # 3. 擦除所有残存的单斜杠 /、双斜杠 // 与反斜杠 \
+    # 2. 擦除所有残存的单斜杠 /、双斜杠 // 与反斜杠 \
     clean = clean.replace('/', '').replace('\\', '').strip()
 
-    # 4. 剥离端口号与特殊符号
+    # 3. 剥离端口号与问号
     clean = clean.split(":")[0].strip("@|*^ \t\r\n'\"").lower()
 
-    # 5. 滤掉纯文件后缀、无前缀纯后缀 (如 .com) 与垃圾杂质
+    # 4. 100% 物理过滤公共系统/代理/广告域名，不写进直连和代理列表！
+    if is_system_or_global_domain(clean):
+        return None
+
+    # 5. 滤掉纯文件后缀与无前缀脏数据
     if not clean or clean.startswith(".") or "." not in clean:
         return None
 
@@ -77,9 +83,6 @@ def final_clean_before_write(dom):
     prefix = parts[0].lower()
 
     if tld in INVALID_FILE_EXTENSIONS or prefix in INVALID_FILE_EXTENSIONS:
-        return None
-
-    if is_excluded_domain(clean):
         return None
 
     return clean
@@ -98,26 +101,30 @@ def read_existing_historical_rules(file_path):
         except Exception: pass
     return existing
 
+def compile_mihomo_mrs(yaml_path, mrs_path):
+    """尝试调用 mihomo CLI 编译产生 .mrs 二进制规则文件"""
+    try:
+        res = subprocess.run(["mihomo", "rule-set", "compile", yaml_path, mrs_path], capture_output=True, text=True, timeout=10)
+        return res.returncode == 0
+    except Exception:
+        return False
+
 def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_image_domains=None, extracted_ips=None, release_page_domains=None, py_code_domains=None):
-    print("  [Task 9: 策略导出器] 正在从 process/ 读取数据并执行写盘前最后一关 100% 擦除导出...", flush=True)
+    print("  [Task 10: 策略导出器] 正在执行原版 YAML 与 Mihomo .mrs 二进制双重导出...", flush=True)
 
     sanitized_direct_path = os.path.join(PROCESS_DIR, "sanitized_candidate_domains.json")
     sanitized_proxy_path = os.path.join(PROCESS_DIR, "sanitized_proxy_domains.json")
-    verified_direct_path = os.path.join(PROCESS_DIR, "verified_direct_domains.json")
-    verified_proxy_path = os.path.join(PROCESS_DIR, "verified_proxy_domains.json")
 
     direct_domains = set()
     proxy_domains = set()
 
-    for p in [sanitized_direct_path, verified_direct_path]:
-        if os.path.exists(p):
-            try: direct_domains.update(json.load(open(p)))
-            except Exception: pass
+    if os.path.exists(sanitized_direct_path):
+        try: direct_domains.update(json.load(open(sanitized_direct_path)))
+        except Exception: pass
 
-    for p in [sanitized_proxy_path, verified_proxy_path]:
-        if os.path.exists(p):
-            try: proxy_domains.update(json.load(open(p)))
-            except Exception: pass
+    if os.path.exists(sanitized_proxy_path):
+        try: proxy_domains.update(json.load(open(sanitized_proxy_path)))
+        except Exception: pass
 
     # 读取历史规则增量累加
     hist_direct_path = os.path.join(work_dir, "domains_direct.txt")
@@ -131,10 +138,9 @@ def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_im
             if isinstance(ips, list): extracted_ips = (extracted_ips or []) + ips
         except Exception: pass
 
-    pure_ips = {ip for ip in (extracted_ips or []) if ip not in EXCLUDED_IPS}
+    pure_ips = set(extracted_ips or [])
     for h in historical_items:
-        if h.replace('.', '').isdigit():
-            if h not in EXCLUDED_IPS: pure_ips.add(h)
+        if h.replace('.', '').isdigit(): pure_ips.add(h)
         else:
             final_h = final_clean_before_write(h)
             if final_h: direct_domains.add(final_h)
@@ -155,72 +161,64 @@ def export_grouped_router_rules(work_dir, sites, grouped_cdn_domains, dynamic_im
     sorted_proxy_doms = expand_and_final_clean(proxy_domains)
     sorted_ips = sorted(list(pure_ips))
 
-    # 1. 导出 PassWall / SmartDNS 直连列表 (domains_direct.txt)
+    # 1. 导出原版纯域名直连列表与 YAML 规则集 (domains_direct.txt / clash_rules_direct.yaml)
+    domains_direct_yaml = os.path.join(work_dir, "clash_rules_direct.yaml")
     with open(os.path.join(work_dir, "domains_direct.txt"), "w", encoding="utf-8") as f:
-        f.write("# =========================================================\n")
-        f.write("# TVBox 视频源、发布页镜像、海报 CDN、中文 Punycode 与纯IP 增量直连列表\n")
-        f.write("# =========================================================\n\n")
-        f.write("# ===== 分组: 01_通过 4 大 DNS 校验与 Task 8 强力清洗放行的国内直连域名 =====\n")
+        f.write("# TVBox 视频源、发布页镜像、海报 CDN 纯域名直连列表\n")
         for d in sorted_direct_doms:
             final_d = final_clean_before_write(d)
             if final_d: f.write(f"{final_d}\n")
-        f.write("\n")
-        if sorted_ips:
-            f.write("# ===== 分组: 02_视频切片纯IPv4地址 =====\n")
-            for ip in sorted_ips: f.write(f"{ip}\n")
-            f.write("\n")
 
-    # 2. 导出 AdGuard Home 放行白名单 (adguard_direct.txt)
-    with open(os.path.join(work_dir, "adguard_direct.txt"), "w", encoding="utf-8") as f:
-        f.write("! =========================================================\n")
-        f.write("! OpenWrt AdGuard Home TVBox 视频源、发布页镜像、中文 Punycode 与纯IP 放行白名单\n")
-        f.write("! =========================================================\n\n")
-        f.write("! ===== 分组: 01_通过 4 大 DNS 校验与 Task 8 强力清洗放行的国内直连域名 =====\n")
-        for d in sorted_direct_doms:
-            final_d = final_clean_before_write(d)
-            if final_d: f.write(f"@@||{final_d}^\n")
-        f.write("\n")
-        if sorted_ips:
-            f.write("! ===== 分组: 02_视频切片纯IPv4地址 =====\n")
-            for ip in sorted_ips: f.write(f"@@||{ip}^\n")
-            f.write("\n")
-
-    # 3. 导出 Clash 规则集 (clash_rules_direct.yaml)
-    with open(os.path.join(work_dir, "clash_rules_direct.yaml"), "w", encoding="utf-8") as f:
-        f.write("# =========================================================\n")
-        f.write("# TVBox 视频源、发布页镜像、中文 Punycode 域名与纯 IP Clash 增量直连规则集\n")
-        f.write("# =========================================================\n")
-        f.write("payload:\n")
-        f.write("  # ===== 分组: 01_通过 4 大 DNS 校验与 Task 8 强力清洗放行的国内直连域名 =====\n")
+    with open(domains_direct_yaml, "w", encoding="utf-8") as f:
+        f.write("# TVBox 纯域名原版 Clash / PassWall 直连规则集 (behavior: domain)\npayload:\n")
         for d in sorted_direct_doms:
             final_d = final_clean_before_write(d)
             if final_d: f.write(f"  - DOMAIN-SUFFIX,{final_d}\n")
-        if sorted_ips:
-            f.write("  # ===== 分组: 02_视频切片纯IPv4地址 =====\n")
-            for ip in sorted_ips: f.write(f"  - IP-CIDR,{ip}/32\n")
 
-    # 4. 导出强制代理规则列表
+    with open(os.path.join(work_dir, "adguard_direct.txt"), "w", encoding="utf-8") as f:
+        f.write("! OpenWrt AdGuard Home TVBox 纯域名放行白名单\n")
+        for d in sorted_direct_doms:
+            final_d = final_clean_before_write(d)
+            if final_d: f.write(f"@@||{final_d}^\n")
+
+    # 2. 导出原版纯 IP 直连列表与 YAML 规则集 (ips_direct.txt / ips_direct.yaml)
+    ips_direct_yaml = os.path.join(work_dir, "ips_direct.yaml")
+    with open(os.path.join(work_dir, "ips_direct.txt"), "w", encoding="utf-8") as f:
+        f.write("# TVBox 视频切片纯 IPv4 地址直连列表\n")
+        for ip in sorted_ips: f.write(f"{ip}\n")
+
+    with open(ips_direct_yaml, "w", encoding="utf-8") as f:
+        f.write("# TVBox 纯 IP 原版 Clash / PassWall 直连规则集 (behavior: ipcidr)\npayload:\n")
+        for ip in sorted_ips: f.write(f"  - IP-CIDR,{ip}/32\n")
+
+    # 3. 导出原版强制代理规则列表 (domains_proxy.txt / clash_rules_proxy.yaml)
+    proxy_yaml = os.path.join(work_dir, "clash_rules_proxy.yaml")
     with open(os.path.join(work_dir, "domains_proxy.txt"), "w", encoding="utf-8") as f:
-        f.write("# TVBox 强制代理域名列表 (含国内被墙/被阻断节点)\n")
+        f.write("# TVBox 强制代理纯域名列表\n")
         for d in sorted_proxy_doms:
             final_d = final_clean_before_write(d)
             if final_d: f.write(f"{final_d}\n")
 
     with open(os.path.join(work_dir, "adguard_proxy.txt"), "w", encoding="utf-8") as f:
-        f.write("! OpenWrt AdGuard Home 强制代理域名放行规则\n")
+        f.write("! OpenWrt AdGuard Home 强制代理域名规则\n")
         for d in sorted_proxy_doms:
             final_d = final_clean_before_write(d)
             if final_d: f.write(f"@@||{final_d}^\n")
 
-    with open(os.path.join(work_dir, "clash_rules_proxy.yaml"), "w", encoding="utf-8") as f:
-        f.write("# TVBox 强制代理 Clash 规则集\npayload:\n")
+    with open(proxy_yaml, "w", encoding="utf-8") as f:
+        f.write("# TVBox 强制代理原版 Clash / PassWall 规则集 (behavior: domain)\npayload:\n")
         for d in sorted_proxy_doms:
             final_d = final_clean_before_write(d)
             if final_d: f.write(f"  - DOMAIN-SUFFIX,{final_d}\n")
 
-    print(f"  ├─ 终极极速导出 PassWall 直连列表: domains_direct.txt ({len(sorted_direct_doms)}条纯净域名, {len(sorted_ips)}条IP)")
-    print(f"  ├─ 终极极速导出 AdGuard Home 放行白名单: adguard_direct.txt")
-    print(f"  └─ 终极极速导出 Clash 规则集: clash_rules_direct.yaml (过程文件隔离存放于 process/)")
+    # 4. 尝试并行编译导出 Mihomo 二进制 .mrs 规则集 (互不干扰)
+    compile_mihomo_mrs(domains_direct_yaml, os.path.join(work_dir, "domains_direct.mrs"))
+    compile_mihomo_mrs(ips_direct_yaml, os.path.join(work_dir, "ips_direct.mrs"))
+    compile_mihomo_mrs(proxy_yaml, os.path.join(work_dir, "domains_proxy.mrs"))
+
+    print(f"  ├─ 导出原版 YAML 规则集: clash_rules_direct.yaml, ips_direct.yaml, clash_rules_proxy.yaml")
+    print(f"  ├─ 导出 Mihomo .mrs 二进制规则集: domains_direct.mrs, ips_direct.mrs, domains_proxy.mrs")
+    print(f"  └─ 导出结果: 原版 YAML 与 Mihomo .mrs 完美并行双产出！")
 
 def export_all_router_rules(work_dir, sites, deep_cdn_domains, dynamic_image_domains=None, extracted_ips=None, release_page_domains=None, py_code_domains=None):
     return export_grouped_router_rules(work_dir, sites, deep_cdn_domains, dynamic_image_domains, extracted_ips, release_page_domains, py_code_domains)

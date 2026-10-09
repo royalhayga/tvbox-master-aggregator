@@ -2,240 +2,57 @@ name: 00_推送代码后连环全流程自动任务链
 
 on:
   push:
-    branches: [main]       # 只要向代码库 Push 提交新东西，00 号立刻激活工作！
-  workflow_dispatch:       # 支持手动一键跑全套全流程
+    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  task1_sync_json:
+  run_pipeline:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
       - name: 设置 Python 3.11 环境
         uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+        with: { python-version: '3.11', cache: 'pip' }
 
-      - name: 深度克隆上游参考仓库至本地 repos/ 磁盘目录
+      - name: 安装依赖
+        run: pip install -r requirements.txt lxml requests tldextract urllib3
+
+      - name: 安装 Mihomo 规则集编译器 CLI
+        run: |
+          mkdir -p bin
+          curl -sSL -o mihomo.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.18.10/mihomo-linux-amd64-v1.18.10.gz || true
+          gunzip -f mihomo.gz || true
+          chmod +x mihomo || true
+          sudo mv mihomo /usr/local/bin/mihomo || true
+
+      - name: 克隆依赖仓库
         run: |
           mkdir -p repos
           git clone --depth 1 https://github.com/jie20091116/cat.git repos/cat || true
           git clone --depth 1 https://github.com/qist/tvbox.git repos/qist || true
-          git clone --depth 1 https://github.com/FongMi/CatVodSpider.git repos/CatVodSpider || true
-          git clone --depth 1 https://github.com/gaotianliuyun/gao.git repos/gaotianliuyun || true
-          git clone --depth 1 https://github.com/laoma2053/awesome-zhuiju-free.git repos/laoma2053 || true
 
-      - name: 运行 01_merge_sources 独立任务 (100% 磁盘离线扫描)
-        env:
-          PYTHONUNBUFFERED: "1"
+      - name: 运行 01号纯净分类合并器
         run: python3 scripts/merge_sources.py
 
-      - name: 运行 11_merge_iptv 独立任务 (美英学英语与 not_suitable 隔离)
-        env:
-          PYTHONUNBUFFERED: "1"
-        run: python3 scripts/merge_iptv_split_18.py || true
-
-      - name: 自动 Push 更新后的 JSON 订阅文件与隔离目录
-        run: |
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions"
-          git add tvbox.json tvbox_full.json tvbox_multi.json sources.txt live.txt not_suitable/ process/ || true
-          git diff --cached --quiet && echo "JSON 无变更，跳过提交" && exit 0
-          git commit -m "auto: 00任务链-第一步JSON同步完成 [$(date -u '+%Y-%m-%d %H:%M:%S')]"
-          git pull --rebase origin main || true
-          git push origin HEAD:main --force
-
-  # =========================================================================
-  # 云端多 Job 并发/并行处理阶段 (Parallel Jobs: 3, 4, 5, 6 极速并发开跑，耗时仅 1~2 分钟)
-  # =========================================================================
-  task3_extract_ips:
-    needs: task1_sync_json
-    if: ${{ always() && needs.task1_sync_json.result == 'success' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: 设置 Python 3.11 环境
-        uses: actions/setup-python@v5
-        with: { python-version: '3.11', cache: 'pip' }
-      - run: pip install -r requirements.txt
-      - name: 克隆 repos 磁盘目录
-        run: |
-          mkdir -p repos process
-          git clone --depth 1 https://github.com/jie20091116/cat.git repos/cat || true
-          git clone --depth 1 https://github.com/qist/tvbox.git repos/qist || true
-      - name: 运行 04号纯IP与DNS解析 (专干IP)
-        env: { PYTHONUNBUFFERED: "1" }
-        run: |
-          python3 -c "import sys, os, json; sys.path.append('scripts'); from scripts.merge_sources import merge_sources; from scripts.extract_ip_addresses import extract_ip_addresses_and_dns; sites = merge_sources(); pure_ips = extract_ip_addresses_and_dns(sites, {}); os.makedirs('process', exist_ok=True); open('process/extracted_ip_addresses.json', 'w').write(json.dumps(pure_ips, ensure_ascii=False, indent=2))"
-      - name: Push 纯IP缓存
-        run: |
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions"
-          git add process/extracted_ip_addresses.json || true
-          git diff --cached --quiet && exit 0
-          git commit -m "auto: 00任务链-3号纯IP解析完成"
-          git pull --rebase origin main || true
-          git push origin HEAD:main --force
-
-  task4_extract_images:
-    needs: task1_sync_json
-    if: ${{ always() && needs.task1_sync_json.result == 'success' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: 设置 Python 3.11 环境
-        uses: actions/setup-python@v5
-        with: { python-version: '3.11', cache: 'pip' }
-      - run: pip install -r requirements.txt
-      - name: 运行 05号海报图片 CDN 扒取 (专干图片)
-        env: { PYTHONUNBUFFERED: "1" }
-        run: |
-          python3 -c "import sys, os, json; sys.path.append('scripts'); from scripts.merge_sources import merge_sources; from scripts.extract_image_domains import extract_all_poster_image_domains; sites = merge_sources(); img_doms = extract_all_poster_image_domains(sites, max_sites=len(sites)); os.makedirs('process', exist_ok=True); open('process/dynamic_image_domains.json', 'w').write(json.dumps(img_doms, ensure_ascii=False, indent=2))"
-      - name: Push 海报图片缓存
-        run: |
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions"
-          git add process/dynamic_image_domains.json || true
-          git diff --cached --quiet && exit 0
-          git commit -m "auto: 00任务链-4号海报图片CDN扒取完成"
-          git pull --rebase origin main || true
-          git push origin HEAD:main --force
-
-  task5_extract_release_pages:
-    needs: task1_sync_json
-    if: ${{ always() && needs.task1_sync_json.result == 'success' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: 设置 Python 3.11 环境
-        uses: actions/setup-python@v5
-        with: { python-version: '3.11', cache: 'pip' }
-      - run: pip install -r requirements.txt
-      - name: 运行 06号通用发布页镜像扒取 (专干发布页)
-        env: { PYTHONUNBUFFERED: "1" }
-        run: |
-          python3 -c "import sys, os, json; sys.path.append('scripts'); from scripts.extract_release_page_domains import extract_all_release_page_domains; rel_doms = extract_all_release_page_domains(); os.makedirs('process', exist_ok=True); open('process/extracted_release_page_domains.json', 'w').write(json.dumps(rel_doms, ensure_ascii=False, indent=2))"
-      - name: Push 发布页缓存
-        run: |
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions"
-          git add process/extracted_release_page_domains.json || true
-          git diff --cached --quiet && exit 0
-          git commit -m "auto: 00任务链-5号发布页镜像扒取完成"
-          git pull --rebase origin main || true
-          git push origin HEAD:main --force
-
-  task6_extract_py_code:
-    needs: task1_sync_json
-    if: ${{ always() && needs.task1_sync_json.result == 'success' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: 设置 Python 3.11 环境
-        uses: actions/setup-python@v5
-        with: { python-version: '3.11' }
-      - name: 克隆 repos 磁盘目录
-        run: |
-          mkdir -p repos process
-          git clone --depth 1 https://github.com/jie20091116/cat.git repos/cat || true
-          git clone --depth 1 https://github.com/qist/tvbox.git repos/qist || true
-      - name: 运行 07号 .py 源码域名静态读取 (专干 PY 源码)
-        env: { PYTHONUNBUFFERED: "1" }
-        run: |
-          python3 -c "import sys, os, json; sys.path.append('scripts'); from scripts.extract_py_code_domains import extract_all_py_code_domains; py_doms = extract_all_py_code_domains(); os.makedirs('process', exist_ok=True); open('process/extracted_py_code_domains.json', 'w').write(json.dumps(py_doms, ensure_ascii=False, indent=2))"
-      - name: Push PY 源码域名缓存
-        run: |
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions"
-          git add process/extracted_py_code_domains.json || true
-          git diff --cached --quiet && exit 0
-          git commit -m "auto: 00任务链-6号PY源码域名读取完成"
-          git pull --rebase origin main || true
-          git push origin HEAD:main --force
-
-  # =========================================================================
-  # Task 7: 4 大 DNS 交叉投票独立校验 (只需等待极速的 Task 3,4,5,6 完成)
-  # =========================================================================
-  task7_verify_dns:
-    needs: [task3_extract_ips, task4_extract_images, task5_extract_release_pages, task6_extract_py_code]
-    if: ${{ always() && needs.task1_sync_json.result == 'success' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: 拉取最新缓存
-        run: git pull --rebase origin main || true
-      - name: 设置 Python 3.11 环境
-        uses: actions/setup-python@v5
-        with: { python-version: '3.11', cache: 'pip' }
-      - run: pip install -r requirements.txt
-      - name: 运行 08号 4 大 DNS 交叉投票独立校验 (专干 DNS 校验)
-        env: { PYTHONUNBUFFERED: "1" }
-        run: python3 scripts/verify_domestic_dns.py
-      - name: Push DNS 校验结果
-        run: |
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions"
-          git add process/verified_direct_domains.json process/verified_proxy_domains.json || true
-          git diff --cached --quiet && exit 0
-          git commit -m "auto: 00任务链-7号 DNS 交叉投票校验完成"
-          git pull --rebase origin main || true
-          git push origin HEAD:main --force
-
-  # =========================================================================
-  # Task 8: 全量域名强力净化清洗与代理拦截 (专干 Task 8 最终数据强力清洗)
-  # =========================================================================
-  task8_sanitize_domains:
-    needs: task7_verify_dns
-    if: ${{ always() && needs.task7_verify_dns.result == 'success' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: 拉取最新 DNS 校验结果
-        run: git pull --rebase origin main || true
-      - name: 设置 Python 3.11 环境
-        uses: actions/setup-python@v5
-        with: { python-version: '3.11' }
-      - name: 运行 09号 全量数据强力净化清洗与代理拦截 (专干 Task 8 数据清洗)
-        env: { PYTHONUNBUFFERED: "1" }
+      - name: 运行 07号强力语法净化器
         run: python3 scripts/sanitize_extracted_domains.py
-      - name: Push 清洗净化结果
-        run: |
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions"
-          git add process/sanitized_candidate_domains.json process/sanitized_proxy_domains.json || true
-          git diff --cached --quiet && exit 0
-          git commit -m "auto: 00任务链-8号数据强力净化清洗完成"
-          git pull --rebase origin main || true
-          git push origin HEAD:main --force
 
-  # =========================================================================
-  # Task 9: 规则格式化统一导出 (等待 Task 8 清洗完成后 0.1 秒纯内存写盘导出)
-  # =========================================================================
-  task9_export_rules:
-    needs: task8_sanitize_domains
-    if: ${{ always() && needs.task8_sanitize_domains.result == 'success' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: 拉取最新清洗后缓存
-        run: git pull --rebase origin main || true
-      - name: 设置 Python 3.11 环境
-        uses: actions/setup-python@v5
-        with: { python-version: '3.11', cache: 'pip' }
-      - run: pip install -r requirements.txt
-      - name: 运行 10 号规则导出任务 (专干 Task 9 0.1s 纯格式化导出)
-        env: { PYTHONUNBUFFERED: "1" }
-        run: |
-          python3 -c "import sys, os, json; sys.path.append('scripts'); from scripts.merge_sources import merge_sources; from scripts.export_router_rules import export_all_router_rules; sites = merge_sources(); export_all_router_rules('.', sites, {})"
-      - name: 自动 Push 路由器与 AdGuard 放行规则
+      - name: 运行 08号离线纯内存路由分类器 (0 网络发包)
+        run: python3 scripts/classify_offline_domains.py
+
+      - name: 运行 10号策略导出器 (YAML与.mrs双重导出)
+        run: python3 scripts/export_router_rules.py
+
+      - name: 提交并推送构建结果
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
-          git add domains_direct.txt domains_proxy.txt clash_rules_direct.yaml clash_rules_proxy.yaml adguard_direct.txt adguard_proxy.txt || true
-          git diff --cached --quiet && echo "规则无变更，跳过提交" && exit 0
-          git commit -m "auto: 00任务链-9号 AdGuard/PassWall/Clash 规则格式化导出完成 [$(date -u '+%Y-%m-%d %H:%M:%S')]"
+          git add tvbox.json tvbox_full.json tvbox_multi.json live.txt domains_direct.txt domains_direct.yaml ips_direct.txt ips_direct.yaml domains_proxy.txt clash_rules_direct.yaml clash_rules_proxy.yaml adguard_direct.txt adguard_proxy.txt domains_direct.mrs ips_direct.mrs domains_proxy.mrs not_suitable/ || true
+          git diff --cached --quiet && exit 0
+          git commit -m "auto: 定时流水线纯净化数据构建更新 [$(date -u '+%Y-%m-%d %H:%M:%S')]"
           git pull --rebase origin main || true
           git push origin HEAD:main --force
