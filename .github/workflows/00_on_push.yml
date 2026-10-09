@@ -51,8 +51,8 @@ jobs:
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
-          git add tvbox.json tvbox_full.json tvbox_multi.json live.txt domains_direct.txt domains_direct.yaml ips_direct.txt ips_direct.yaml domains_proxy.txt clash_rules_direct.yaml clash_rules_proxy.yaml adguard_direct.txt adguard_proxy.txt domains_direct.mrs ips_direct.mrs domains_proxy.mrs not_suitable/ || true
+          git add -A || true
           git diff --cached --quiet && exit 0
-          git commit -m "auto: 包含 Mihomo .mrs 二进制规则集的自动全量更新 [$(date -u '+%Y-%m-%d %H:%M:%S')]"
+          git commit -m "auto: 包含 Mihomo .mrs 二进制规则集与全量 YAML 的自动增量更新 [$(date -u '+%Y-%m-%d %H:%M:%S')]"
           git pull --rebase origin main || true
           git push origin HEAD:main --force
