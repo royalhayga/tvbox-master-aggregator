@@ -1,6 +1,7 @@
 *.pyc
 __pycache__/
 .DS_Store
+repos/
 /*.json
 !tvbox.json
 !tvbox_full.json
