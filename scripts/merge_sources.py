@@ -4,10 +4,18 @@
  独立脚本一：纯净分类合并器 (merge_sources.py)
 =============================================================================
 重点更新：
-  1. 100% 零外联网络请求 (0 发包/0 探测)：只收集明面上的表面域名 (xxx.com)；
-  2. 从 repos/ 下全量扫描 600+ 个 .py 爬虫源码与 repos/qist 中的 2000+ 个接口配置；
-  3. 自动将 18+ 敏感点播与直播源隔离写入 not_suitable/tvbox.json 和 not_suitable/live.txt；
-  4. 生成纯净总订阅 tvbox.json, tvbox_full.json, tvbox_multi.json 与 live.txt。
+  1. 100% 还原黄金首页 7 大原装置顶主站，稳坐 tvbox.json 顶端前 1~7 名：
+     - 可可影视┃4K高清
+     - 厂长资源┃1080P
+     - OK-资源
+     - 鸭鸭资源
+     - 360┃采集
+     - 索尼┃高清4K
+     - 极速┃云播
+  2. 100% 零外联网络请求 (0 发包/0 探测)：只收集明面上的表面域名 (xxx.com)；
+  3. 从 repos/ 下全量扫描 600+ 个 .py 爬虫源码与 repos/qist 中的 2000+ 个接口配置；
+  4. 自动将 18+ 敏感点播与直播源隔离写入 not_suitable/tvbox.json 和 not_suitable/live.txt；
+  5. 生成纯净总订阅 tvbox.json, tvbox_full.json, tvbox_multi.json 与 live.txt。
 =============================================================================
 """
 
@@ -27,13 +35,67 @@ ADULT_KEYWORDS_PATTERN = re.compile(
     re.IGNORECASE
 )
 
-# 顶级硬核优质 Python 爬虫门面 (TOP_SITES_FACADE)
+# 恢复还原 7 大黄金原装置顶主站队列 (TOP_SITES_FACADE)
 TOP_SITES_FACADE = [
     {
         "key": "kkys_master",
-        "name": "可可影视",
+        "name": "💎可可影视┃4K高清",
         "type": 3,
         "api": "https://raw.githubusercontent.com/royalhayga/tvbox-master-aggregator/main/scripts/kkys_master.py",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+    },
+    {
+        "key": "py_czzy",
+        "name": "💎厂长资源┃1080P",
+        "type": 3,
+        "api": "https://raw.githubusercontent.com/jie20091116/cat/main/TVBOX/PY/czzy.py",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+    },
+    {
+        "key": "ok_zy",
+        "name": "🔥OK-资源",
+        "type": 1,
+        "api": "http://api.okzyw.net/api.php/provide/vod/from/okm3u8/at/xml",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+    },
+    {
+        "key": "yaya_zy",
+        "name": "🦆鸭鸭资源",
+        "type": 1,
+        "api": "https://cj.yayazy.net/api.php/provide/vod/from/yym3u8/at/xml",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+    },
+    {
+        "key": "360_zy",
+        "name": "🦚360┃采集",
+        "type": 1,
+        "api": "https://360zy.com/api.php/provide/vod?",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+    },
+    {
+        "key": "suoni_zy",
+        "name": "🐉索尼┃高清4K",
+        "type": 1,
+        "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+    },
+    {
+        "key": "js_zy",
+        "name": "⚡极速┃云播",
+        "type": 1,
+        "api": "https://jszyapi.com/api.php/provide/vod/",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1
@@ -61,6 +123,9 @@ def scan_repos_for_py_spiders():
     surface_domains = set()
     repos_dir = os.path.join(WORK_DIR, "repos")
 
+    # 已被黄金门面包含的 key 集合，避免重复展示
+    facade_keys = {s["key"] for s in TOP_SITES_FACADE}
+
     if os.path.exists(repos_dir):
         for root, _, files in os.walk(repos_dir):
             for file in files:
@@ -82,9 +147,13 @@ def scan_repos_for_py_spiders():
 
                         rel_path = os.path.relpath(fpath, WORK_DIR).replace("\\", "/")
                         raw_api = f"https://raw.githubusercontent.com/royalhayga/tvbox-master-aggregator/main/{rel_path}"
+                        skey = f"py_{os.path.splitext(file)[0]}"
+
+                        if skey in facade_keys:
+                            continue
 
                         site_node = {
-                            "key": f"py_{os.path.splitext(file)[0]}",
+                            "key": skey,
                             "name": sname,
                             "type": 3,
                             "api": raw_api,
@@ -105,6 +174,8 @@ def parse_qist_tvbox_json():
     adult_sites = []
     surface_domains = set()
 
+    facade_keys = {s["key"] for s in TOP_SITES_FACADE}
+
     qist_json_path = os.path.join(WORK_DIR, "repos", "qist", "tvbox.json")
     if os.path.exists(qist_json_path):
         try:
@@ -116,6 +187,9 @@ def parse_qist_tvbox_json():
                     name = s.get("name", "")
                     dom = extract_surface_domain(api)
                     if dom: surface_domains.add(dom)
+
+                    if s.get("key") in facade_keys:
+                        continue
 
                     if is_adult_content(name) or s.get("style", {}).get("type") == "rect":
                         adult_sites.append(s)
@@ -131,9 +205,12 @@ def merge_sources():
     py_sites, py_domains = scan_repos_for_py_spiders()
     qist_sites, adult_sites, qist_domains = parse_qist_tvbox_json()
 
-    all_surface_domains = sorted(list(set(py_domains + qist_domains)))
+    # 提取 7 大置顶主站的明面域名
+    facade_domains = [extract_surface_domain(s["api"]) for s in TOP_SITES_FACADE if extract_surface_domain(s["api"])]
 
-    # 合并纯净点播站点
+    all_surface_domains = sorted(list(set(facade_domains + py_domains + qist_domains)))
+
+    # 黄金 7 大原装置顶门面强行坐镇 tvbox.json 最顶端 1~7 名
     all_clean_sites = TOP_SITES_FACADE + py_sites + qist_sites
 
     # 写盘 process/grouped_cdn_domains.json
@@ -167,7 +244,7 @@ def merge_sources():
     live_content = "# IPTV 纯净直播源\nCCTV-1,http://111.13.138.83/m3u8/cctv1.m3u8\nCCTV-13,http://111.13.138.83/m3u8/cctv13.m3u8\n"
     open(os.path.join(WORK_DIR, "live.txt"), "w", encoding="utf-8").write(live_content)
 
-    print(f"  └─ [01_merge_sources] 0 网络耗时完成！收录 {len(all_clean_sites)} 个纯净站点，提取 {len(all_surface_domains)} 个明面表面域名！", flush=True)
+    print(f"  └─ [01_merge_sources] 0 网络耗时完成！黄金 7 大门面主站坐镇最顶端，收录 {len(all_clean_sites)} 个纯净站点！", flush=True)
     return all_clean_sites
 
 if __name__ == "__main__":
