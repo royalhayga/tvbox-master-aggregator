@@ -4,8 +4,8 @@
  可可影视 Spider 完美终极版 (kkys_master.py)
 =============================================================================
 重点修复：
-  1. 100% 修复影片真实名称与海报：采用 lxml/etree XPath 节点解析，绝不把标题抓成固定“影片”；
-  2. 100% 修复海报图片防盗链：自动为 vod_pic 追加 @Referer= 给电视端 Glide 穿透 403，彻底告别单色大占位框；
+  1. 1:1 严格照搬 repos/cat/TVBOX/PY/kkys.py 原装海报处理逻辑，彻底去除多余的 @Referer= 杂质；
+  2. 采用 lxml/etree XPath 节点解析，精准匹配影片真实名称与海报；
   3. 增加连续剧“泰剧”与地区“泰国”分类筛选，完美匹配 5 维分类筛选与 keke1.app 真实 7 段连字符路由；
   4. 完整加载可可影视 4K / UHD 超高清全量资源。
 =============================================================================
@@ -103,12 +103,10 @@ class Spider(Spider):
         return u
 
     def _pic(self, u):
+        """1:1 严格对齐 repos/cat/TVBOX/PY/kkys.py 原装海报处理逻辑"""
         if not u: return ""
-        if u.startswith("//"): u = "https:" + u
-        elif u.startswith("/"): u = self.image_host + u
-        # 追加 @Referer= 给 TVBox Glide 加载器带上防盗链请求头，破解 403 阻断！
-        if "@Referer=" not in u:
-            u = f"{u}@Referer={self.host}/"
+        if u.startswith("//"): return "https:" + u
+        if u.startswith("/"): return "https://vres.zyxpedu.com" + u
         return u
 
     def _html(self, content):
@@ -121,20 +119,17 @@ class Spider(Spider):
         if tree is None: return []
         out, seen = [], set()
 
-        # 结合 kkys1.py 精准的 XPath 节点定位，解决影片真实名称与真实海报匹配难题：
         for a in tree.xpath('//div[contains(@class,"module-item")]//a[contains(@class,"v-item")]'):
             href = a.get("href", "")
             m = re.search(r'/detail/(\d+)\.html', href)
             if not m or m.group(1) in seen: continue
             seen.add(m.group(1))
 
-            # 精准提取影视真实名称：
             name = "".join(a.xpath('.//div[contains(@class,"v-item-title")][not(@style)]//text()')).strip()
             if not name:
                 name = "".join(a.xpath('.//div[contains(@class,"v-item-title")]//text()')).strip()
             if not name: continue
 
-            # 精准提取真实海报 (过滤 logo_placeholder)
             pic = (a.xpath('.//img[not(contains(@data-original,"logo_placeholder"))]/@data-original') or [""])[0]
             if not pic:
                 pic = (a.xpath('.//img[not(contains(@src,"logo_placeholder"))]/@src') or [""])[0]
@@ -163,8 +158,6 @@ class Spider(Spider):
         sort  = str(extend.get("sort", "2") or "2")
         page  = str(pg or "1")
 
-        # 完美匹配 keke1.app / kkys20.com 7 段连字符筛选路由：
-        # /show/{tid}-{genre}-{area}-{lang}-{year}-{sort}-{page}.html
         url = f"{self.host}/show/{tid}-{genre}-{area}-{lang}-{year}-{sort}-{page}.html"
         html = self._get(url)
         items = self._parse_list(html)
