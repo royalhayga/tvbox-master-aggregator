@@ -3,6 +3,8 @@ name: 00_推送代码后连环全流程自动任务链
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '0 2 * * *'  # 每天固定自动运行 1 次 (北京时间 10:00)
   workflow_dispatch:
 
 permissions:

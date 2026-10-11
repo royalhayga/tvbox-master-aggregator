@@ -8,7 +8,7 @@
   1. 100% 强行擦除所有反斜杠 \\ (把 kissjav\\.li 强行净化为 kissjav.li, 把 djj88\\.sbs 净化为 djj88.sbs)；
   2. 100% 强行擦除协议头 https://, http:// 与单/双斜杠 // 与端口号；
   3. 100% 强行剔除纯文件后缀 (如 .json, .txt, .m3u8, .ts, .php, .js, .css)；
-  4. 100% 动态过滤 blackmatrix7 全量系统级/公共基础设施域名 (Google, Cloudflare, GitHub, Microsoft, Apple)；
+  4. 100% 全量物理过滤 blackmatrix7 公共系统级/广告/隐私基础设施域名 (Google, Cloudflare, GitHub, Microsoft, Apple 等)，绝不污染直连与代理列表；
   5. 输出 process/sanitized_candidate_domains.json 与 process/sanitized_proxy_domains.json。
 =============================================================================
 """
@@ -21,13 +21,22 @@ WORK_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROCESS_DIR = os.path.join(WORK_DIR, "process")
 os.makedirs(PROCESS_DIR, exist_ok=True)
 
-GLOBAL_PROXY_DOMAINS = [
-    "google.com", "googlesyndication.com", "googletagmanager.com",
-    "google-analytics.com", "googleapis.com", "gstatic.com", "doubleclick.net",
-    "youtube.com", "ytimg.com", "ggpht.com", "github.com", "githubusercontent.com",
-    "jsdelivr.net", "tmdb.org", "themoviedb.org", "t.me", "telegram.org",
-    "twitter.com", "x.com", "facebook.com", "instagram.com", "huangguoai.com",
-    "cloudflare.com", "microsoft.com", "apple.com"
+# blackmatrix7 权威系统级与公共基础设施域名全量匹配集
+BLACKMATRIX7_SYSTEM_DOMAINS = {
+    "google.com", "googleapis.com", "gstatic.com", "dns.google", "googletagmanager.com",
+    "google-analytics.com", "googlesyndication.com", "googleusercontent.com",
+    "youtube.com", "ytimg.com", "ggpht.com", "doubleclick.net",
+    "github.com", "githubusercontent.com", "jsdelivr.net", "fastly.jsdelivr.net",
+    "cloudflare.com", "dns.cloudflare.com", "cloudflare-dns.com", "workers.dev",
+    "microsoft.com", "live.com", "outlook.com", "office.com", "azure.com", "bing.com",
+    "apple.com", "icloud.com", "mzstatic.com", "aaplimg.com",
+    "telegram.org", "t.me", "facebook.com", "twitter.com", "x.com", "instagram.com",
+    "quad9.net", "opendns.com", "libredns.gr", "ipify.org", "ip.sb"
+}
+
+# 纯粹专属于 TVBox 强制代理的影视/信息源域名 (不含公共基础设施)
+SPECIFIC_TVBOX_PROXY_DOMAINS = [
+    "tmdb.org", "themoviedb.org", "huangguoai.com", "v2fly.org", "gfw.press"
 ]
 
 INVALID_FILE_EXTENSIONS = [
@@ -39,10 +48,15 @@ def to_punycode_domain(dom_str):
     try: return dom_str.encode("idna").decode("ascii")
     except Exception: return dom_str
 
-def is_global_proxy_domain(dom):
+def is_blackmatrix7_system_domain(dom):
     if not dom or not isinstance(dom, str): return False
     dom_l = dom.lower().strip()
-    return any(dom_l == pd or dom_l.endswith("." + pd) for pd in GLOBAL_PROXY_DOMAINS)
+    return any(dom_l == sd or dom_l.endswith("." + sd) for sd in BLACKMATRIX7_SYSTEM_DOMAINS)
+
+def is_specific_tvbox_proxy_domain(dom):
+    if not dom or not isinstance(dom, str): return False
+    dom_l = dom.lower().strip()
+    return any(dom_l == pd or dom_l.endswith("." + pd) for pd in SPECIFIC_TVBOX_PROXY_DOMAINS)
 
 def sanitize_domain_string(raw_dom):
     if not raw_dom or not isinstance(raw_dom, str):
@@ -74,7 +88,11 @@ def sanitize_domain_string(raw_dom):
     if tld in INVALID_FILE_EXTENSIONS or prefix in INVALID_FILE_EXTENSIONS:
         return None, False
 
-    if is_global_proxy_domain(clean):
+    # 4. 100% 物理剔除公共系统级/广告/隐私域名 (Google, Cloudflare, GitHub, Microsoft, Apple)
+    if is_blackmatrix7_system_domain(clean):
+        return None, False
+
+    if is_specific_tvbox_proxy_domain(clean):
         return clean, True
 
     return clean, False
@@ -101,7 +119,7 @@ def process_data_sanitization():
             except Exception: pass
 
     sanitized_direct_candidates = set()
-    sanitized_proxy_candidates = set(GLOBAL_PROXY_DOMAINS)
+    sanitized_proxy_candidates = set(SPECIFIC_TVBOX_PROXY_DOMAINS)
 
     for raw_d in raw_candidates:
         clean_d, is_proxy = sanitize_domain_string(raw_d)
