@@ -1,7 +1,8 @@
 # TVBox 强制代理 Mihomo / Clash 规则集 (behavior: domain)
 payload:
-  - 'googlesyndication.com'
+  - 'gfw.press'
   - 'huangguoai.com'
   - 'image.tmdb.org'
   - 'themoviedb.org'
   - 'tmdb.org'
+  - 'v2fly.org'
