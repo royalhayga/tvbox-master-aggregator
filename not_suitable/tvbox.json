@@ -25,7 +25,7 @@
     },
     {
       "key": "点我切源",
-      "name": "豆豆┃片单 <修复漫剧、海绵>",
+      "name": "豆豆┃片单",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -62,6 +62,15 @@
       "api": "csp_WebDAVGuard",
       "searchable": 1,
       "changeable": 0
+    },
+    {
+      "key": "919TY",
+      "name": "🏅┆919┆体育",
+      "type": 3,
+      "api": "csp_C919TY",
+      "searchable": 0,
+      "filterable": 0,
+      "changeable": 1
     },
     {
       "key": "Doubana",
