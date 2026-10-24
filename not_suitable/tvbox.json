@@ -868,6 +868,16 @@
       ]
     },
     {
+      "name": "🔥经典┃推荐",
+      "key": "Xxxg",
+      "type": 3,
+      "api": "csp_XxxgAmns",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "Xxxg"
+    },
+    {
       "key": "LeiJing",
       "name": "雷鲸|189Pan",
       "type": 3,
@@ -1698,6 +1708,15 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "proxy"
+    },
+    {
+      "key": "番茄",
+      "name": "🍅┃番茄┃APP",
+      "type": 3,
+      "api": "csp_AppFQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     },
     {
       "key": "Doubana",
