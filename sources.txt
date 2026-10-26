@@ -1,4 +1,4 @@
-# 2026-10-25 02:23:06
+# 2026-10-26 02:26:52
 
 💎可可影视┃4K
 https://gh-proxy.com/https://raw.githubusercontent.com/royalhayga/tvbox-master-aggregator/main/scripts/kkys_master.py
@@ -2616,113 +2616,8 @@ https://gh-proxy.com/https://git.yylx.win/https://raw.githubusercontent.com/fant
 [1] 📚儿童┃启蒙
 https://gh-proxy.com/https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js
 
-[https://www.ls660.com/TV/feimao.json] 🏀┃体育┃直播
-https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js
-
-[zy] 🍏OK
-https://api.okzyw.net/api.php/provide/vod
-
-[zy] 🍏360
+[我的] 360资源ZZ
 https://360zyzz.com/api.php/provide/vod
-
-[zy] 🍏新浪
-https://api.xinlangapi.com/xinlangapi.php/provide/vod
-
-[zy] 🍏光速
-https://api.guangsuapi.com/api.php/provide/vod
-
-[zy] 🍏樱花
-https://m3u8.apiyhzy.com/api.php/provide/vod
-
-[zy] 🍏无尽
-https://api.wujinapi.com/api.php/provide/vod
-
-[zy] 🍏最大
-http://zuidazy.me/api.php/provide/vod
-
-[zy] 🍏虎牙
-https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/json
-
-[zy] 🍏速播
-https://subocaiji.com/api.php/provide/vod
-
-[zy] 🍏非凡
-https://cj.ffzyapi.com/api.php/provide/vod
-
-[zy] 🍏火狐
-https://hhzyapi.com/api.php/provide/vod/at/json
-
-[zy] 🍏茅台
-https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn
-
-[zy] 🍏天堂
-http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json
-
-[zy] 🍏西瓜
-https://caiji.xgzyapi.com/api.php/provide/vod
-
-[zy] 🍏无印
-https://api.wsyzy.net/api.php/provide/vod
-
-[zy] 🍏牛牛
-https://api.niuniuzy.me/api.php/provide/vod
-
-[zy] 🍏旺旺
-https://tyyszyapi.com/api.php/provide/vod
-
-[zy] 🍏鸭鸭
-https://cj.yayazy.net/api.php/provide/vod
-
-[zy] 🍏猫眼
-https://api.maoyanapi.top/api.php/provide/vod
-
-[zy] 🍏魔都
-https://www.moduzy.com/api.php/provide/vod
-
-[zy] 🍏巨量
-https://api.juliang.live/api/provide/vod
-
-[zy] 🍏母鸡
-https://mujiziyuan00.com/api.php/provide/vod
-
-[zy] 🍏天涯
-https://ty.tyyszy5.com/api.php/provide/vod
-
-[zy] 🍏星球🪜
-https://www.ysxq.cc/api.php/provide/vod
-
-[zy] 🍊CK
-https://ckzy.me/api.php/provide/vod
-
-[zy] 🍊19
-https://19q.cc/api.php/provide/vod
-
-[zy] 🍊98
-https://jp98.vip/api.php/provide/vod
-
-[zy] 🍊元力
-https://yuanlib.com/api.php/provide/vod
-
-[zy] 🍊极品
-https://jipinvip.com/api.php/provide/vod
-
-[zy] 🍊精东
-http://chujia.cc/api.php/provide/vod/from/m3u8
-
-[zy] 🍊蝙蝠
-http://api.11bat.com/api.php/provide/vod
-
-[zy] 🍊越南
-https://vnzyz.com/api.php/provide/vod
-
-[zy] 🍊大奶
-https://apidanaizi.com/api.php/provide/vod
-
-[zy] 🍊精品🪜
-https://www.jingpinx.com//api.php/provide/vod
-
-[zy] 🍊奶香🪜
-https://Naixxzy.com/api.php/provide/vod
 
 [我的] AcFuns
 https://www.acfuns.net/api.php/provide/vod
@@ -2757,6 +2652,9 @@ https://caiji.dbzy5.com/api.php/provide/vod/at/json
 [我的] 非凡资源
 http://api.ffzyapi.com/api.php/provide/vod
 
+[我的] 光速资源2
+https://api.guangsuapi.com/api.php/provide/vod
+
 [我的] 极速资源
 https://jszyapi.com/api.php/provide/vod/at/xml
 
@@ -2765,6 +2663,9 @@ https://caiji.kuaichezy.org/api.php/provide/vod
 
 [我的] 茅台资源
 https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml
+
+[我的] 猫眼资源
+https://api.maoyanapi.top/api.php/provide/vod
 
 [我的] 魔都资源
 https://www.mdzyapi.com/api.php/provide/vod
@@ -2784,6 +2685,9 @@ https://subocaiji.com/api.php/provide/vod/from/subyun/at/json
 [我的] 索尼-闪电
 https://xsd.sdzyapi.com/api.php/provide/vod
 
+[我的] 天涯API
+https://tyyszyapi.com/api.php/provide/vod
+
 [我的] 天涯资源
 https://tyyszy.com/api.php/provide/vod
 
@@ -2796,8 +2700,14 @@ https://api.wujinapi.me/api.php/provide/vod
 [我的] 无尽NET
 https://api.wujinapi.net/api.php/provide/vod
 
+[我的] 无尽COM
+https://api.wujinapi.com/api.php/provide/vod
+
 [我的] 新浪资源
 https://api.xinlangapi.com/xinlangapi.php/provide/vod/json
+
+[我的] 鸭鸭资源
+https://cj.yayazy.net/api.php/provide/vod
 
 [我的] 鸭鸭资源2
 https://yayazy2.com/api.php/provide/vod/at/xml
@@ -2889,6 +2799,9 @@ https://mpimg.cn/down.php/2dfd46b7b542f1f4ac34e0af4ec5549b.py
 [直播] 👖裤佬丨七星丨短剧
 https://mpimg.cn/down.php/48e9d346cdf6da376c53136693bec95a.py
 
+[直播] 👖裤佬丨采集
+https://api.wsyzy.net/api.php/provide/vod
+
 [直播] 咕噜映画 | APP
 https://fastlink.cokey.xyz/f/oPJvI9/Appfox.min.js
 
@@ -2966,6 +2879,9 @@ https://lbapi9.com/api.php/provide/vod
 
 [123] 🧿凤凰┃影视
 http://fhapi9.com/api.php/provide/vod
+
+[123] 🧿妞妞┃影视
+https://api.niuniuzy.me/api.php/provide/vod
 
 [noimank] 💥豆瓣
 https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js
