@@ -1,4 +1,4 @@
-# 2026-10-27 02:24:12
+# 2026-10-28 02:36:28
 
 💎可可影视┃4K
 https://gh-proxy.com/https://raw.githubusercontent.com/royalhayga/tvbox-master-aggregator/main/scripts/kkys_master.py
@@ -2042,6 +2042,12 @@ http://ffzy5.tv/api.php/provide/vod
 
 [二月红接口] 🍀┃如意┃资源
 https://cj.rycjapi.com/api.php/provide/vod
+
+[俊哥接口] 低端影视(DRPY)
+http://home.jundie.top:666/JS/dr_py/libs/drpy.min.js
+
+[俊哥接口] 爱看机器人(DRPY)
+http://home.jundie.top:666/JS/dr_py/libs/drpy.min.js
 
 [宝盒接口] ⚙️ 网盘影视·扫码版
 https://xn--6orr3pi6g9uu.top/js/spider.js

@@ -191,6 +191,7 @@
 @@||alist.523.monster^
 @@||alist.xiaoya.pro^
 @@||alist.xn--z7x900a.live^
+@@||alistxy.ganggang.live^
 @@||aliys.cn^
 @@||alloforfait.fr^
 @@||alwifaklive.info^
@@ -455,7 +456,6 @@
 @@||cloud.odysee.live^
 @@||cloudcdnplayer.mslivestream.net^
 @@||clun.top^
-@@||cmero-ott-live.ssl.cdn.cra.cz^
 @@||cms.akanhd.com^
 @@||cms.fdue.de^
 @@||cmxzettb.com^
@@ -552,7 +552,6 @@
 @@||dmxq39.com^
 @@||dns.watch^
 @@||dnvod.org^
-@@||dogpan.com^
 @@||domain.com^
 @@||donmedia.bonus-tv.ru^
 @@||dood.la^
@@ -734,7 +733,6 @@
 @@||gimytv.com^
 @@||git.yylx.win^
 @@||gitcafe.net^
-@@||gitee.cn^
 @@||github.ednovas.xyz^
 @@||gitlink.org.cn^
 @@||global.apirun.xn--vsqw5hh18a8vw.com^
@@ -894,7 +892,6 @@
 @@||imdb-api.com^
 @@||img-cdn.publive.online^
 @@||img.jgsfnl.com^
-@@||img2.tofaka.com^
 @@||imgos.cn^
 @@||imn-live.esite-lab.com^
 @@||imov.cc^
@@ -988,6 +985,7 @@
 @@||json.key521.cn^
 @@||json.nhusp.cn^
 @@||json.xophp.com^
+@@||json.youguo520.top^
 @@||json2.hgyx.vip^
 @@||jszyapi.com^
 @@||jubaba.vip^
@@ -1102,6 +1100,7 @@
 @@||lextertv300.com^
 @@||lezhutv.com^
 @@||lg.tvcms.top^
+@@||lgyy.tv^
 @@||lhej.txcy-emo.buzz^
 @@||libfabu.com^
 @@||libhd.com^
@@ -1189,6 +1188,7 @@
 @@||liveplay-srs.voc.com.cn^
 @@||liveplus.lzr.com.cn^
 @@||livestream-bt.nmtv.cn^
+@@||livestream.jswk.online^
 @@||ljiaovm.com^
 @@||lkvod.us^
 @@||ll48host.buzz^
@@ -1462,6 +1462,7 @@
 @@||pan.mediy.cn^
 @@||pan.szfx.top^
 @@||pan.vma.cc^
+@@||pan.xwbeta.com^
 @@||pan1.me^
 @@||pandalive.co.kr^
 @@||pandown.pro^
@@ -1602,6 +1603,7 @@
 @@||rtm-player.glueapi.io^
 @@||rtmp.baku.tv^
 @@||ruv.xxkk7.com^
+@@||rx.69mj.com^
 @@||rx.bt5v.com^
 @@||rxjx.kuanjv.com^
 @@||ry-pic.com^
@@ -1653,6 +1655,7 @@
 @@||shangbanke.shop^
 @@||shaofu36.xyz^
 @@||shapp.us^
+@@||share.laowang.me^
 @@||share.qiuyu.org^
 @@||shayuapi.com^
 @@||shayuzy5.com^
@@ -1713,6 +1716,7 @@
 @@||srspsn.live^
 @@||srspsn2.live^
 @@||ss.trgfd.cn^
+@@||ss1.eisite.cn^
 @@||ss2.tvrdomi.com^
 @@||sscsott.com^
 @@||ssfm.siar.us^
@@ -1736,6 +1740,7 @@
 @@||stream.beninwebtv.bj^
 @@||stream.berosat.live^
 @@||stream.hc2tv.bj^
+@@||stream.joytvindia.com^
 @@||stream.mcquack.net^
 @@||stream.ottlive.co.in^
 @@||stream.qaztv.kz^
@@ -2032,7 +2037,6 @@
 @@||www.0759ks.com^
 @@||www.1000007.com^
 @@||www.1234y.cc^
-@@||www.12377.cn^
 @@||www.1920lgzy.top^
 @@||www.1av.shop^
 @@||www.2xiaozhan.top^
@@ -2051,6 +2055,7 @@
 @@||www.555zxdy.com^
 @@||www.55kan.com^
 @@||www.567dyy.com^
+@@||www.6080dy1.com^
 @@||www.6080yy3.com^
 @@||www.613mf4k12.top^
 @@||www.66ss.org^
@@ -2073,6 +2078,7 @@
 @@||www.926dy.com^
 @@||www.92kyy.com^
 @@||www.937tv.vip^
+@@||www.98ju.com^
 @@||www.9fy.cc^
 @@||www.9kdy.com^
 @@||www.acfuns.net^
@@ -2322,6 +2328,7 @@
 @@||www.netfly.tv^
 @@||www.nfjx.xyz^
 @@||www.nfyingshi.com^
+@@||www.ngys8.com^
 @@||www.nivod.vip^
 @@||www.nivod6.tv^
 @@||www.njjinwu.com^
@@ -2340,7 +2347,6 @@
 @@||www.nycvod.com^
 @@||www.oichaw.com^
 @@||www.omnys.com^
-@@||www.openatom.org^
 @@||www.pangujiexi.cc^
 @@||www.pg8090.com^
 @@||www.pikaso.top^
@@ -2376,6 +2382,7 @@
 @@||www.senkeji.com^
 @@||www.sh-bridge.com^
 @@||www.shanxihighway.com^
+@@||www.sharenice.net^
 @@||www.shhuiru.com^
 @@||www.shwopu.com^
 @@||www.siren93.com^
@@ -2469,12 +2476,14 @@
 @@||www.youhuifuligou.com^
 @@||www.youhun.wang^
 @@||www.yoyys.com^
+@@||www.ysgc.fun^
 @@||www.ytshengde.com^
 @@||www.yu992.com^
 @@||www.yumus.cn^
 @@||www.yunso.net^
 @@||www.yunwuee.icu^
 @@||www.yyds.one^
+@@||www.zbkk.net^
 @@||www.zgbdzs.com^
 @@||www.zghhjt.com^
 @@||www.zhizhen8.click^
@@ -2567,7 +2576,6 @@
 @@||xn--sss604efuw.net^
 @@||xn--v4q818bf34b.cc^
 @@||xn--z7x900a.com^
-@@||xn--z7x900a.net^
 @@||xne03.com^
 @@||xnhrsb.com^
 @@||xojav.tv^
@@ -2632,7 +2640,6 @@
 @@||yinsd1.sbs^
 @@||yiqiys.com^
 @@||yitingshu.com^
-@@||yiyongji.page.gd^
 @@||yj1211.work^
 @@||yjzy.me^
 @@||yk.shaozeyy.com^
