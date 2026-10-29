@@ -220,6 +220,7 @@ amg30483-amg30483c23-amgplt0794.playout.now3.amagi.tv
 amixtv.com
 amtvusdvr.tulix.tv
 animeko.org
+antena3constanta.ro
 aoao.tv
 aosikazy.com
 aosikazy1.com
@@ -293,7 +294,6 @@ appmovie.art
 aqx1.8uyp35j.com
 artcoast.cc
 artxyzy.com
-asianetnews.vgcdn.net
 asmr-100.com
 asmr-200.com
 asmr-300.com
@@ -664,7 +664,6 @@ fh4u.org
 fhapi9.com
 fhzy1.com
 file.icve.com.cn
-file.loulannews.cn
 file.zhangyichi.dev
 files.zohopublic.com.cn
 film.symx.club
@@ -695,6 +694,7 @@ freeok88.com
 freepik.com
 fs.uplink.kz
 fs708.com
+fta.ektv.in
 fufxtyc.bytebwq.com
 fulleroticmovies.net
 fullhd.xxx
@@ -1016,7 +1016,6 @@ jx.hfyrw.com
 jx.jsonplayer.com
 jx.kptv.us
 jx.mczdyw.com
-jx.pdscxz.cn
 jx.ppjbk.cn
 jx.shipinbofang.net
 jx.vipmv.co
@@ -1184,8 +1183,6 @@ live4.presstv.ir
 live77cdn2.antenaplay.ro
 liveingesta318.cdnmedia.tv
 livelegitpro.in
-liveout.btzx.com.cn
-liveplay-srs.voc.com.cn
 liveplus.lzr.com.cn
 livestream-bt.nmtv.cn
 livestream.jswk.online
@@ -1497,7 +1494,6 @@ pili-live-hls.wdit.com.cn
 pl.a6club.com
 play.fuqizhishi.com
 play.iptvxxx.net
-play.scrstv.com.cn
 play1-qk.nmtv.cn
 play92332.com
 player.77lehuo.com
@@ -1754,13 +1750,12 @@ stream1.bitred.cl
 stream1.freetv.fun
 stream2.live-stream.ro
 stream2.livebox.co.in
-stream3.jlntv.cn
 stream8.cinerama.uz
-stream9.jlntv.cn
 streamhg.com
 streaming-android.freshnewsasia.tv
 streaming-live.rtp.pt
 streaming.canal-i.com
+streaming.eforie.city
 streaming.icndigital.com
 streaming.najah.edu
 streaming.onnethn.com
@@ -2463,7 +2458,6 @@ www.xyflv.cc
 www.xzweiheng.com
 www.y3dy.cn
 www.y456y.com
-www.yao87.com
 www.yemahl.xyz
 www.yinfans.me
 www.yingm.cc
@@ -2690,7 +2684,6 @@ yzfnb8.lat
 yzzy.tv
 z.b.bkpcp.top
 za.kuanjv.com
-zb.gxlbamc.com
 zbds.top
 zby.130519.xyz
 zdmhyg.cn
