@@ -191,7 +191,6 @@
 @@||alist.523.monster^
 @@||alist.xiaoya.pro^
 @@||alist.xn--z7x900a.live^
-@@||alistxy.ganggang.live^
 @@||aliys.cn^
 @@||alloforfait.fr^
 @@||alwifaklive.info^
@@ -664,6 +663,7 @@
 @@||fhapi9.com^
 @@||fhzy1.com^
 @@||file.icve.com.cn^
+@@||file.loulannews.cn^
 @@||file.zhangyichi.dev^
 @@||files.zohopublic.com.cn^
 @@||film.symx.club^
@@ -985,7 +985,6 @@
 @@||json.key521.cn^
 @@||json.nhusp.cn^
 @@||json.xophp.com^
-@@||json.youguo520.top^
 @@||json2.hgyx.vip^
 @@||jszyapi.com^
 @@||jubaba.vip^
@@ -1099,7 +1098,6 @@
 @@||lextertv300.com^
 @@||lezhutv.com^
 @@||lg.tvcms.top^
-@@||lgyy.tv^
 @@||lhej.txcy-emo.buzz^
 @@||libfabu.com^
 @@||libhd.com^
@@ -1167,6 +1165,7 @@
 @@||live.topnews.co.th^
 @@||live.vipnews24x7.co.in^
 @@||live.visir.is^
+@@||live.wcetv.com^
 @@||live.wrencdn.in^
 @@||live.x2.co.th^
 @@||live1.1tvcrimea.ru^
@@ -1183,6 +1182,8 @@
 @@||live77cdn2.antenaplay.ro^
 @@||liveingesta318.cdnmedia.tv^
 @@||livelegitpro.in^
+@@||liveout.btzx.com.cn^
+@@||liveplay-srs.voc.com.cn^
 @@||liveplus.lzr.com.cn^
 @@||livestream-bt.nmtv.cn^
 @@||livestream.jswk.online^
@@ -1459,7 +1460,6 @@
 @@||pan.mediy.cn^
 @@||pan.szfx.top^
 @@||pan.vma.cc^
-@@||pan.xwbeta.com^
 @@||pan1.me^
 @@||pandalive.co.kr^
 @@||pandown.pro^
@@ -1494,6 +1494,7 @@
 @@||pl.a6club.com^
 @@||play.fuqizhishi.com^
 @@||play.iptvxxx.net^
+@@||play.scrstv.com.cn^
 @@||play1-qk.nmtv.cn^
 @@||play92332.com^
 @@||player.77lehuo.com^
@@ -1599,7 +1600,6 @@
 @@||rtm-player.glueapi.io^
 @@||rtmp.baku.tv^
 @@||ruv.xxkk7.com^
-@@||rx.69mj.com^
 @@||rx.bt5v.com^
 @@||rxjx.kuanjv.com^
 @@||ry-pic.com^
@@ -1651,7 +1651,6 @@
 @@||shangbanke.shop^
 @@||shaofu36.xyz^
 @@||shapp.us^
-@@||share.laowang.me^
 @@||share.qiuyu.org^
 @@||shayuapi.com^
 @@||shayuzy5.com^
@@ -1750,7 +1749,9 @@
 @@||stream1.freetv.fun^
 @@||stream2.live-stream.ro^
 @@||stream2.livebox.co.in^
+@@||stream3.jlntv.cn^
 @@||stream8.cinerama.uz^
+@@||stream9.jlntv.cn^
 @@||streamhg.com^
 @@||streaming-android.freshnewsasia.tv^
 @@||streaming-live.rtp.pt^
@@ -2050,7 +2051,6 @@
 @@||www.555zxdy.com^
 @@||www.55kan.com^
 @@||www.567dyy.com^
-@@||www.6080dy1.com^
 @@||www.6080yy3.com^
 @@||www.613mf4k12.top^
 @@||www.66ss.org^
@@ -2073,7 +2073,6 @@
 @@||www.926dy.com^
 @@||www.92kyy.com^
 @@||www.937tv.vip^
-@@||www.98ju.com^
 @@||www.9fy.cc^
 @@||www.9kdy.com^
 @@||www.acfuns.net^
@@ -2141,7 +2140,6 @@
 @@||www.czzy.site^
 @@||www.czzy55.com^
 @@||www.czzy77.com^
-@@||www.czzy89.com^
 @@||www.czzymovie.com^
 @@||www.daga.cc^
 @@||www.dandanju.cc^
@@ -2323,7 +2321,6 @@
 @@||www.netfly.tv^
 @@||www.nfjx.xyz^
 @@||www.nfyingshi.com^
-@@||www.ngys8.com^
 @@||www.nivod.vip^
 @@||www.nivod6.tv^
 @@||www.njjinwu.com^
@@ -2377,7 +2374,6 @@
 @@||www.senkeji.com^
 @@||www.sh-bridge.com^
 @@||www.shanxihighway.com^
-@@||www.sharenice.net^
 @@||www.shhuiru.com^
 @@||www.shwopu.com^
 @@||www.siren93.com^
@@ -2458,6 +2454,7 @@
 @@||www.xzweiheng.com^
 @@||www.y3dy.cn^
 @@||www.y456y.com^
+@@||www.yao87.com^
 @@||www.yemahl.xyz^
 @@||www.yinfans.me^
 @@||www.yingm.cc^
@@ -2470,14 +2467,12 @@
 @@||www.youhuifuligou.com^
 @@||www.youhun.wang^
 @@||www.yoyys.com^
-@@||www.ysgc.fun^
 @@||www.ytshengde.com^
 @@||www.yu992.com^
 @@||www.yumus.cn^
 @@||www.yunso.net^
 @@||www.yunwuee.icu^
 @@||www.yyds.one^
-@@||www.zbkk.net^
 @@||www.zgbdzs.com^
 @@||www.zghhjt.com^
 @@||www.zhizhen8.click^
@@ -2684,6 +2679,7 @@
 @@||yzzy.tv^
 @@||z.b.bkpcp.top^
 @@||za.kuanjv.com^
+@@||zb.gxlbamc.com^
 @@||zbds.top^
 @@||zby.130519.xyz^
 @@||zdmhyg.cn^

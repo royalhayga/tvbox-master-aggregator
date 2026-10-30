@@ -1,4 +1,4 @@
-# 2026-10-29 02:39:37
+# 2026-10-30 02:38:32
 
 💎可可影视┃4K
 https://gh-proxy.com/https://raw.githubusercontent.com/royalhayga/tvbox-master-aggregator/main/scripts/kkys_master.py
@@ -2037,11 +2037,8 @@ https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690
 💎main┃[BLACKMATRIX7]
 https://gh-proxy.com/https://raw.githubusercontent.com/blackmatrix7/main/script/zheye/server/main.py
 
-[俊哥接口] 低端影视(DRPY)
-http://home.jundie.top:666/JS/dr_py/libs/drpy.min.js
-
-[俊哥接口] 爱看机器人(DRPY)
-http://home.jundie.top:666/JS/dr_py/libs/drpy.min.js
+[二月红接口] 🍀┃非凡┃资源
+http://ffzy5.tv/api.php/provide/vod
 
 [宝盒接口] ⚙️ 网盘影视·扫码版
 https://xn--6orr3pi6g9uu.top/js/spider.js
@@ -2648,9 +2645,6 @@ https://caiji.dbzy5.com/api.php/provide/vod/at/json
 
 [我的] 非凡资源
 http://api.ffzyapi.com/api.php/provide/vod
-
-[我的] 非凡资源2
-http://ffzy5.tv/api.php/provide/vod
 
 [我的] 光速资源2
 https://api.guangsuapi.com/api.php/provide/vod
