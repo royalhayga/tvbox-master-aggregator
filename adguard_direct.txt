@@ -126,7 +126,6 @@
 @@||86516.tk^
 @@||87735d5.com^
 @@||887717.xyz^
-@@||888mov.com^
 @@||892539.xyz^
 @@||8a5.cn^
 @@||8bb88.cdnedge.live^
@@ -191,6 +190,7 @@
 @@||alist.523.monster^
 @@||alist.xiaoya.pro^
 @@||alist.xn--z7x900a.live^
+@@||alistxy.ganggang.live^
 @@||aliys.cn^
 @@||alloforfait.fr^
 @@||alwifaklive.info^
@@ -371,6 +371,7 @@
 @@||c6dd5cc.com^
 @@||c8w2ov7u5wg2z1o8p21c.aliyuncs.click^
 @@||c9z7j.top^
+@@||cac.opple.com^
 @@||caiji.kczyapi.com^
 @@||caiji.kuaichezy.org^
 @@||caiji.naichaapi.com^
@@ -545,7 +546,6 @@
 @@||dm.xxdm123.top^
 @@||dm84.net^
 @@||dm845.com^
-@@||dmbus.cc^
 @@||dmdy2.vip^
 @@||dmhyy.com^
 @@||dmxq39.com^
@@ -985,6 +985,7 @@
 @@||json.key521.cn^
 @@||json.nhusp.cn^
 @@||json.xophp.com^
+@@||json.youguo520.top^
 @@||json2.hgyx.vip^
 @@||jszyapi.com^
 @@||jubaba.vip^
@@ -999,7 +1000,6 @@
 @@||jvnmtr.cn^
 @@||jvx.i3ubxvj.com^
 @@||jx.255tv.cn^
-@@||jx.4kdv.com^
 @@||jx.52ruo.cc^
 @@||jx.58g8.com^
 @@||jx.777jiexi.com^
@@ -1015,7 +1015,6 @@
 @@||jx.jsonplayer.com^
 @@||jx.kptv.us^
 @@||jx.mczdyw.com^
-@@||jx.ppjbk.cn^
 @@||jx.shipinbofang.net^
 @@||jx.vipmv.co^
 @@||jx.wujinkk.com^
@@ -1098,6 +1097,7 @@
 @@||lextertv300.com^
 @@||lezhutv.com^
 @@||lg.tvcms.top^
+@@||lgyy.tv^
 @@||lhej.txcy-emo.buzz^
 @@||libfabu.com^
 @@||libhd.com^
@@ -1438,7 +1438,6 @@
 @@||op-group1-swiftservehd-1.dens.tv^
 @@||op.cdloop.eu^
 @@||op.ysdqjs.cn^
-@@||origin-us.streaminghd.cl^
 @@||origin2.afxp.telemedia.co.za^
 @@||other.ottiptv.cc^
 @@||ott-7.sevstar.net^
@@ -1460,6 +1459,7 @@
 @@||pan.mediy.cn^
 @@||pan.szfx.top^
 @@||pan.vma.cc^
+@@||pan.xwbeta.com^
 @@||pan1.me^
 @@||pandalive.co.kr^
 @@||pandown.pro^
@@ -1596,10 +1596,10 @@
 @@||rpprod.hbbtv.cdn.cra.cz^
 @@||rqtq.mom^
 @@||rqxk.gdata.fun^
-@@||rrys25.com^
 @@||rtm-player.glueapi.io^
 @@||rtmp.baku.tv^
 @@||ruv.xxkk7.com^
+@@||rx.69mj.com^
 @@||rx.bt5v.com^
 @@||rxjx.kuanjv.com^
 @@||ry-pic.com^
@@ -1651,6 +1651,7 @@
 @@||shangbanke.shop^
 @@||shaofu36.xyz^
 @@||shapp.us^
+@@||share.laowang.me^
 @@||share.qiuyu.org^
 @@||shayuapi.com^
 @@||shayuzy5.com^
@@ -1940,7 +1941,6 @@
 @@||vip.nxflv.com^
 @@||vip.rongxingvr.top^
 @@||vip.xfyun.one^
-@@||vip.xilibo.com^
 @@||vip.yybjs.top^
 @@||vip.zykbf.com^
 @@||vip1.fhbf9.com^
@@ -2051,6 +2051,7 @@
 @@||www.555zxdy.com^
 @@||www.55kan.com^
 @@||www.567dyy.com^
+@@||www.6080dy1.com^
 @@||www.6080yy3.com^
 @@||www.613mf4k12.top^
 @@||www.66ss.org^
@@ -2070,9 +2071,9 @@
 @@||www.8hysw.com^
 @@||www.91panta.cn^
 @@||www.91w2i.com^
-@@||www.926dy.com^
 @@||www.92kyy.com^
 @@||www.937tv.vip^
+@@||www.98ju.com^
 @@||www.9fy.cc^
 @@||www.9kdy.com^
 @@||www.acfuns.net^
@@ -2087,7 +2088,6 @@
 @@||www.airfun.fun^
 @@||www.airpurging.com^
 @@||www.alaqsanet.news^
-@@||www.alkywg.com^
 @@||www.appmovie.vip^
 @@||www.asmrtd.com^
 @@||www.asmrzy.top^
@@ -2188,7 +2188,6 @@
 @@||www.gs4x7nq4.com^
 @@||www.gsjtlxy.top^
 @@||www.guahd.com^
-@@||www.guan-feng.com^
 @@||www.guangya.net^
 @@||www.gugu3.com^
 @@||www.guipian365.com^
@@ -2293,7 +2292,6 @@
 @@||www.meijutt.net^
 @@||www.mfsp4k.top^
 @@||www.mgtv.fun^
-@@||www.miaoys.cc^
 @@||www.midianshi.com^
 @@||www.milkidc.cn^
 @@||www.milvdou.fun^
@@ -2321,6 +2319,7 @@
 @@||www.netfly.tv^
 @@||www.nfjx.xyz^
 @@||www.nfyingshi.com^
+@@||www.ngys8.com^
 @@||www.nivod.vip^
 @@||www.nivod6.tv^
 @@||www.njjinwu.com^
@@ -2374,6 +2373,7 @@
 @@||www.senkeji.com^
 @@||www.sh-bridge.com^
 @@||www.shanxihighway.com^
+@@||www.sharenice.net^
 @@||www.shhuiru.com^
 @@||www.shwopu.com^
 @@||www.siren93.com^
@@ -2467,12 +2467,14 @@
 @@||www.youhuifuligou.com^
 @@||www.youhun.wang^
 @@||www.yoyys.com^
+@@||www.ysgc.fun^
 @@||www.ytshengde.com^
 @@||www.yu992.com^
 @@||www.yumus.cn^
 @@||www.yunso.net^
 @@||www.yunwuee.icu^
 @@||www.yyds.one^
+@@||www.zbkk.net^
 @@||www.zgbdzs.com^
 @@||www.zghhjt.com^
 @@||www.zhizhen8.click^
@@ -2550,7 +2552,6 @@
 @@||xmu.ezgdtehh.com^
 @@||xmu.gpcqqmsof.cc^
 @@||xn--4kq62z5rby2qupq9ub.top^
-@@||xn--5mq46jrwl99dn01d.top^
 @@||xn--5mqx81b535a.com^
 @@||xn--5us81l47wber.com^
 @@||xn--6orr3pi6g9uu.top^
