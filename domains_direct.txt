@@ -56,13 +56,10 @@
 4k4k.live
 4kcabin.com
 4kcz.com
-4kfm.com
-4kfox.com
 4kvm.net
 4kvm.top
 4kxc.com
 4kzn.cc
-4kzn.com
 4sbase64.dt188.site
 501690658.xyz
 50hd.gkrle7.com
@@ -239,7 +236,6 @@ api.hiapp.com.cn
 api.huaqi.pro
 api.huosuapi.cc
 api.jiexi.la
-api.jkyai.top
 api.juliang.live
 api.ldjx.cc
 api.leduotv.com
@@ -604,7 +600,6 @@ ee55ff.com
 eisees.com
 ekusheyserver.com
 em1oifd0.com
-emby.feiniu.lol
 emuywhat.buzz
 en.tvpunjab.com
 enbymae.com
@@ -671,7 +666,6 @@ fish.y456y.com
 fishapi.wya6.com
 flixflop.com
 flowus.cn
-fm.t4tv.hz.cz
 fmao.shop
 fmao.site
 fmbox.cc
@@ -685,9 +679,7 @@ fourhoi.com
 fox-foxnewsnow-vizio.amagi.tv
 fox.hostlagarto.com
 fqdm.cc
-fqgo.52dns.cc
 fqzy.me
-free-api.bighotwind.cc
 freejson.xyz
 freem3u.xyz
 freeok88.com
@@ -783,7 +775,6 @@ hcupfox.com
 hdfby.com
 hdfby.net
 hdfby.org
-hdhive.com
 hdhive.online
 hdzu.org
 hebeigoogle.com
@@ -1092,7 +1083,6 @@ lbapiby.com
 lebozy5.com
 lecteur.iconetv.bj
 legitpro.co.in
-leijing.xyz
 lencatelevision.com
 leuse.top
 lextertv300.com
@@ -1112,7 +1102,6 @@ line.premiumpowers.net
 lingkartv.com
 lingkartv.my.id
 lingqi.co
-lite.cn2gias.uk
 liucn.cc
 liumingye.cn
 live-evg11.tv360.bitel.com.pe
@@ -1463,7 +1452,6 @@ pandalive.co.kr
 pandown.pro
 panel.host-live.com
 pangujiexi.com
-pansou-latest-hv4k.onrender.com
 pansou.app
 pansou.de
 pantera1-100gb-cl-movistar.dps.live
@@ -1582,7 +1570,6 @@ redirector.rudo.video
 reflect-communitytv.cablecast.tv
 reflect-stream-bronxnet.cablecast.tv
 repl.co
-revohd.com
 rihou.cc
 rihou.vip
 rjfwa.com
@@ -1704,7 +1691,6 @@ souavzyw.com
 souavzyw.net
 souju.ai
 soupian.one
-speed.hiknz.com
 sq1005.top
 srs.iyb983.cn
 srspsn.live
@@ -1775,7 +1761,6 @@ suonizy.com
 support-chat.rongcloud.cn
 surrit.com
 suyanw.cn
-svip.high24-playback.com
 svip.iremind.me
 svip.renrenmi.cc
 svip.rongxingvr.top
@@ -1928,7 +1913,6 @@ vip.26db.cn
 vip.aiaine.com
 vip.bljiex.com
 vip.cchsxk.com
-vip.ffzy-play.com
 vip.ffzy-play6.com
 vip.ffzy-play7.com
 vip.ffzy-plays.com
@@ -2023,7 +2007,6 @@ wujinzy.com
 wujinzy.net
 wuyaoy.cn
 wuzy9.com
-ww.zouming.com
 wwgz.cn
 www.020zhicheng.com
 www.03yy.co
@@ -2251,7 +2234,6 @@ www.kf666888.cn
 www.kkys02.com
 www.kmeiju.com
 www.kpkuang.one
-www.ksnnhbj.com
 www.kuaibozy.com
 www.kuaiys.com
 www.kubady2.com
@@ -2263,14 +2245,12 @@ www.lan-sun.com
 www.languangdy.com
 www.laowang.co
 www.ldysg.win
-www.leijing1.com
 www.lfytv.cn
 www.lggys.cn
 www.lggys.com
 www.lgmt.cc
 www.lgyy.vip
 www.libvio.fun
-www.libvio.mov
 www.libvio.pw
 www.livetimes.news
 www.lngwyw.com
@@ -2286,14 +2266,12 @@ www.m4560.com
 www.macms.pro
 www.maigo.cc
 www.medibiztv.com
-www.meijumi.net
 www.meijumi.xyz
 www.meijutt.net
 www.mfsp4k.top
 www.mgtv.fun
 www.midianshi.com
 www.milkidc.cn
-www.milvdou.fun
 www.miniku.cc
 www.mjf2020.com
 www.mjgss.com
@@ -2403,7 +2381,6 @@ www.taoju3.com
 www.tdgo.shop
 www.thegtcnetwork.com
 www.ths864.com
-www.tianyiso.com
 www.time-chicken.com
 www.tiu6.cn
 www.tjrongze.com
@@ -2425,7 +2402,6 @@ www.vv3nwjk.com
 www.wangfei.live
 www.wangfei.tv
 www.weiyuntv.com
-www.wexwp.cc
 www.wo4k.com
 www.wo4k.net
 www.wogg.live
@@ -2444,9 +2420,7 @@ www.xingchenwu.com
 www.xingkong123.com
 www.xizoursofa.com
 www.xkanju.com
-www.xn--74qz10cqsltibh40akss.com
 www.xn--rgv465a.top
-www.xn--wcv59z.com
 www.xsmp3.com
 www.xuniangfin.info
 www.xxtv4.com
@@ -2471,7 +2445,6 @@ www.ysgc.fun
 www.ytshengde.com
 www.yu992.com
 www.yumus.cn
-www.yunso.net
 www.yunwuee.icu
 www.yyds.one
 www.zbkk.net
@@ -2598,7 +2571,6 @@ xxyy5.cfd
 xyjc8.cfd
 xzcjz.com
 xzybb1.com
-xzyshd.com
 y23xxa23duo12.xyz
 y2s52n7.com
 yaaabc.com

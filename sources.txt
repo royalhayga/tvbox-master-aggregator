@@ -1,4 +1,4 @@
-# 2026-11-03 02:41:53
+# 2026-11-04 02:40:46
 
 💎可可影视┃4K
 https://gh-proxy.com/https://raw.githubusercontent.com/royalhayga/tvbox-master-aggregator/main/scripts/kkys_master.py
@@ -2087,9 +2087,6 @@ http://home.jundie.top:666/JS/dr_py/libs/drpy.min.js
 
 [宝盒接口] 儿童📚启蒙
 https://gh-proxy.com/https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js
-
-[潇洒] 巨量 • 影视
-https://api.juliang.live/api/provide/vod
 
 [荐片] 🦚量子┃采集
 https://cj.lziapi.com/api.php/provide/vod/at/xml
