@@ -25,7 +25,7 @@
     },
     {
       "key": "点我切源",
-      "name": "豆豆┃片单<修复所有>",
+      "name": "豆豆┃片单",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -509,6 +509,53 @@
       "type": 3,
       "api": "csp_AppGet",
       "ext": "https://ios.hgyx.vip|062dec75d039980e"
+    },
+    {
+      "key": "AppDramaPingguo",
+      "name": "🍏苹果┃1080P",
+      "type": 3,
+      "api": "csp_AppDramaV5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "小苹果",
+        "commonKey": "ed5fdsgucxumegqa",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
+        "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.juechufsh.android.xpg1",
+        "host": "",
+        "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
+        "version": "1.0.0.3",
+        "decrypt": "1",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "橘子",
+      "name": "🍊橘子┃1080P",
+      "type": 3,
+      "api": "csp_AppDramaV5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "橘汁",
+        "commonKey": "ed5fdsgucxumegqa",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "dataKey": "ZU1DSFFWNENKMDYXVUQRN0ZJDUC4PQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.asjdhjhd.mgd.p3",
+        "host": "http://juziapp.hzhcbkj.cn",
+        "site": "https://12345-1349250429.cos.ap-guangzhou.myqcloud.com/app.txt",
+        "version": "3.0.7.0",
+        "vApp": "3070",
+        "decrypt": "1",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
     },
     {
       "key": "金牌123",

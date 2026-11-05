@@ -291,10 +291,10 @@
       ]
     },
     {
-      "key": "py_cat_cctv",
-      "name": "💎cctv┃[CAT]",
+      "key": "py_blackmatrix7_main",
+      "name": "💎main┃[BLACKMATRIX7]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/cctv.py",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/blackmatrix7/main/script/zheye/server/main.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -304,10 +304,10 @@
       }
     },
     {
-      "key": "py_cat_czspp2",
-      "name": "💎czspp2┃[CAT]",
+      "key": "py_cat_py_3qu",
+      "name": "💎py_3qu┃[CAT]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/czspp2.py",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_3qu.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -317,10 +317,10 @@
       }
     },
     {
-      "key": "py_cat_py_ysdq",
-      "name": "💎py_ysdq┃[CAT]",
+      "key": "py_cat_py_ali",
+      "name": "💎py_ali┃[CAT]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_ysdq.py",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_ali.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -330,10 +330,10 @@
       }
     },
     {
-      "key": "py_cat_py_yszx",
-      "name": "💎py_yszx┃[CAT]",
+      "key": "py_cat_py_alist",
+      "name": "💎py_alist┃[CAT]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_yszx.py",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_alist.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -343,10 +343,10 @@
       }
     },
     {
-      "key": "py_cat_pydouyu",
-      "name": "💎pydouyu┃[CAT]",
+      "key": "py_cat_py_bdys",
+      "name": "💎py_bdys┃[CAT]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/pydouyu.py",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_bdys.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -356,10 +356,10 @@
       }
     },
     {
-      "key": "py_cat_pylibvio",
-      "name": "💎pylibvio┃[CAT]",
+      "key": "py_cat_py_bilibili",
+      "name": "💎py_bilibili┃[CAT]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/pylibvio.py",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_bilibili.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -369,10 +369,296 @@
       }
     },
     {
-      "key": "py_cat_qie",
-      "name": "💎qie┃[CAT]",
+      "key": "py_cat_py_bilimd",
+      "name": "💎py_bilimd┃[CAT]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/qie.py",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_bilimd.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_bilivd",
+      "name": "💎py_bilivd┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_bilivd.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_cctv",
+      "name": "💎py_cctv┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_cctv.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_cokemv",
+      "name": "💎py_cokemv┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_cokemv.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_cup",
+      "name": "💎py_cup┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_cup.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_cyys",
+      "name": "💎py_cyys┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_cyys.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_czspp",
+      "name": "💎py_czspp┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_czspp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_douyu",
+      "name": "💎py_douyu┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_douyu.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_genmov",
+      "name": "💎py_genmov┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_genmov.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_gimytv",
+      "name": "💎py_gimytv┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_gimytv.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_gitcafe",
+      "name": "💎py_gitcafe┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_gitcafe.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_huya",
+      "name": "💎py_huya┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_huya.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_kuaikan",
+      "name": "💎py_kuaikan┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_kuaikan.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_lezhu",
+      "name": "💎py_lezhu┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_lezhu.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_pansou",
+      "name": "💎py_pansou┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_pansou.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_star",
+      "name": "💎py_star┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_star.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_voflix",
+      "name": "💎py_voflix┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_voflix.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_wmkk",
+      "name": "💎py_wmkk┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_wmkk.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_xmaomi",
+      "name": "💎py_xmaomi┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_xmaomi.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_yiso",
+      "name": "💎py_yiso┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_yiso.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_zhaozy",
+      "name": "💎py_zhaozy┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_zhaozy.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_zxzj",
+      "name": "💎py_zxzj┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_zxzj.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_小纸条",
+      "name": "💎py_小纸条┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_小纸条.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -7805,6 +8091,136 @@
       }
     },
     {
+      "key": "py_cat_cctv",
+      "name": "💎cctv┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/cctv.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_czspp2",
+      "name": "💎czspp2┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/czspp2.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_ysdq",
+      "name": "💎py_ysdq┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_ysdq.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_yszx",
+      "name": "💎py_yszx┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_yszx.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_pydouyu",
+      "name": "💎pydouyu┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/pydouyu.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_pylibvio",
+      "name": "💎pylibvio┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/pylibvio.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_qie",
+      "name": "💎qie┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/qie.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_jrskbs",
+      "name": "💎py_jrskbs┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_jrskbs.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_qie",
+      "name": "💎py_qie┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_qie.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "py_cat_py_yytv",
+      "name": "💎py_yytv┃[CAT]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_yytv.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
       "key": "py_cat_6v",
       "name": "💎6v┃[CAT]",
       "type": 3,
@@ -7974,10 +8390,10 @@
       }
     },
     {
-      "key": "py_cat_py_jrskbs",
-      "name": "💎py_jrskbs┃[CAT]",
+      "key": "py_qist_getsearchtxt",
+      "name": "💎getsearchtxt┃[QIST]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_jrskbs.py",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/main/py/getsearchtxt.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -7987,387 +8403,10 @@
       }
     },
     {
-      "key": "py_cat_py_qie",
-      "name": "💎py_qie┃[CAT]",
+      "key": "py_qist_getsearchtxt",
+      "name": "💎getsearchtxt┃[QIST]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_qie.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_yytv",
-      "name": "💎py_yytv┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_yytv.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_3qu",
-      "name": "💎py_3qu┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_3qu.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_ali",
-      "name": "💎py_ali┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_ali.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_alist",
-      "name": "💎py_alist┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_alist.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_bdys",
-      "name": "💎py_bdys┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_bdys.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_bilibili",
-      "name": "💎py_bilibili┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_bilibili.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_bilimd",
-      "name": "💎py_bilimd┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_bilimd.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_bilivd",
-      "name": "💎py_bilivd┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_bilivd.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_cctv",
-      "name": "💎py_cctv┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_cctv.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_cokemv",
-      "name": "💎py_cokemv┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_cokemv.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_cup",
-      "name": "💎py_cup┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_cup.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_cyys",
-      "name": "💎py_cyys┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_cyys.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_czspp",
-      "name": "💎py_czspp┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_czspp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_douyu",
-      "name": "💎py_douyu┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_douyu.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_genmov",
-      "name": "💎py_genmov┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_genmov.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_gimytv",
-      "name": "💎py_gimytv┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_gimytv.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_gitcafe",
-      "name": "💎py_gitcafe┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_gitcafe.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_huya",
-      "name": "💎py_huya┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_huya.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_kuaikan",
-      "name": "💎py_kuaikan┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_kuaikan.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_lezhu",
-      "name": "💎py_lezhu┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_lezhu.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_pansou",
-      "name": "💎py_pansou┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_pansou.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_star",
-      "name": "💎py_star┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_star.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_voflix",
-      "name": "💎py_voflix┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_voflix.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_wmkk",
-      "name": "💎py_wmkk┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_wmkk.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_xmaomi",
-      "name": "💎py_xmaomi┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_xmaomi.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_yiso",
-      "name": "💎py_yiso┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_yiso.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_zhaozy",
-      "name": "💎py_zhaozy┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_zhaozy.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_zxzj",
-      "name": "💎py_zxzj┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_zxzj.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_cat_py_小纸条",
-      "name": "💎py_小纸条┃[CAT]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/jie20091116/cat/a201c9690267c1ab4e3f65d5a1fca80662438fa0/TVBOX/PY/py_小纸条.py",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/main/py/getsearchtxt.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -8654,19 +8693,6 @@
       "name": "💎闪雷┃[QIST]",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/main/py/闪雷.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_qist_getsearchtxt",
-      "name": "💎getsearchtxt┃[QIST]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/main/py/getsearchtxt.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -9092,19 +9118,6 @@
       }
     },
     {
-      "key": "py_qist_getsearchtxt",
-      "name": "💎getsearchtxt┃[QIST]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/main/py/getsearchtxt.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
       "key": "py_qist_build_local",
       "name": "💎build_local┃[QIST]",
       "type": 3,
@@ -9174,19 +9187,6 @@
       "name": "💎xiao┃[QIST]",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/main/py/xiao.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
-    {
-      "key": "py_blackmatrix7_main",
-      "name": "💎main┃[BLACKMATRIX7]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/blackmatrix7/main/script/zheye/server/main.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -10402,7 +10402,7 @@
       "name": "[二月红接口] 💥豆瓣排行💥",
       "type": 3,
       "api": "csp_Douban",
-      "jar": "http://118.89.172.248:8025/jar/lubin.php",
+      "jar": "http://118.89.172.248:8025/jar/lubin2.php",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -11081,7 +11081,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -11097,7 +11097,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11108,7 +11108,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11124,7 +11124,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11137,7 +11137,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "indexs": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11149,7 +11149,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw==",
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11162,7 +11162,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11175,7 +11175,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11191,7 +11191,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "siteUrl": "https://www.libvio.pw/"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11204,7 +11204,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11216,7 +11216,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11228,7 +11228,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11241,7 +11241,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11253,7 +11253,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "rfOIzPkSUkANv6AT2prC8en3+TzKx9TnlT8vaY37HhtYfAQe6C5xqrVuJPhQwYV6r3eRdMBGm3Qm6Th+BushR86B6KqJGXDsHazHw7alBG/7zUxkN1tK/NypRxnpBNoeUtpw4jcCGhytI75yO4g4zG6SOPA0RSwhksM0IF2friAkrHCWoW3v+0mdw6sjz4t4XB1Df7yL/R5cfaA/5LQYq3I8OkvMrJMU9Q1P7JXwx7NSF2zTyH/ANVmZ4u5m567DW1KVG7OuQjXPjZiOXTYk0+wjpfBRTf19yIq6q/C76k2Fs80joAMPw0ueDR+QHxtuDcTom2rmHkI1Fonkzi6BotbpUcbSi4PiIgmfdbvVwhG6Z+i4nvt+IYa48l5aLA7PLgDiERpuOs31aHaXlgFswT87XyTb8QaF4CuzKWJuXptwNTjvXAS9KHdxH49Ay+hfBAB2bCvUf4CMoldF2wZUv0mI2qY966erFpOFg+FOc7t88EUH8j8ACXQtHJiKC9RQ+SaLIF0=",
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11267,7 +11267,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "uqGL1bNENExT7/hGxpSE5qU=",
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11282,7 +11282,7 @@
       "quickSearch": 1,
       "searchable": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11295,7 +11295,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOX1voDIQhH8epBwtCFsuby/mmdmIu8kGlnJc+7VkMRLQ1K+jMy+KN1MKQe0MZ6tmGSO5oFzD8/vWwiSqEpFczDqLrdGT3iH6fZmryrFzKijwYkJUMctdztE0O4CsgYZdBu8XhZSwuhSqqllQz4AZMa1l0sT+1NrbhNIxHkrY0upiYSTLNqEaledgZikMCviOXWr3cPBP4COOeoGUyJSJrrybmUppnWGeDAOHhHOVUSXjwSb+QQvcJIT2lmrf1Bk68myGs7qOqc19tD/rnzf2WOb2MzJZqtURBmUFgaW6ea2dL8OPSpSeVAvaGCAnqwuUNGE9hHpK8jfOs0bLJRdkFLnijAn5Q+ofVM5hgGb8c=",
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11308,7 +11308,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p",
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11321,7 +11321,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11333,7 +11333,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11346,7 +11346,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "https://www.xb6v.com/",
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11363,7 +11363,7 @@
       "quickSearch": 1,
       "searchable": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11375,7 +11375,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11389,7 +11389,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -11404,7 +11404,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11418,7 +11418,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11436,7 +11436,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "uqGL1fpJNAUN8ORQgIPD+b6l+CzC2t8=",
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11454,7 +11454,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11469,7 +11469,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11484,7 +11484,7 @@
         "type": "rect",
         "ratio": 3.8
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11502,7 +11502,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11520,7 +11520,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11538,7 +11538,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11556,7 +11556,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11570,7 +11570,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11584,7 +11584,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11598,7 +11598,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11612,7 +11612,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11630,7 +11630,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11648,7 +11648,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11664,7 +11664,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11682,7 +11682,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11700,7 +11700,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11718,7 +11718,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11736,7 +11736,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11749,7 +11749,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -11760,7 +11760,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;e6c78bbbd60e50f611c9aac6ff273fd8",
       "filterable": 1
     },
     {
@@ -23988,30 +23988,7 @@
       "filterable": 1
     },
     {
-      "key": "橘汁_1741",
-      "name": "[我的] 🍊橘汁┃1080P",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "橘子",
-        "sigKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfb1zXXFdNP2sI2q2AWkrZ+PcKF9qCGZt5cnNWgKInqxMdoJRmXz6I2ihzoEJBfnAcY9QCho23XiPLiaeIasvMxnH1CaxUbmqb9MGncx1Qn8CrwphL9pp9UGINHs2jp2R8kBTD84I2MXEEmaLaRSJwoHZWqllNYlDaL0E4EmWDNwIDAQAB",
-        "commonKey": "ed5fdsgucxumegqa",
-        "dataKey": "AHP1NKERRNLIDMZQEDL4VFHOY2Q0PQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.llkxxl.xcydzkj",
-        "host": "",
-        "site": "https://oss-1372779881.cos.ap-guangzhou.myqcloud.com/ross.txt",
-        "version": "3.0.2.6",
-        "vApp": "3026",
-        "decrypt": "1"
-      },
-      "jar": "https://cac.opple.com/yc-media/getFile?id=2bac7a8e178b498f952152cceb049bd8#.png;md5;ffef755e02597a7173af16dd6185d700"
-    },
-    {
-      "key": "Jianpian_1742",
+      "key": "Jianpian_1741",
       "name": "[我的] 🎯荐片┃1080P",
       "type": 3,
       "api": "csp_Jianpian",
@@ -24159,7 +24136,7 @@
       "filterable": 1
     },
     {
-      "key": "push_agent_1750",
+      "key": "push_agent_1749",
       "name": "[我的] 📤推送┃授权",
       "type": 3,
       "api": "csp_Push",
@@ -24193,7 +24170,7 @@
       "jar": "https://gh-proxy.org/OS.jar"
     },
     {
-      "key": "OK资源_1753",
+      "key": "OK资源_1752",
       "name": "[我的] OK资源",
       "type": 0,
       "api": "http://api.okzyw.net/api.php/provide/vod/from/okm3u8/at/xml",
@@ -24238,7 +24215,7 @@
       "jar": "https://gh-proxy.org/OS.jar"
     },
     {
-      "key": "豆瓣资源_1758",
+      "key": "豆瓣资源_1757",
       "name": "[我的] 豆瓣资源",
       "type": 1,
       "api": "https://dbzy.tv/api.php/provide/vod",
@@ -24292,7 +24269,7 @@
       "jar": "https://gh-proxy.org/OS.jar"
     },
     {
-      "key": "极速资源_1764",
+      "key": "极速资源_1763",
       "name": "[我的] 极速资源",
       "type": 0,
       "api": "https://jszyapi.com/api.php/provide/vod/at/xml",
@@ -24301,7 +24278,7 @@
       "jar": "https://gh-proxy.org/OS.jar"
     },
     {
-      "key": "快车资源_1765",
+      "key": "快车资源_1764",
       "name": "[我的] 快车资源",
       "type": 1,
       "api": "https://caiji.kuaichezy.org/api.php/provide/vod",
@@ -24310,7 +24287,7 @@
       "jar": "https://gh-proxy.org/OS.jar"
     },
     {
-      "key": "茅台资源_1766",
+      "key": "茅台资源_1765",
       "name": "[我的] 茅台资源",
       "type": 0,
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml",
@@ -24392,7 +24369,7 @@
       "jar": "https://gh-proxy.org/OS.jar"
     },
     {
-      "key": "天涯资源_1775",
+      "key": "天涯资源_1774",
       "name": "[我的] 天涯资源",
       "type": 1,
       "api": "https://tyyszy.com/api.php/provide/vod",
@@ -24437,7 +24414,7 @@
       "jar": "https://gh-proxy.org/OS.jar"
     },
     {
-      "key": "新浪资源_1780",
+      "key": "新浪资源_1779",
       "name": "[我的] 新浪资源",
       "type": 1,
       "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/json",
@@ -24446,7 +24423,7 @@
       "jar": "https://gh-proxy.org/OS.jar"
     },
     {
-      "key": "鸭鸭资源_1781",
+      "key": "鸭鸭资源_1780",
       "name": "[我的] 鸭鸭资源",
       "type": 1,
       "api": "https://cj.yayazy.net/api.php/provide/vod",
@@ -24506,7 +24483,7 @@
       "filterable": 1
     },
     {
-      "key": "csp_Jpys_1787",
+      "key": "csp_Jpys_1786",
       "name": "[直播] 金牌┃影视",
       "type": 3,
       "api": "csp_Jpys",
@@ -24539,7 +24516,7 @@
       "filterable": 1
     },
     {
-      "key": "四叶草_1790",
+      "key": "四叶草_1789",
       "name": "[直播] 四叶草",
       "type": 3,
       "api": "https://pan.szfx.top/down.php/08343ea7d5d8d12da1c16f9ccf03040d.js",
@@ -24566,7 +24543,7 @@
       "filterable": 1
     },
     {
-      "key": "布布_1792",
+      "key": "布布_1791",
       "name": "[直播] 🐷布布",
       "type": 3,
       "api": "https://pan.szfx.top/down.php/ca1d0aee761c0cf8d47d1fddcddb9a30.py",
@@ -24603,7 +24580,7 @@
       "jar": "https://file.icve.com.cn/file_doc/213/397/357636F9E5ADD95F79FC7DE2E84A2517.jpg;md5;357636f9e5add95f79fc7de2e84a2517"
     },
     {
-      "key": "路漫漫_1795",
+      "key": "路漫漫_1794",
       "name": "[直播] 路漫漫",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
@@ -24614,7 +24591,7 @@
       "filterable": 1
     },
     {
-      "key": "去看吧_1796",
+      "key": "去看吧_1795",
       "name": "[直播] 🌾去看动漫",
       "type": 3,
       "api": "https://www.yingm.cc/dm/js/drpy.min.js",
@@ -24636,7 +24613,7 @@
       "jar": "https://file.icve.com.cn/file_doc/213/397/357636F9E5ADD95F79FC7DE2E84A2517.jpg;md5;357636f9e5add95f79fc7de2e84a2517"
     },
     {
-      "key": "移动_1798",
+      "key": "移动_1797",
       "name": "[直播] 九灵｜免扫4k｜移动",
       "type": 3,
       "jar": "https://fastlink.cokey.xyz/f/1LmEH5/yunY.jar",
@@ -24683,7 +24660,7 @@
       "filterable": 1
     },
     {
-      "key": "酷酷_1802",
+      "key": "酷酷_1801",
       "name": "[直播] 😎酷酷┃JX",
       "type": 3,
       "api": "http://rihou.cc:88/js/drpy2.min.js",
@@ -25104,7 +25081,7 @@
       "filterable": 1
     },
     {
-      "key": "快映_1828",
+      "key": "快映_1827",
       "name": "[直播] 🐮快映",
       "type": 3,
       "changeable": 0,
@@ -25235,7 +25212,7 @@
       "jar": "https://file.icve.com.cn/file_doc/213/397/357636F9E5ADD95F79FC7DE2E84A2517.jpg;md5;357636f9e5add95f79fc7de2e84a2517"
     },
     {
-      "key": "量子资源_1839",
+      "key": "量子资源_1838",
       "name": "[直播] 🌼量子┃影视🌼",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8",
@@ -25245,7 +25222,7 @@
       "jar": "https://file.icve.com.cn/file_doc/213/397/357636F9E5ADD95F79FC7DE2E84A2517.jpg;md5;357636f9e5add95f79fc7de2e84a2517"
     },
     {
-      "key": "非凡资源_1840",
+      "key": "非凡资源_1839",
       "name": "[直播] 🌼非凡┃资源🌼",
       "type": 1,
       "api": "http://ffzy1.tv/api.php/provide/vod",
@@ -25264,7 +25241,7 @@
       "jar": "https://file.icve.com.cn/file_doc/213/397/357636F9E5ADD95F79FC7DE2E84A2517.jpg;md5;357636f9e5add95f79fc7de2e84a2517"
     },
     {
-      "key": "豆瓣资源_1842",
+      "key": "豆瓣资源_1841",
       "name": "[直播] 🌼豆瓣┃影视🌼",
       "type": 1,
       "api": "https://caiji.dbzy5.com/api.php/provide/vod",
@@ -25273,7 +25250,7 @@
       "jar": "https://file.icve.com.cn/file_doc/213/397/357636F9E5ADD95F79FC7DE2E84A2517.jpg;md5;357636f9e5add95f79fc7de2e84a2517"
     },
     {
-      "key": "茅台资源_1843",
+      "key": "茅台资源_1842",
       "name": "[直播] 🌼茅台┃影视🌼",
       "type": 1,
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
@@ -25282,7 +25259,7 @@
       "jar": "https://file.icve.com.cn/file_doc/213/397/357636F9E5ADD95F79FC7DE2E84A2517.jpg;md5;357636f9e5add95f79fc7de2e84a2517"
     },
     {
-      "key": "电影天堂_1844",
+      "key": "电影天堂_1843",
       "name": "[直播] 🌼电影┃天堂🌼",
       "type": 1,
       "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
@@ -25464,7 +25441,7 @@
       "jar": "https://zl.wpscdn.cn/2026/06/18/space_img/3c75da06-54f9-4e41-8f3a-57ce390c889e.png"
     },
     {
-      "key": "drpy_js_豆瓣_1859",
+      "key": "drpy_js_豆瓣_1858",
       "name": "[直播] 豆瓣[js]",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
@@ -25475,7 +25452,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_奇珍异兽_1860",
+      "key": "drpy_js_奇珍异兽_1859",
       "name": "[直播] 奇珍异兽[js]",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
@@ -25486,7 +25463,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_优酷_1861",
+      "key": "drpy_js_优酷_1860",
       "name": "[直播] 优酷[js]",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
@@ -25497,7 +25474,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_腾云驾雾_1862",
+      "key": "drpy_js_腾云驾雾_1861",
       "name": "[直播] 腾云驾雾[js]",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
@@ -25508,7 +25485,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_百忙无果_1863",
+      "key": "drpy_js_百忙无果_1862",
       "name": "[直播] 百忙无果[js]",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
@@ -25830,7 +25807,7 @@
       "jar": "https://file.icve.com.cn/file_doc/213/397/357636F9E5ADD95F79FC7DE2E84A2517.jpg;md5;357636f9e5add95f79fc7de2e84a2517"
     },
     {
-      "key": "csp_Czsapp_1889",
+      "key": "csp_Czsapp_1888",
       "name": "[直播] 🏭厂长",
       "type": 3,
       "api": "csp_Czsapp",
@@ -25875,7 +25852,7 @@
       "jar": "https://file.icve.com.cn/file_doc/213/397/357636F9E5ADD95F79FC7DE2E84A2517.jpg;md5;357636f9e5add95f79fc7de2e84a2517"
     },
     {
-      "key": "萌米_1893",
+      "key": "萌米_1892",
       "name": "[直播] 👀萌米",
       "type": 3,
       "api": "csp_AppMao",
@@ -25962,7 +25939,7 @@
       "jar": "https://gitee.com/starlinkapi/jar/raw/master/jar/starlink.jar"
     },
     {
-      "key": "吃瓜_1901",
+      "key": "吃瓜_1900",
       "name": "[123] 🧿我要┃吃瓜",
       "type": 3,
       "api": "https://rose.tvdog.top/51chigua.py",
@@ -26096,7 +26073,7 @@
       }
     },
     {
-      "key": "大师兄_1908",
+      "key": "大师兄_1907",
       "name": "[123] 🧿拾光┃蓝光",
       "type": 3,
       "api": "csp_XBPQ",
@@ -26629,7 +26606,7 @@
     },
     {
       "name": "[大嗷呜] 🔥豆瓣┃推荐",
-      "key": "Douban_1936",
+      "key": "Douban_1935",
       "type": 3,
       "api": "csp_DoubanAmns",
       "indexs": 1,
@@ -26713,7 +26690,7 @@
     },
     {
       "name": "[大嗷呜] 🚀韩剧┃秒播",
-      "key": "Hxq_1943",
+      "key": "Hxq_1942",
       "type": 3,
       "api": "csp_HxqAmns",
       "searchable": 1,
@@ -26724,7 +26701,7 @@
     },
     {
       "name": "[大嗷呜] 🚀瓜子┃秒播",
-      "key": "Guazi_1944",
+      "key": "Guazi_1943",
       "type": 3,
       "api": "csp_GuaziAmns",
       "searchable": 1,
@@ -26736,7 +26713,7 @@
     },
     {
       "name": "[大嗷呜] 🚀金牌┃秒播",
-      "key": "JinPai_1945",
+      "key": "JinPai_1944",
       "type": 3,
       "api": "csp_JinPaiAmns",
       "searchable": 1,
@@ -26915,7 +26892,7 @@
     },
     {
       "name": "[大嗷呜] ☁️Sed┃4K",
-      "key": "SeedHub_1960",
+      "key": "SeedHub_1959",
       "type": 3,
       "api": "csp_SeedHubAmns",
       "searchable": 1,
@@ -26938,7 +26915,7 @@
     },
     {
       "name": "[大嗷呜] ☁️七味┃4K",
-      "key": "Qiwei_1962",
+      "key": "Qiwei_1961",
       "type": 3,
       "api": "csp_QiweiAmns",
       "searchable": 1,
@@ -27075,7 +27052,7 @@
     },
     {
       "name": "[大嗷呜] 🛸LBV┃2K",
-      "key": "Libvio_1974",
+      "key": "Libvio_1973",
       "type": 3,
       "api": "csp_LibvioAmns",
       "searchable": 1,
@@ -27087,7 +27064,7 @@
     },
     {
       "name": "[大嗷呜] 📽️嗷嗚┃短剧",
-      "key": "DjHggg_1975",
+      "key": "DjHggg_1974",
       "type": 3,
       "api": "csp_HgggAmns",
       "searchable": 1,
@@ -27100,7 +27077,7 @@
     },
     {
       "name": "[大嗷呜] 📽️豪堪┃短剧",
-      "key": "HHkk_1976",
+      "key": "HHkk_1975",
       "type": 3,
       "api": "csp_HHkkAmns",
       "searchable": 1,
@@ -27112,7 +27089,7 @@
     },
     {
       "name": "[大嗷呜] 📽️盒马┃短剧",
-      "key": "Hema_1977",
+      "key": "Hema_1976",
       "type": 3,
       "api": "csp_HemaAmns",
       "searchable": 1,
@@ -27124,7 +27101,7 @@
     },
     {
       "name": "[大嗷呜] 📽️拜拜┃短剧",
-      "key": "Bddj_1978",
+      "key": "Bddj_1977",
       "type": 3,
       "api": "csp_BddjAmns",
       "searchable": 1,
@@ -27136,7 +27113,7 @@
     },
     {
       "name": "[大嗷呜] 📽️围观┃短剧",
-      "key": "Wgdj_1979",
+      "key": "Wgdj_1978",
       "type": 3,
       "api": "csp_WgdjAmns",
       "searchable": 1,
@@ -27148,7 +27125,7 @@
     },
     {
       "name": "[大嗷呜] 📽️喵喵┃短剧",
-      "key": "Qmdj_1980",
+      "key": "Qmdj_1979",
       "type": 3,
       "api": "csp_QmdjAmns",
       "searchable": 1,
@@ -27160,7 +27137,7 @@
     },
     {
       "name": "[大嗷呜] 📽️星星┃短剧",
-      "key": "Xydj_1981",
+      "key": "Xydj_1980",
       "type": 3,
       "api": "csp_XydjAmns",
       "searchable": 1,
@@ -27184,7 +27161,7 @@
     },
     {
       "name": "[大嗷呜] ⭐杜北┃秒播",
-      "key": "Dubk_1983",
+      "key": "Dubk_1982",
       "type": 3,
       "api": "csp_DubkAmns",
       "searchable": 1,
@@ -27339,7 +27316,7 @@
     },
     {
       "name": "[大嗷呜] 🎉合集┃Bili",
-      "key": "BiliHeji_1996",
+      "key": "BiliHeji_1995",
       "type": 3,
       "api": "csp_BiliAmns",
       "searchable": 1,
@@ -27359,7 +27336,7 @@
     },
     {
       "name": "[大嗷呜] 🎉歌曲┃Bili",
-      "key": "BiliGequ_1997",
+      "key": "BiliGequ_1996",
       "type": 3,
       "api": "csp_BiliAmns",
       "searchable": 1,
@@ -27564,7 +27541,7 @@
     },
     {
       "name": "[大嗷呜] 🛴推送┃播放",
-      "key": "push_agent_2011",
+      "key": "push_agent_2010",
       "type": 3,
       "api": "csp_PushAmns",
       "searchable": 1,
@@ -27778,7 +27755,7 @@
       "filterable": 1
     },
     {
-      "key": "csp_Bili_2031",
+      "key": "csp_Bili_2030",
       "name": "[noimank] 💕哔哩合集",
       "type": 3,
       "api": "csp_Bili",
@@ -27795,7 +27772,7 @@
       "jar": "https://gh-proxy.com/https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;ec8ab1bcb078290e4f5a0d1449393a69"
     },
     {
-      "key": "csp_Czsapp_2032",
+      "key": "csp_Czsapp_2031",
       "name": "[noimank] 💕厂长",
       "type": 3,
       "api": "csp_Czsapp",
@@ -27847,7 +27824,7 @@
       "filterable": 1
     },
     {
-      "key": "csp_IQIYI_2037",
+      "key": "csp_IQIYI_2036",
       "name": "[noimank] 💕IQIYI",
       "type": 3,
       "api": "csp_IQIYI",
@@ -27858,7 +27835,7 @@
       "filterable": 1
     },
     {
-      "key": "csp_MGTV_2038",
+      "key": "csp_MGTV_2037",
       "name": "[noimank] 💕MGTV",
       "type": 3,
       "api": "csp_MGTV",
@@ -27880,7 +27857,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_360影视_2040",
+      "key": "drpy_js_360影视_2039",
       "name": "[noimank] 💥360",
       "type": 3,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
@@ -27891,7 +27868,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_百忙无果_2041",
+      "key": "drpy_js_百忙无果_2040",
       "name": "[noimank] 💥芒果",
       "type": 3,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
@@ -27902,7 +27879,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_腾云驾雾_2042",
+      "key": "drpy_js_腾云驾雾_2041",
       "name": "[noimank] 💥腾讯",
       "type": 3,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
@@ -27913,7 +27890,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_奇珍异兽_2043",
+      "key": "drpy_js_奇珍异兽_2042",
       "name": "[noimank] 💥爱奇艺",
       "type": 3,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
@@ -27924,7 +27901,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_菜狗_2044",
+      "key": "drpy_js_菜狗_2043",
       "name": "[noimank] 💥搜狗",
       "type": 3,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
@@ -27935,7 +27912,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_优酷_2045",
+      "key": "drpy_js_优酷_2044",
       "name": "[noimank] 💥优酷",
       "type": 3,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
@@ -28068,7 +28045,7 @@
       "jar": "https://gh-proxy.com/https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;ec8ab1bcb078290e4f5a0d1449393a69"
     },
     {
-      "key": "drpy_js_童趣_2054",
+      "key": "drpy_js_童趣_2053",
       "name": "[noimank] 💥童趣(少儿)",
       "type": 3,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
@@ -28084,7 +28061,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_兔小贝_2055",
+      "key": "drpy_js_兔小贝_2054",
       "name": "[noimank] 💥兔小贝(少儿)",
       "type": 3,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
@@ -28161,7 +28138,7 @@
       "jar": "https://gh-proxy.com/https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;ec8ab1bcb078290e4f5a0d1449393a69"
     },
     {
-      "key": "drpy_js_310直播_2061",
+      "key": "drpy_js_310直播_2060",
       "name": "[noimank] 💥310直播(体育)",
       "type": 3,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
@@ -28302,7 +28279,7 @@
       "filterable": 1
     },
     {
-      "key": "push_agent_2072",
+      "key": "push_agent_2071",
       "name": "[noimank] 💤推送(播放页链接或磁力)",
       "type": 3,
       "api": "csp_PushAgent",
@@ -28322,7 +28299,7 @@
       "filterable": 1
     },
     {
-      "key": "Wogg_2074",
+      "key": "Wogg_2073",
       "name": "[接口] 玩偶哥哥",
       "type": 3,
       "api": "csp_Wogg",
@@ -28359,7 +28336,7 @@
       "filterable": 1
     },
     {
-      "key": "SeedHub_2076",
+      "key": "SeedHub_2075",
       "name": "[接口] SeedHub",
       "type": 3,
       "api": "csp_SeedHub",
@@ -28535,7 +28512,7 @@
       "filterable": 1
     },
     {
-      "key": "DianYingYunJi_2087",
+      "key": "DianYingYunJi_2086",
       "name": "[接口] 电影云集",
       "type": 3,
       "api": "csp_DianYingYunJi",
@@ -28681,7 +28658,7 @@
       "quickSearch": 1
     },
     {
-      "key": "Libvio_2100",
+      "key": "Libvio_2099",
       "name": "[接口] 立播影视",
       "type": 3,
       "api": "csp_Libvio",
@@ -28749,7 +28726,7 @@
       "filterable": 1
     },
     {
-      "key": "PanSearch_2106",
+      "key": "PanSearch_2105",
       "name": "[接口] 盘搜┃搜索",
       "type": 3,
       "api": "csp_PanSearch",
@@ -29028,7 +29005,7 @@
       "quickSearch": 1
     },
     {
-      "key": "玩偶_2127",
+      "key": "玩偶_2126",
       "name": "[https://clun.top/fun.json] 玩偶姐姐",
       "type": 3,
       "api": "csp_Doll",
@@ -29177,7 +29154,7 @@
       "filterable": 1
     },
     {
-      "key": "alllive_2138",
+      "key": "alllive_2137",
       "name": "[feimao] 🎮┃游戏┃直播",
       "type": 3,
       "api": "csp_Alllive",
@@ -29195,7 +29172,7 @@
       "filterable": 1
     },
     {
-      "key": "csp_FeiMaoUC_2139",
+      "key": "csp_FeiMaoUC_2138",
       "name": "[feimao] ⚡┃闪电┃优汐",
       "type": 3,
       "api": "csp_Duopan",
@@ -29216,7 +29193,7 @@
       "quickSearch": 1
     },
     {
-      "key": "肥猫_2140",
+      "key": "肥猫_2139",
       "name": "[feimao] 🐼┃肥猫┃APP",
       "type": 3,
       "api": "csp_AppQi",
@@ -29227,7 +29204,7 @@
       "filterable": 1
     },
     {
-      "key": "干饭_2141",
+      "key": "干饭_2140",
       "name": "[feimao] 🍚┃干饭┃APP",
       "type": 3,
       "api": "csp_AppDrama2",
@@ -29248,7 +29225,7 @@
       "filterable": 1
     },
     {
-      "key": "光盘_2142",
+      "key": "光盘_2141",
       "name": "[feimao] 📀┃光盘┃APP",
       "type": 3,
       "api": "csp_AppQi",
@@ -29259,7 +29236,7 @@
       "filterable": 1
     },
     {
-      "key": "行动_2143",
+      "key": "行动_2142",
       "name": "[feimao] 😌┃行动┃APP",
       "type": 3,
       "api": "csp_AppDrama2",
@@ -29280,7 +29257,7 @@
       "filterable": 1
     },
     {
-      "key": "再来_2144",
+      "key": "再来_2143",
       "name": "[feimao] ✌️┃再来┃APP",
       "type": 3,
       "api": "csp_AppDrama2",
@@ -29301,7 +29278,7 @@
       "filterable": 1
     },
     {
-      "key": "一碗_2145",
+      "key": "一碗_2144",
       "name": "[feimao] 🥣┃一碗┃APP",
       "type": 3,
       "api": "csp_AppDrama2",
@@ -29322,7 +29299,7 @@
       "filterable": 1
     },
     {
-      "key": "蔬菜_2146",
+      "key": "蔬菜_2145",
       "name": "[feimao] 🫛┃蔬菜┃APP",
       "type": 3,
       "api": "csp_AppGet",
@@ -29333,7 +29310,7 @@
       "filterable": 1
     },
     {
-      "key": "csp_Bili_2147",
+      "key": "csp_Bili_2146",
       "name": "[feimao] 🅱┃️哔哩┃合集",
       "type": 3,
       "api": "csp_Bili",
@@ -29374,7 +29351,7 @@
       "filterable": 1
     },
     {
-      "key": "儿童_2150",
+      "key": "儿童_2149",
       "name": "[feimao] 📚┃儿童┃启蒙",
       "type": 3,
       "api": "./api/drpy2.min.js",
@@ -29390,7 +29367,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_豆瓣_2151",
+      "key": "drpy_js_豆瓣_2150",
       "name": "[4k] 🔥聚玩盒子4K",
       "type": 3,
       "api": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/drpy2.min.js",
@@ -29430,7 +29407,7 @@
       "jar": "https://agit.ai/guot54/ygbh/raw/branch/master/JAR/83.jar"
     },
     {
-      "key": "csp_SixV_2155",
+      "key": "csp_SixV_2154",
       "name": "[4k] 💕┃磁力┃4K",
       "type": 3,
       "api": "csp_SixV",
@@ -29468,7 +29445,7 @@
       "filterable": 1
     },
     {
-      "key": "cctv_2158",
+      "key": "cctv_2157",
       "name": "[4k] 📺┃央视┃大全",
       "type": 3,
       "api": "csp_CCTV",
@@ -29490,7 +29467,7 @@
       "jar": "http://rihou.vip:88/hccx/HeChengChaXiu.jar"
     },
     {
-      "key": "央视经典_2160",
+      "key": "央视经典_2159",
       "name": "[4k] 📺┃央视┃经典",
       "type": 3,
       "api": "csp_Bili",
@@ -29501,7 +29478,7 @@
       "jar": "http://rihou.vip:88/hccx/HeChengChaXiu.jar"
     },
     {
-      "key": "drpy_js_360影视_2161",
+      "key": "drpy_js_360影视_2160",
       "name": "[4k] 🧡┃360┃官源",
       "type": 3,
       "api": "https://jihulab.com/yw88075/tvbox/-/raw/main/dr/lib/drpy2.min.js",
@@ -29568,7 +29545,7 @@
       "filterable": 1
     },
     {
-      "key": "耐看_2166",
+      "key": "耐看_2165",
       "name": "[4k] 🕶┃耐看┃影视",
       "type": 3,
       "api": "csp_XBPQ",
@@ -29579,7 +29556,7 @@
       "filterable": 1
     },
     {
-      "key": "萌米_2167",
+      "key": "萌米_2166",
       "name": "[4k] 👀┃萌米┃App",
       "type": 3,
       "api": "csp_AppMao",
@@ -29591,7 +29568,7 @@
       "filterable": 1
     },
     {
-      "key": "csp_Nmys_2168",
+      "key": "csp_Nmys_2167",
       "name": "[4k] 🌾┃农民┃直连",
       "type": 3,
       "api": "csp_Nmys",
@@ -29603,7 +29580,7 @@
       "filterable": 1
     },
     {
-      "key": "荐片_2169",
+      "key": "荐片_2168",
       "name": "[4k] 🧲┃荐片┃磁力",
       "type": 3,
       "api": "http://rihou.vip:55/lib/drpy2.min.js",
@@ -29625,7 +29602,7 @@
       "filterable": 1
     },
     {
-      "key": "奈飞中文_2171",
+      "key": "奈飞中文_2170",
       "name": "[4k] 🎗┃奈飞┃秒播",
       "type": 3,
       "api": "csp_XYQHiker",
@@ -29655,7 +29632,7 @@
       "jar": "https://tvbox.cainisi.cf/jar/fty0101.jar;md5;fd784008ab71d81a178564841059756d"
     },
     {
-      "key": "天天_2174",
+      "key": "天天_2173",
       "name": "[4k] 💡┃天天┃影视",
       "type": 3,
       "api": "csp_TTian",
@@ -29667,7 +29644,7 @@
       "filterable": 1
     },
     {
-      "key": "Bili_2175",
+      "key": "Bili_2174",
       "name": "[4k] 🅱┃哔哔┃合集",
       "type": 3,
       "api": "csp_Bili",
@@ -29689,7 +29666,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_310直播_2177",
+      "key": "drpy_js_310直播_2176",
       "name": "[4k] ⚽310直播",
       "type": 3,
       "api": "https://gh-proxy.com/https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
@@ -29721,7 +29698,7 @@
       "filterable": 1
     },
     {
-      "key": "相声小品_2179",
+      "key": "相声小品_2178",
       "name": "[4k] 😍┃相声┃小品",
       "type": 3,
       "api": "csp_Bili",
@@ -29732,7 +29709,7 @@
       "filterable": 1
     },
     {
-      "key": "戏 曲_2180",
+      "key": "戏 曲_2179",
       "name": "[4k] 👵┃老年┃戏曲",
       "type": 3,
       "api": "csp_Bili",
@@ -29765,7 +29742,7 @@
       "filterable": 1
     },
     {
-      "key": "csp_WoGG_2183",
+      "key": "csp_WoGG_2182",
       "name": "[4k] 👽┃玩偶┃4K①",
       "type": 3,
       "api": "csp_WoGG",
@@ -29833,7 +29810,7 @@
       "jar": "http://tv.nxog.top/m/jar.php?id=ou;md5;34c50af4380beab4dbfeae6c9b41939b"
     },
     {
-      "key": "push_agent_2189",
+      "key": "push_agent_2188",
       "name": "[4k] 📽推送",
       "type": 3,
       "api": "csp_PushAgent",
@@ -29987,7 +29964,7 @@
       "jar": "https://raw.githubusercontent.com/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
-      "key": "drpy_js_荐片_2200",
+      "key": "drpy_js_荐片_2199",
       "name": "[gaotianliuyun] 影视 | 荐片[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
@@ -30012,7 +29989,7 @@
       "jar": "https://raw.githubusercontent.com/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
-      "key": "豆瓣_2202",
+      "key": "豆瓣_2201",
       "name": "[gaotianliuyun] 搜索 | 豆瓣[jar]",
       "type": 3,
       "api": "csp_Douban",
@@ -30061,7 +30038,7 @@
       "filterable": 1
     },
     {
-      "key": "配置中心_2205",
+      "key": "配置中心_2204",
       "name": "[gaotianliuyun] 配置 | 中心[jar]",
       "type": 3,
       "api": "csp_Config",
@@ -30077,7 +30054,7 @@
       "filterable": 1
     },
     {
-      "key": "酷狗_2206",
+      "key": "酷狗_2205",
       "name": "[gaotianliuyun] 音频 | 酷狗[jar]",
       "type": 3,
       "api": "csp_Kugou",
@@ -30088,7 +30065,7 @@
       "filterable": 1
     },
     {
-      "key": "Iktv_2207",
+      "key": "Iktv_2206",
       "name": "[gaotianliuyun] MV | KTV[jar]",
       "type": 3,
       "api": "csp_Iktv",
@@ -30150,7 +30127,7 @@
       "jar": "https://raw.githubusercontent.com/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
-      "key": "天天_2212",
+      "key": "天天_2211",
       "name": "[gaotianliuyun] 弹幕 | 天天[jar]",
       "type": 3,
       "api": "csp_TTian",
@@ -30162,7 +30139,7 @@
       "filterable": 1
     },
     {
-      "key": "追剧_2213",
+      "key": "追剧_2212",
       "name": "[gaotianliuyun] 弹幕 | 追剧[jar]",
       "type": 3,
       "api": "csp_TTian",
@@ -30301,7 +30278,7 @@
       "jar": "https://raw.githubusercontent.com/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
-      "key": "Wogg_2223",
+      "key": "Wogg_2222",
       "name": "[gaotianliuyun] 弹幕 | 玩偶[jar]",
       "type": 3,
       "api": "csp_Wogg",
@@ -30353,7 +30330,7 @@
       "searchable": 1
     },
     {
-      "key": "Mogg_2227",
+      "key": "Mogg_2226",
       "name": "[gaotianliuyun] 网盘 | 木偶哥哥[jar]",
       "type": 3,
       "api": "csp_Wobg",
@@ -30444,7 +30421,7 @@
       "searchable": 1
     },
     {
-      "key": "美剧迷_2234",
+      "key": "美剧迷_2233",
       "name": "[gaotianliuyun] 弹幕 | 美剧迷[jar]",
       "type": 3,
       "api": "csp_Meijumi",
@@ -30470,7 +30447,7 @@
       "searchable": 1
     },
     {
-      "key": "新6V_2236",
+      "key": "新6V_2235",
       "name": "[gaotianliuyun] 弹幕 | 新6V[jar]",
       "type": 3,
       "api": "csp_Xb6v",
@@ -30698,7 +30675,7 @@
       "filterable": 1
     },
     {
-      "key": "Libvio_2254",
+      "key": "Libvio_2253",
       "name": "[gaotianliuyun] 网盘 | LIBVIO[jar]",
       "type": 3,
       "api": "csp_Libvio",
@@ -30763,7 +30740,7 @@
       "searchable": 1
     },
     {
-      "key": "Gitcafe_2259",
+      "key": "Gitcafe_2258",
       "name": "[gaotianliuyun] 阿里 | 纸条[jar]",
       "type": 3,
       "api": "csp_Gitcafe",
@@ -30787,7 +30764,7 @@
       "jar": "https://raw.githubusercontent.com/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
-      "key": "七夜_2261",
+      "key": "七夜_2260",
       "name": "[gaotianliuyun] 阿里 | 七夜[jar]",
       "type": 3,
       "api": "csp_Dovx",
@@ -30838,7 +30815,7 @@
       "filterable": 1
     },
     {
-      "key": "盘搜_2265",
+      "key": "盘搜_2264",
       "name": "[gaotianliuyun] 阿里 | 盘搜[jar]",
       "type": 3,
       "api": "csp_PanSou",
@@ -31831,7 +31808,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_ddys_2353",
+      "key": "drpy_js_ddys_2352",
       "name": "[gaotianliuyun] 影视 | 低端影视[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
@@ -32000,7 +31977,7 @@
       "filterable": 1
     },
     {
-      "key": "push_agent_2366",
+      "key": "push_agent_2365",
       "name": "[gaotianliuyun] 手机 | 推送[jar]",
       "type": 3,
       "api": "csp_Push",
@@ -32039,7 +32016,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_有声绘本网_2369",
+      "key": "drpy_js_有声绘本网_2368",
       "name": "[gaotianliuyun] 少儿 | 有声绘本[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
@@ -32151,7 +32128,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_88看球_2376",
+      "key": "drpy_js_88看球_2375",
       "name": "[gaotianliuyun] 体育 | 88看球[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
@@ -32167,7 +32144,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_JRKAN直播_2377",
+      "key": "drpy_js_JRKAN直播_2376",
       "name": "[gaotianliuyun] 体育 | JRKAN直播[js]",
       "type": 3,
       "api": "./lib/drpy.min.js",
@@ -32183,7 +32160,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_抓饭体育_2378",
+      "key": "drpy_js_抓饭体育_2377",
       "name": "[gaotianliuyun] 体育 | 抓饭体育[js]",
       "type": 3,
       "api": "./lib/drpy.min.js",
@@ -33163,7 +33140,7 @@
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaolong69/tv/main/spider/19/json/alist.json"
     },
     {
-      "key": "AiDj_2463",
+      "key": "AiDj_2462",
       "name": "[xiaolong69] AI短漫剧",
       "type": 3,
       "api": "csp_AiDjGuard",
@@ -33181,7 +33158,7 @@
     },
     {
       "name": "[xiaolong69] 豪堪短剧",
-      "key": "HHkk_2464",
+      "key": "HHkk_2463",
       "type": 3,
       "api": "csp_HHkkAmns",
       "searchable": 1,
@@ -33193,7 +33170,7 @@
     },
     {
       "name": "[xiaolong69] 盒马短剧",
-      "key": "Hema_2465",
+      "key": "Hema_2464",
       "type": 3,
       "api": "csp_HemaAmns",
       "searchable": 1,
@@ -33205,7 +33182,7 @@
     },
     {
       "name": "[xiaolong69] 拜拜短剧",
-      "key": "Bddj_2466",
+      "key": "Bddj_2465",
       "type": 3,
       "api": "csp_BddjAmns",
       "searchable": 1,
@@ -33217,7 +33194,7 @@
     },
     {
       "name": "[xiaolong69] 围观短剧",
-      "key": "Wgdj_2467",
+      "key": "Wgdj_2466",
       "type": 3,
       "api": "csp_WgdjAmns",
       "searchable": 1,
@@ -33229,7 +33206,7 @@
     },
     {
       "name": "[xiaolong69] 喵喵短剧",
-      "key": "Qmdj_2468",
+      "key": "Qmdj_2467",
       "type": 3,
       "api": "csp_QmdjAmns",
       "searchable": 1,
@@ -33241,7 +33218,7 @@
     },
     {
       "name": "[xiaolong69] 星星短剧",
-      "key": "Xydj_2469",
+      "key": "Xydj_2468",
       "type": 3,
       "api": "csp_XydjAmns",
       "searchable": 1,
@@ -33252,7 +33229,7 @@
       "filterable": 1
     },
     {
-      "key": "YpanSo_2470",
+      "key": "YpanSo_2469",
       "name": "[xiaolong69] 盘她夸父",
       "type": 3,
       "api": "csp_YpanSoGuard",
@@ -33283,7 +33260,7 @@
       "filterable": 1
     },
     {
-      "key": "斗鱼js_2472",
+      "key": "斗鱼js_2471",
       "name": "[xiaolong69] 斗鱼直播",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaolong69/tv/main/spider/19/js/drpy2.min.js",
@@ -33300,7 +33277,7 @@
       "filterable": 1
     },
     {
-      "key": "dr_兔小贝_2473",
+      "key": "dr_兔小贝_2472",
       "name": "[xiaolong69] 儿童启蒙",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaolong69/tv/main/spider/19/js/drpy2.min.js",
@@ -33316,7 +33293,7 @@
       "filterable": 1
     },
     {
-      "key": "push_agent_2474",
+      "key": "push_agent_2473",
       "name": "[xiaolong69] 推送",
       "type": 3,
       "api": "csp_Push",
@@ -33330,7 +33307,7 @@
       "filterable": 1
     },
     {
-      "key": "drpy_js_豆瓣_2475",
+      "key": "drpy_js_豆瓣_2474",
       "name": "[okay] 🔥量子🔥",
       "type": 0,
       "api": "https://cj.lziapi.com/api.php/provide/vod/from/liangzi/at/xml",
