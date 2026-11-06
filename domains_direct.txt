@@ -85,7 +85,6 @@
 5721004.xyz
 58hu.com
 5bf7b725107e5.streamlock.net
-5ddce30eb4b55.streamlock.net
 5dy6.vip
 5e73cf528f404.streamlock.net
 5f2c1b0d880e5.streamlock.net
@@ -201,6 +200,7 @@ amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv
 amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv
 amg00732-salemmediagroup-snc-ono-ekp8j.amagi.tv
 amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv
+amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv
 amg01076-lightning-amg01076c5-rakuten-us-1788.playouts.now.amagi.tv
 amg01076-lightningintern-gbnewsau-samsungau-et7fz.amagi.tv
 amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv
@@ -414,6 +414,7 @@ cdn15.163189.xyz
 cdn15.live-tv.cloud
 cdn16.123.rr.kg
 cdn2.163189.xyz
+cdn23lhr.tamashaweb.com
 cdn3.wowza.com
 cdn4.mjunoon.tv
 cdn4.skygo.mn
@@ -424,6 +425,7 @@ cdnbeijin-aliyun-ys1.cfys.xyz
 cdnhop.com
 cdnlive.codev8.net
 cdnlive.presstv.ir
+cdnplay.peanutsquare.com
 cdnstack.internetmultimediaonline.org
 cdz.rkfwzdc.com
 cenguigui.cn
@@ -748,6 +750,7 @@ gpa-vja.otteravision.com
 gqc.ink
 growcdnssedge.com
 gslb-al.com
+gtc.ottlive.co.in
 gtrazibvz.com
 guan.yy365.vip
 guangsuapi.com
@@ -867,8 +870,6 @@ hwapi.yntv.net
 hws.com
 hzhcbkj.cn
 hzqingshan.com
-i24newsarabic-cdn.encoders.immergo.tv
-i24newsenglish-cdn.encoders.immergo.tv
 i24newsfrench-cdn.encoders.immergo.tv
 i24newshebrew-cdn.encoders.immergo.tv
 i275.com
@@ -1140,7 +1141,6 @@ live.ekamraott.com
 live.enhdtv.com
 live.fanmingming.cn
 live.france24.com
-live.gdtv.ah.cn
 live.i-news.tv
 live.iill.top
 live.ipstream.it
@@ -1156,10 +1156,8 @@ live.nowtelly.com
 live.obslivestream.com
 live.ottiptv.cc
 live.paltodaytv.com
-live.qthnews.org.cn
 live.saharamedias.net
 live.sli.ke
-live.streamhch.com
 live.streaming.a2d.tv
 live.tcm10.com.br
 live.topnews.co.th
@@ -1272,6 +1270,7 @@ mblenmain01.telesur.ultrabase.net
 mblesmain01.telesur.ultrabase.net
 mcoun.com
 mdc.ott.alticeusa.net
+mdc4.ott.alticeusa.net
 mdcmai4.xyz
 mddm3u8.ffkm25.com
 mdnlv.cdn.octivid.com
@@ -1360,7 +1359,6 @@ naifei.im
 naitang8.top
 naixxzy.com
 namesilo.com
-nanduti.com.py
 nanniang10.com
 nanniang6.com
 nanrenbense3564991.xyz
@@ -1508,7 +1506,6 @@ pomo.mom
 pornlulu.net
 potplayer.org
 pouyun.com
-powertvkannada.com
 pppppppp.top
 pptv06.com
 ppw666.com
@@ -1522,7 +1519,6 @@ psbolddeltaco.site
 pt.sxtv.top
 ptt.red
 q2cyl7.cdnedge.live
-qcfile.qcrmt.com
 qdys1.cc
 qdys2.cc
 qemao.com
@@ -1607,7 +1603,6 @@ s.2tu.uk
 s.clgod.xyz
 s.haokongbu.top
 s.panhunt.com
-s2.ideationtec.live
 s2ykfzb.cn
 sabconetanw.cdn.mangomolo.com
 sabctretalh.cdn.mangomolo.com
@@ -1628,7 +1623,6 @@ seacms.net
 seacms.org
 seaige.com
 seeduck.cc
-segment.yuppcdn.net
 sekihfde.com
 semaozy1.com
 senlinzy2.com
@@ -1753,7 +1747,6 @@ streaming.canal-i.com
 streaming.eforie.city
 streaming.icndigital.com
 streaming.najah.edu
-streaming.onnethn.com
 streaming.televizor-24-tochka.ru
 streams.tangotv.in
 streams2.sofast.tv
@@ -1843,7 +1836,6 @@ tv.yydsys.cc
 tv1288.xyz
 tv7bharat.tv
 tvbox.vip
-tvfile.jyrmt.cn
 tvmvip.com
 tvn3.chowdhury-shaheb.com
 tvpanpan.site
@@ -1908,7 +1900,6 @@ video.primexsports.com
 video01.brascast.com
 video01.logicahost.com.br
 video09.logicahost.com.br
-video10.qtv.com.cn
 video2.51daao.com
 videoserver.tmcreativos.com
 videozm.whqhyg.com
@@ -2418,6 +2409,7 @@ www.wangfei.live
 www.wangfei.tv
 www.weiyuntv.com
 www.wexwp.cc
+www.whhyn.com
 www.wo4k.com
 www.wo4k.net
 www.wogg.live
@@ -2477,6 +2469,7 @@ www.zjcvod.com
 www.zjgydsj.com
 www.zmp4.com
 www.zrys1.top
+www.zxfmj.com
 www.zxk555.com
 www.zxzj.pro
 www.zxzjhd.com
