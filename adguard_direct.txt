@@ -85,6 +85,7 @@
 @@||5721004.xyz^
 @@||58hu.com^
 @@||5bf7b725107e5.streamlock.net^
+@@||5ddce30eb4b55.streamlock.net^
 @@||5dy6.vip^
 @@||5e73cf528f404.streamlock.net^
 @@||5f2c1b0d880e5.streamlock.net^
@@ -1131,6 +1132,7 @@
 @@||live-stream.dvb.no^
 @@||live-stream.skynewsarabia.com^
 @@||live-us1.thaimomo.com^
+@@||live.264788.xyz^
 @@||live.alarabiya.net^
 @@||live.alissahost.net^
 @@||live.artidijitalmedya.com^
@@ -1183,6 +1185,7 @@
 @@||live77cdn2.antenaplay.ro^
 @@||liveingesta318.cdnmedia.tv^
 @@||livelegitpro.in^
+@@||liveout.btzx.com.cn^
 @@||liveplay-srs.voc.com.cn^
 @@||liveplus.lzr.com.cn^
 @@||livestream-bt.nmtv.cn^
@@ -1524,6 +1527,7 @@
 @@||pt.sxtv.top^
 @@||ptt.red^
 @@||q2cyl7.cdnedge.live^
+@@||qcfile.qcrmt.com^
 @@||qdys1.cc^
 @@||qdys2.cc^
 @@||qemao.com^
@@ -1770,6 +1774,7 @@
 @@||support-chat.rongcloud.cn^
 @@||surrit.com^
 @@||suyanw.cn^
+@@||svip.high24-playback.com^
 @@||svip.iremind.me^
 @@||svip.renrenmi.cc^
 @@||svip.rongxingvr.top^
@@ -1921,6 +1926,7 @@
 @@||vip.aiaine.com^
 @@||vip.bljiex.com^
 @@||vip.cchsxk.com^
+@@||vip.ffzy-play.com^
 @@||vip.ffzy-play6.com^
 @@||vip.ffzy-play7.com^
 @@||vip.ffzy-plays.com^
@@ -2448,6 +2454,7 @@
 @@||www.xzweiheng.com^
 @@||www.y3dy.cn^
 @@||www.y456y.com^
+@@||www.yao87.com^
 @@||www.yemahl.xyz^
 @@||www.yinfans.me^
 @@||www.yingm.cc^
@@ -2619,6 +2626,7 @@
 @@||yingqu.net^
 @@||yingshidaquan.top^
 @@||yingszj.xn--654a.cc^
+@@||yingxivod.com^
 @@||yingzi.ee^
 @@||yinsd1.sbs^
 @@||yiqiys.com^
