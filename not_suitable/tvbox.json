@@ -25,7 +25,7 @@
     },
     {
       "key": "点我切源",
-      "name": "豆豆┃片单",
+      "name": "豆豆┃片单 <兼容安卓4>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -502,13 +502,6 @@
       "quickSearch": 1,
       "searchable": 1,
       "filterable": 1
-    },
-    {
-      "key": "优优",
-      "name": "💯┃优优┃APP",
-      "type": 3,
-      "api": "csp_AppGet",
-      "ext": "https://ios.hgyx.vip|062dec75d039980e"
     },
     {
       "key": "AppDramaPingguo",
