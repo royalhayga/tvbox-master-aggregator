@@ -1,14 +1,6 @@
 {
   "urls": [
     {
-      "name": "欧歌接口",
-      "url": "https://xn--sdds-rp5imh.v.nxog.top/apitv.php?id=3"
-    },
-    {
-      "name": "小盒子4K",
-      "url": "http://xhztv.top/4k.json"
-    },
-    {
       "name": "王二小",
       "url": "https://9280.kstore.vip/newwex.json"
     },
@@ -19,6 +11,10 @@
     {
       "name": "二月红接口",
       "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json"
+    },
+    {
+      "name": "小盒子4K",
+      "url": "http://xhztv.top/4k.json"
     },
     {
       "name": "影视仓",
@@ -555,14 +551,6 @@
   ],
   "stores": [
     {
-      "sourceName": "欧歌接口",
-      "sourceUrl": "https://xn--sdds-rp5imh.v.nxog.top/apitv.php?id=3"
-    },
-    {
-      "sourceName": "小盒子4K",
-      "sourceUrl": "http://xhztv.top/4k.json"
-    },
-    {
       "sourceName": "王二小",
       "sourceUrl": "https://9280.kstore.vip/newwex.json"
     },
@@ -573,6 +561,10 @@
     {
       "sourceName": "二月红接口",
       "sourceUrl": "https://700sjro44343.vicp.fun/eggp/0211/tv.json"
+    },
+    {
+      "sourceName": "小盒子4K",
+      "sourceUrl": "http://xhztv.top/4k.json"
     },
     {
       "sourceName": "影视仓",
@@ -1109,14 +1101,6 @@
   ],
   "storeHouse": [
     {
-      "sourceName": "欧歌接口",
-      "sourceUrl": "https://xn--sdds-rp5imh.v.nxog.top/apitv.php?id=3"
-    },
-    {
-      "sourceName": "小盒子4K",
-      "sourceUrl": "http://xhztv.top/4k.json"
-    },
-    {
       "sourceName": "王二小",
       "sourceUrl": "https://9280.kstore.vip/newwex.json"
     },
@@ -1127,6 +1111,10 @@
     {
       "sourceName": "二月红接口",
       "sourceUrl": "https://700sjro44343.vicp.fun/eggp/0211/tv.json"
+    },
+    {
+      "sourceName": "小盒子4K",
+      "sourceUrl": "http://xhztv.top/4k.json"
     },
     {
       "sourceName": "影视仓",

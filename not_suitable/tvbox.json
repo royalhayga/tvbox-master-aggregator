@@ -504,6 +504,13 @@
       "filterable": 1
     },
     {
+      "key": "优优",
+      "name": "💯┃优优┃APP",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": "https://ios.hgyx.vip|062dec75d039980e"
+    },
+    {
       "key": "AppDramaPingguo",
       "name": "🍏苹果┃1080P",
       "type": 3,
@@ -691,6 +698,13 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "py_porn",
+      "name": "肉视频[py]",
+      "type": 3,
+      "api": "./js/ss/porn.py",
+      "ext": ""
     },
     {
       "key": "py_huangguo",
