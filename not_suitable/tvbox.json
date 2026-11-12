@@ -34,6 +34,16 @@
       "changeable": 0
     },
     {
+      "key": "fanqecms",
+      "name": "番茄┃零零",
+      "type": 3,
+      "api": "csp_AppleCms",
+      "ext": "https://fanqe.cc",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
       "key": "AppV7 | 小黄人",
       "name": "💥黄人┃秒播💥",
       "type": 3,
@@ -53,6 +63,16 @@
       "api": "csp_WebDAVGuard",
       "searchable": 1,
       "changeable": 0
+    },
+    {
+      "key": "fanqecms",
+      "name": "番茄┃零零",
+      "type": 3,
+      "api": "csp_AppleCms",
+      "ext": "https://fanqe.cc",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "key": "919TY",

@@ -1,4 +1,4 @@
-# 2026-11-11 08:51:07
+# 2026-11-12 09:18:35
 
 💎可可影视┃4K
 https://gh-proxy.com/https://raw.githubusercontent.com/royalhayga/tvbox-master-aggregator/main/scripts/kkys_master.py
@@ -2084,6 +2084,9 @@ http://home.jundie.top:666/JS/dr_py/libs/drpy.min.js
 
 [俊哥接口] 爱看机器人(DRPY)
 http://home.jundie.top:666/JS/dr_py/libs/drpy.min.js
+
+[宝盒接口] 极速┃零一
+https://ww96.taiee.xyz/api.php/provide/vod
 
 [宝盒接口] 儿童📚启蒙
 https://gh-proxy.com/https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js

@@ -129,7 +129,6 @@
 @@||8a5.cn^
 @@||8bb88.cdnedge.live^
 @@||8ttv.cn^
-@@||8yzmq2gbdvax-hls-live.wmncdn.net^
 @@||91.xiaoxuemei91912.com^
 @@||911bl.com^
 @@||911bl16.com^
@@ -165,7 +164,6 @@
 @@||aa.m3u8zy.fun^
 @@||aa.xkys.tv^
 @@||aa1.cn^
-@@||aajtaklive.vgcdn.net^
 @@||aapanel.com^
 @@||acb6ca89.wurl.com^
 @@||account19.livebox.co.in^
@@ -205,7 +203,13 @@
 @@||amg01076-lightning-amg01076c5-rakuten-us-1788.playouts.now.amagi.tv^
 @@||amg01076-lightningintern-gbnewsau-samsungau-et7fz.amagi.tv^
 @@||amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv^
+@@||amg01106-amg01106c1-amgplt0747.playout.now3.amagi.tv^
+@@||amg01106-amg01106c2-amgplt0747.playout.now3.amagi.tv^
 @@||amg01106-amg01106c3-amgplt0844.playout.now3.amagi.tv^
+@@||amg01106-amg01106c4-amgplt0747.playout.now3.amagi.tv^
+@@||amg01106-amg01106c5-amgplt0747.playout.now3.amagi.tv^
+@@||amg01106-amg01106c6-amgplt0747.playout.now3.amagi.tv^
+@@||amg01106-amg01106c7-amgplt0747.playout.now3.amagi.tv^
 @@||amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv^
 @@||amg01416-amg01416c4-firetv-us-4522.playouts.now.amagi.tv^
 @@||amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv^
@@ -292,6 +296,7 @@
 @@||aqx1.8uyp35j.com^
 @@||artcoast.cc^
 @@||artxyzy.com^
+@@||asianet-prasarbharati.vgcdn.net^
 @@||asmr-100.com^
 @@||asmr-200.com^
 @@||asmr-300.com^
@@ -487,6 +492,7 @@
 @@||czspp.com^
 @@||czzy.top^
 @@||czzytv77.com^
+@@||d5.tv360.ca^
 @@||d862cp.cdnedge.live^
 @@||d8v8rjm9.bbmm277.sbs^
 @@||dachidz.com^
@@ -630,6 +636,7 @@
 @@||eyabc.cn^
 @@||f5842579ff984c1c98d63b8d789673eb.msvdn.net^
 @@||fagmn.com^
+@@||fanqe.cc^
 @@||fansg.cc^
 @@||fantuansjz.com^
 @@||fastlink.cokey.xyz^
@@ -683,7 +690,6 @@
 @@||foshanshow.com^
 @@||fositv.com^
 @@||fourhoi.com^
-@@||fox-foxnewsnow-vizio.amagi.tv^
 @@||fox.hostlagarto.com^
 @@||fqdm.cc^
 @@||fqgo.52dns.cc^
@@ -714,6 +720,8 @@
 @@||gaze.red^
 @@||gcufbd.top^
 @@||gdlsp.com^
+@@||gemlive.tv^
+@@||gemtv.circle7stream.com^
 @@||genmov.com^
 @@||get.mymifun.com^
 @@||gh-proxy.com^
@@ -1188,6 +1196,7 @@
 @@||livestream-bt.nmtv.cn^
 @@||livestream.a3sv.ro^
 @@||livestream.jswk.online^
+@@||livestream.rajtvnet.in^
 @@||ljiaovm.com^
 @@||lkvod.us^
 @@||ll48host.buzz^
@@ -1515,6 +1524,7 @@
 @@||pptv06.com^
 @@||ppw666.com^
 @@||ppxzy.net^
+@@||prasarbharti-nn.vidgyor.com^
 @@||probabyml.com^
 @@||protokolldns.xyz^
 @@||prshinezenx.blog^
@@ -1757,6 +1767,7 @@
 @@||streaming.icndigital.com^
 @@||streaming.najah.edu^
 @@||streaming.televizor-24-tochka.ru^
+@@||streamlive.livebox.co.in^
 @@||streams.tangotv.in^
 @@||streams2.sofast.tv^
 @@||sub.ottiptv.cc^
@@ -1839,6 +1850,7 @@
 @@||tv.laohu.cool^
 @@||tv.lxyy.club^
 @@||tv.mediacp.eu^
+@@||tv.mitvparaguay.com^
 @@||tv.tmxk.kdns.fr^
 @@||tv.xn--yhqu5zs87a.top^
 @@||tv.yy-fun.cc^
@@ -1902,6 +1914,7 @@
 @@||vcp4.myplaytv.com^
 @@||vdo.ssl-stream.com^
 @@||verginanews.gr^
+@@||vg-indiatv-waves.vgcdn.net^
 @@||vgwtswi.xyz^
 @@||vidcdn.vidgyor.com^
 @@||video.adminqt.cn^
@@ -1939,6 +1952,7 @@
 @@||vip.zykbf.com^
 @@||vip1.fhbf9.com^
 @@||vip1.slbfsl.com^
+@@||vip1.xinketongxun.fun^
 @@||vip1949.com^
 @@||vip2.fhbf9.com^
 @@||vip2.slbfsl.com^
@@ -2361,6 +2375,7 @@
 @@||www.qyzf88.com^
 @@||www.rozanaspokesman.in^
 @@||www.sasa01.cc^
+@@||www.schannels.in^
 @@||www.scycjc.com^
 @@||www.sczyxxjc.com^
 @@||www.sdgggo.com^
