@@ -1,4 +1,4 @@
-# 2026-11-12 09:18:35
+# 2026-11-13 09:04:55
 
 💎可可影视┃4K
 https://gh-proxy.com/https://raw.githubusercontent.com/royalhayga/tvbox-master-aggregator/main/scripts/kkys_master.py
@@ -2904,20 +2904,20 @@ https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/m
 [直播] 🍊柚子资源
 https://api.yzzy-api.com/inc/api.php
 
-[123] 🧿我要┃吃瓜
-https://rose.tvdog.top/51chigua.py
-
-[123] 🧿gay┃资源
-https://slapibf.com/api.php/provide/vod
-
-[123] 🧿正品┃影视
-https://lbapi9.com/api.php/provide/vod
-
-[123] 🧿凤凰┃影视
-http://fhapi9.com/api.php/provide/vod
-
-[123] 🧿妞妞┃影视
+[123] 牛牛资源
 https://api.niuniuzy.me/api.php/provide/vod
+
+[123] C K 资源
+https://api.xinlangapi.com/xinlangapi.php/provide/vod
+
+[123] 樱花资源
+https://api.ukuapi88.com/api.php/provide/vod
+
+[123] 速播资源
+https://subocaiji.com/api.php/provide/vod
+
+[123] 闪电资源
+http://sdzyapi.com/api.php/provide/vod
 
 [noimank] 💥豆瓣
 https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js
@@ -3086,9 +3086,6 @@ https://www.hongniuzy2.com/api.php/provide/vod/from/hnyun/at/xml
 
 [okay] 如意云
 https://cj.rycjapi.com/api.php/provide/vod/from/ruyi/at/xml
-
-[okay] U酷
-https://api.ukuapi88.com/api.php/provide/vod
 
 [okay] 牛牛
 https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml
