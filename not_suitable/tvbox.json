@@ -25,7 +25,7 @@
     },
     {
       "key": "点我切源",
-      "name": "豆豆┃片单 <兼容安卓4>",
+      "name": "豆豆┃片单 <Fix Everything>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -532,7 +532,7 @@
     },
     {
       "key": "AppDramaPingguo",
-      "name": "🍏苹果┃1080P",
+      "name": "🍏苹果┃影视",
       "type": 3,
       "api": "csp_AppDramaV5",
       "searchable": 1,
@@ -555,7 +555,7 @@
     },
     {
       "key": "橘子",
-      "name": "🍊橘子┃1080P",
+      "name": "🍊橘子┃影视",
       "type": 3,
       "api": "csp_AppDramaV5",
       "searchable": 1,
@@ -568,13 +568,10 @@
         "dataKey": "ZU1DSFFWNENKMDYXVUQRN0ZJDUC4PQ==",
         "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
         "pkg": "com.asjdhjhd.mgd.p3",
-        "host": "http://juziapp.hzhcbkj.cn",
-        "site": "https://12345-1349250429.cos.ap-guangzhou.myqcloud.com/app.txt",
+        "host": "",
+        "site": "https://1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
         "version": "3.0.7.0",
-        "vApp": "3070",
-        "decrypt": "1",
-        "danmu": true,
-        "danmu_api": "https://dm.211.li/nonay"
+        "decrypt": "1"
       }
     },
     {
