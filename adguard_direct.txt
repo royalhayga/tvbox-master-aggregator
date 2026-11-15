@@ -190,7 +190,6 @@
 @@||aliys.cn^
 @@||alloforfait.fr^
 @@||alwifaklive.info^
-@@||amarujala.ottlive.co.in^
 @@||amchls.wns.live^
 @@||amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv^
 @@||amg00327-coxmediagroup-wsocbreaking-plex-t51et.amagi.tv^
@@ -343,7 +342,6 @@
 @@||bind.315999.xyz^
 @@||bit.controlstreams.com^
 @@||bjxcxl.com^
-@@||blacknewschannel-xumo-us.amagi.tv^
 @@||bljiex.cc^
 @@||bloxd.io^
 @@||boldgrid.com^
@@ -1573,6 +1571,7 @@
 @@||qzdjj804.qzdjj2.my^
 @@||qzy998-wap-1.ysgq.xyz^
 @@||qzz.io^
+@@||r.eu.cdn-redge.media^
 @@||r.jdshipin.com^
 @@||r3e2o.top^
 @@||ra2web.com^
@@ -1859,7 +1858,6 @@
 @@||tvpnlogopeu.samsungcloud.tv^
 @@||tvr-info.lg.mncdn.com^
 @@||tvsen6.aynaott.com^
-@@||tvsen7.aynascope.net^
 @@||tvu.umsa.bo^
 @@||txnp.cn^
 @@||ty1010.com^
