@@ -1,4 +1,4 @@
-# 2026-11-15 08:49:43
+# 2026-11-16 09:00:13
 
 💎可可影视┃4K
 https://gh-proxy.com/https://raw.githubusercontent.com/royalhayga/tvbox-master-aggregator/main/scripts/kkys_master.py
@@ -2088,20 +2088,92 @@ http://home.jundie.top:666/JS/dr_py/libs/drpy.min.js
 [宝盒接口] 极速┃零一
 https://ww96.taiee.xyz/api.php/provide/vod
 
+[宝盒接口] 暴风┃资源
+https://bfzyapi.com/api.php/provide/vod
+
+[宝盒接口] 量子┃资源
+http://cj.lziapi.com/api.php/provide/vod
+
+[宝盒接口] 茅台┃资源
+https://caiji.maotaizy.cc/api.php/provide/vod
+
+[宝盒接口] 索尼┃资源
+https://suoniapi.com/api.php/provide/vod
+
+[宝盒接口] 牛牛┃资源
+https://api.niuniuzy.me/api.php/provide/vod
+
+[宝盒接口] 闪电┃资源
+http://sdzyapi.com/api.php/provide/vod
+
+[宝盒接口] 无尽┃资源
+https://api.wujinapi.com/api.php/provide/vod
+
+[宝盒接口] 无尽┃源资
+https://api.wujinapi.me/api.php/provide/vod
+
+[宝盒接口] 丫丫┃资源
+https://cj.yayazy.net/api.php/provide/vod
+
+[宝盒接口] 金鹰┃资源
+https://jyzyapi.com/provide/vod
+
+[宝盒接口] 光速┃资源
+https://api.guangsuapi.com/api.php/provide/vod
+
+[宝盒接口] 速播┃资源
+https://subocj.com/api.php/provide/vod
+
+[宝盒接口] 豪华┃资源
+https://hhzyapi.com/api.php/provide/vod
+
+[宝盒接口] 极速┃资源
+https://jszyapi.com/api.php/provide/vod
+
+[宝盒接口] 飘零┃影院
+https://p2100.net/api.php/provide/vod
+
+[宝盒接口] 非凡┃资源
+http://cj.ffzyapi.com/api.php/provide/vod
+
+[宝盒接口] 天堂┃资源
+http://caiji.dyttzyapi.com/api.php/provide/vod
+
+[宝盒接口] 360┃资源
+https://360zy.com/api.php/provide/vod
+
+[宝盒接口] 天涯┃影视
+https://tyyszyapi.com/api.php/provide/vod
+
+[宝盒接口] 第一┃资源
+https://caiji.diyizy.net/api.php/provide/vod
+
+[宝盒接口] 百度┃资源
+https://api.apibdzy.com/api.php/provide/vod
+
+[宝盒接口] 猫眼┃资源
+https://api.maoyanapi.top/api.php/provide/vod
+
+[宝盒接口] 暴风┃资源
+https://bfzy2.tv/api.php/provide/vod
+
+[宝盒接口] ok┃资源
+https://okzyw.cc/api.php/provide/vod
+
+[宝盒接口] 共共┃青春
+https://gqc4.top/api.php/provide/vod
+
+[宝盒接口] 麒麟┃影音
+https://www.qlys.cc/api.php/provide/vod
+
 [宝盒接口] 儿童📚启蒙
 https://gh-proxy.com/https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js
 
 [荐片] 🦚量子┃采集
 https://cj.lziapi.com/api.php/provide/vod/at/xml
 
-[荐片] 🦔暴風┃采集
-https://bfzyapi.com/api.php/provide/vod
-
 [荐片] 🍭非凡┃采集
 http://cj.ffzyapi.com/api.php/provide/vod/at/xml
-
-[荐片] 🦜索尼┃采集
-https://suoniapi.com/api.php/provide/vod
 
 [荐片] 🦚360┃采集
 https://360zy.com/api.php/provide/vod?
@@ -2148,35 +2220,17 @@ https://file.zhangyichi.dev/uploads/695cb6347d0b1_1767683636.js
 [金鹰] 🐻黑狐┃影视
 https://catbox.n13.club/t4/heihu.php
 
-[金鹰] 🔰金鹰┃影视
-https://jyzyapi.com/provide/vod
-
-[金鹰] 🔥️火狐┃秒播
-https://hhzyapi.com/api.php/provide/vod
-
 [金鹰] 🍎高清┃2K
 https://api.1080zyku.com/inc/apijson.php
 
 [金鹰] 🐂红牛┃采集
 https://www.hongniuzy2.com/api.php/provide/vod
 
-[金鹰] 🎀极速┃采集
-https://jszyapi.com/api.php/provide/vod
-
-[金鹰] 🍚玛丽┃秒播
-https://360zy.com/api.php/provide/vod
-
 [金鹰] 🥣爱坤┃影视
 https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json
 
 [金鹰] 🥘微吧┃影视
 https://cjhwba.com/api.php/provide/vod
-
-[金鹰] 🆕非凡┃资源
-http://cj.ffzyapi.com/api.php/provide/vod
-
-[金鹰] 🔃量子┃资源
-http://cj.lziapi.com/api.php/provide/vod
 
 [金鹰] 🎊索尼┃资源
 https://suoniapi.com/api.php/provide/vod/from/snm3u8
@@ -2280,9 +2334,6 @@ https://gh-proxy.com/https://gh-proxy.org/https://raw.github.com/tly824/TvBoxx/m
 [5] 奇优影视
 https://gh-proxy.com/https://gh-proxy.org/https://raw.github.com/tly824/TvBoxx/master/js/drpy2.min.js
 
-[5] 飘零影视
-https://p2100.net/api.php/provide/vod
-
 [5] 豆瓣影视
 https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/xml
 
@@ -2373,9 +2424,6 @@ https://haiwaikan.com/api.php/provide/vod
 [我] 儿童┃启蒙
 https://gh-proxy.com/https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js
 
-[vv] 影视 • 电影天堂
-http://caiji.dyttzyapi.com/api.php/provide/vod
-
 [vv] 影视 • 天涯
 http://tyyszy.com/api.php/provide/vod
 
@@ -2399,9 +2447,6 @@ https://zy.jinchancaiji.com/api.php/provide/vod
 
 [vv] 影视 • 小绵阳
 https://vs.okcdn100.top/api.php/provide/vod
-
-[vv] 百度
-https://api.apibdzy.com/api.php/provide/vod
 
 [00000] 音乐-蜻蜓-点我切换线路-(公众号老猫迷)
 https://catbox.n13.club/t9/qingting.php
@@ -2652,6 +2697,12 @@ https://gh-proxy.com/https://git.yylx.win/https://raw.githubusercontent.com/fant
 [https://www.ls660.com/TV/feimao.json] 🏀┃体育┃直播
 https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js
 
+[tvbox放飞] ️天堂┃采集
+http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8
+
+[tvbox放飞] 新浪资源(切)
+http://api.xinlangapi.com/xinlangapi.php/provide/vod
+
 [我的] 360资源ZZ
 https://360zyzz.com/api.php/provide/vod
 
@@ -2688,9 +2739,6 @@ https://caiji.dbzy5.com/api.php/provide/vod/at/json
 [我的] 非凡资源
 http://api.ffzyapi.com/api.php/provide/vod
 
-[我的] 光速资源2
-https://api.guangsuapi.com/api.php/provide/vod
-
 [我的] 极速资源
 https://jszyapi.com/api.php/provide/vod/at/xml
 
@@ -2699,9 +2747,6 @@ https://caiji.kuaichezy.org/api.php/provide/vod
 
 [我的] 茅台资源
 https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml
-
-[我的] 猫眼资源
-https://api.maoyanapi.top/api.php/provide/vod
 
 [我的] 魔都资源
 https://www.mdzyapi.com/api.php/provide/vod
@@ -2721,29 +2766,17 @@ https://subocaiji.com/api.php/provide/vod/from/subyun/at/json
 [我的] 索尼-闪电
 https://xsd.sdzyapi.com/api.php/provide/vod
 
-[我的] 天涯API
-https://tyyszyapi.com/api.php/provide/vod
-
 [我的] 天涯资源
 https://tyyszy.com/api.php/provide/vod
 
 [我的] 无尽CC
 https://api.wujinapi.cc/api.php/provide/vod
 
-[我的] 无尽ME
-https://api.wujinapi.me/api.php/provide/vod
-
 [我的] 无尽NET
 https://api.wujinapi.net/api.php/provide/vod
 
-[我的] 无尽COM
-https://api.wujinapi.com/api.php/provide/vod
-
 [我的] 新浪资源
 https://api.xinlangapi.com/xinlangapi.php/provide/vod/json
-
-[我的] 鸭鸭资源
-https://cj.yayazy.net/api.php/provide/vod
 
 [我的] 鸭鸭资源2
 https://yayazy2.com/api.php/provide/vod/at/xml
@@ -2874,9 +2907,6 @@ http://cj.rycjapi.com/api.php/provide/vod
 [直播] 🌼豆瓣┃影视🌼
 https://caiji.dbzy5.com/api.php/provide/vod
 
-[直播] 🌼茅台┃影视🌼
-https://caiji.maotaizy.cc/api.php/provide/vod
-
 [直播] 🌼电影┃天堂🌼
 https://caiji.dyttzyapi.com/api.php/provide/vod
 
@@ -2904,9 +2934,6 @@ https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/m
 [直播] 🍊柚子资源
 https://api.yzzy-api.com/inc/api.php
 
-[123] 牛牛资源
-https://api.niuniuzy.me/api.php/provide/vod
-
 [123] C K 资源
 https://api.xinlangapi.com/xinlangapi.php/provide/vod
 
@@ -2915,9 +2942,6 @@ https://api.ukuapi88.com/api.php/provide/vod
 
 [123] 速播资源
 https://subocaiji.com/api.php/provide/vod
-
-[123] 闪电资源
-http://sdzyapi.com/api.php/provide/vod
 
 [noimank] 💥豆瓣
 https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js
