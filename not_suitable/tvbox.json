@@ -65,6 +65,26 @@
       "changeable": 0
     },
     {
+      "key": "橘子",
+      "name": "🍂┃橘子┃影视",
+      "type": 3,
+      "api": "csp_AppDramaV5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "橘汁",
+        "commonKey": "ed5fdsgucxumegqa",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "dataKey": "ZU1DSFFWNENKMDYXVUQRN0ZJDUC4PQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.asjdhjhd.mgd.p3",
+        "site": "https://1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
+        "version": "3.0.7.0",
+        "decrypt": "1"
+      }
+    },
+    {
       "key": "fanqecms",
       "name": "番茄┃零零",
       "type": 3,
@@ -84,26 +104,25 @@
       "changeable": 1
     },
     {
-      "key": "Doubana",
-      "name": "🐮【更新日期:20260911】🐮",
+      "key": "AppV7 | 小黄人",
+      "name": "💥黄人┃秒播💥",
       "type": 3,
-      "api": "csp_DoubanGuard",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
+      "api": "csp_WexAppV7Guard",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "config": "AppV7Xhr",
+        "proxyImg": false
+      },
+      "timeout": 120
     },
     {
-      "key": "tianyi",
-      "name": "💓我的┃天逸💓‍",
+      "key": "webdav",
+      "name": "👁️WebDav┃DIY👁️",
       "type": 3,
-      "api": "csp_WexWo189Guard",
+      "api": "csp_WebDAVGuard",
       "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
+      "changeable": 0
     },
     {
       "key": "影视森林",
@@ -155,26 +174,25 @@
       "changeable": 0
     },
     {
-      "key": "Doubana",
-      "name": "🐮【更新日期:20260911】🐮",
+      "key": "AppV7 | 小黄人",
+      "name": "💥黄人┃秒播💥",
       "type": 3,
-      "api": "csp_DoubanGuard",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
+      "api": "csp_WexAppV7Guard",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "config": "AppV7Xhr",
+        "proxyImg": false
+      },
+      "timeout": 120
     },
     {
-      "key": "tianyi",
-      "name": "💓我的┃天逸💓‍",
+      "key": "webdav",
+      "name": "👁️WebDav┃DIY👁️",
       "type": 3,
-      "api": "csp_WexWo189Guard",
+      "api": "csp_WebDAVGuard",
       "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
+      "changeable": 0
     },
     {
       "key": "rrys",
