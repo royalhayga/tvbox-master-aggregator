@@ -1,4 +1,4 @@
-# 2026-11-17 10:12:36
+# 2026-11-18 09:44:33
 
 💎可可影视┃4K
 https://gh-proxy.com/https://raw.githubusercontent.com/royalhayga/tvbox-master-aggregator/main/scripts/kkys_master.py
@@ -2076,9 +2076,6 @@ https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/main/py/tvbox.
 💎xiao┃[QIST]
 https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/main/py/xiao.py
 
-[二月红接口] 🍀┃非凡┃资源
-http://ffzy5.tv/api.php/provide/vod
-
 [俊哥接口] 低端影视(DRPY)
 http://home.jundie.top:666/JS/dr_py/libs/drpy.min.js
 
@@ -2135,6 +2132,9 @@ https://p2100.net/api.php/provide/vod
 
 [宝盒接口] 非凡┃资源
 http://cj.ffzyapi.com/api.php/provide/vod
+
+[宝盒接口] 非凡┃镜像
+http://ffzy5.tv/api.php/provide/vod
 
 [宝盒接口] 天堂┃资源
 http://caiji.dyttzyapi.com/api.php/provide/vod
