@@ -56,13 +56,10 @@
 4k4k.live
 4kcabin.com
 4kcz.com
-4kfm.com
-4kfox.com
 4kvm.net
 4kvm.top
 4kxc.com
 4kzn.cc
-4kzn.com
 4sbase64.dt188.site
 501690658.xyz
 50hd.gkrle7.com
@@ -373,6 +370,7 @@ c494.com
 c6dd5cc.com
 c8w2ov7u5wg2z1o8p21c.aliyuncs.click
 c9z7j.top
+cac.opple.com
 caiji.diyizy.net
 caiji.kczyapi.com
 caiji.kuaichezy.org
@@ -679,7 +677,6 @@ fish.y456y.com
 fishapi.wya6.com
 flixflop.com
 flowus.cn
-fm.t4tv.hz.cz
 fmao.shop
 fmao.site
 fmbox.cc
@@ -794,7 +791,6 @@ hcupfox.com
 hdfby.com
 hdfby.net
 hdfby.org
-hdhive.com
 hdhive.online
 hdzu.org
 hebeigoogle.com
@@ -1100,7 +1096,6 @@ lbapiby.com
 lebozy5.com
 lecteur.iconetv.bj
 legitpro.co.in
-leijing.xyz
 lencatelevision.com
 leuse.top
 lextertv300.com
@@ -1192,12 +1187,12 @@ live77cdn2.antenaplay.ro
 liveingesta318.cdnmedia.tv
 livelegitpro.in
 liveout.btzx.com.cn
-liveplay-srs.voc.com.cn
 liveplus.lzr.com.cn
 livestream-bt.nmtv.cn
 livestream.a3sv.ro
 livestream.jswk.online
 livestream.rajtvnet.in
+livestream.unlimitedcdn.com
 livingindia.ottlive.co.in
 ljiaovm.com
 lkvod.us
@@ -1388,6 +1383,7 @@ ndmt3.life
 netfapx.net
 netflixgc.com
 netflixgc.tv
+new.999888123.xyz
 new.app.bytegooty.com
 newdomain.com
 newhttestre666.cc
@@ -1502,7 +1498,6 @@ pili-live-hls.wdit.com.cn
 pl.a6club.com
 play.fuqizhishi.com
 play.iptvxxx.net
-play.scrstv.com.cn
 play1-qk.nmtv.cn
 play92332.com
 player.77lehuo.com
@@ -1758,9 +1753,7 @@ stream1.bitred.cl
 stream1.freetv.fun
 stream2.live-stream.ro
 stream2.livebox.co.in
-stream3.jlntv.cn
 stream8.cinerama.uz
-stream9.jlntv.cn
 streamhg.com
 streaming-android.freshnewsasia.tv
 streaming-live.rtp.pt
@@ -1785,7 +1778,6 @@ suonizy.com
 support-chat.rongcloud.cn
 surrit.com
 suyanw.cn
-svip.high24-playback.com
 svip.iremind.me
 svip.renrenmi.cc
 svip.rongxingvr.top
@@ -1842,6 +1834,7 @@ tv-trtarabi.medya.trt.com.tr
 tv-trthaber.medya.trt.com.tr
 tv.214521.xyz
 tv.850930.xyz
+tv.999888123.xyz
 tv.a2news.com
 tv.elyssatv.com
 tv.hamdardtv.com
@@ -1934,7 +1927,6 @@ vip.26db.cn
 vip.aiaine.com
 vip.bljiex.com
 vip.cchsxk.com
-vip.ffzy-play.com
 vip.ffzy-play6.com
 vip.ffzy-play7.com
 vip.ffzy-plays.com
@@ -2030,7 +2022,6 @@ wujinzy.com
 wujinzy.net
 wuyaoy.cn
 wuzy9.com
-ww.zouming.com
 wwgz.cn
 www.020zhicheng.com
 www.03yy.co
@@ -2266,7 +2257,6 @@ www.lggys.com
 www.lgmt.cc
 www.lgyy.vip
 www.libvio.fun
-www.libvio.mov
 www.libvio.pw
 www.livetimes.news
 www.lngwyw.com
@@ -2282,7 +2272,6 @@ www.m4560.com
 www.macms.pro
 www.maigo.cc
 www.medibiztv.com
-www.meijumi.net
 www.meijumi.xyz
 www.meijutt.net
 www.mfsp4k.top
@@ -2437,7 +2426,6 @@ www.xilibo.com
 www.xingchenwu.com
 www.xizoursofa.com
 www.xkanju.com
-www.xn--74qz10cqsltibh40akss.com
 www.xn--rgv465a.top
 www.xn--wcv59z.com
 www.xsmp3.com
@@ -2448,7 +2436,6 @@ www.xyflv.cc
 www.xzweiheng.com
 www.y3dy.cn
 www.y456y.com
-www.yao87.com
 www.yemahl.xyz
 www.yinfans.me
 www.yingm.cc
@@ -2465,7 +2452,6 @@ www.ysgc.fun
 www.ytshengde.com
 www.yu992.com
 www.yumus.cn
-www.yunso.net
 www.yunwuee.icu
 www.yyds.one
 www.zbkk.net
@@ -2593,7 +2579,6 @@ xxyy5.cfd
 xyjc8.cfd
 xzcjz.com
 xzybb1.com
-xzyshd.com
 y23xxa23duo12.xyz
 y2s52n7.com
 yaaabc.com
@@ -2676,7 +2661,6 @@ yzzy.tv
 z.b.bkpcp.top
 za.kuanjv.com
 zb.7778.uk
-zb.gxlbamc.com
 zbds.top
 zby.130519.xyz
 zdmhyg.cn
