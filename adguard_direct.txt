@@ -56,10 +56,13 @@
 @@||4k4k.live^
 @@||4kcabin.com^
 @@||4kcz.com^
+@@||4kfm.com^
+@@||4kfox.com^
 @@||4kvm.net^
 @@||4kvm.top^
 @@||4kxc.com^
 @@||4kzn.cc^
+@@||4kzn.com^
 @@||4sbase64.dt188.site^
 @@||501690658.xyz^
 @@||50hd.gkrle7.com^
@@ -81,7 +84,6 @@
 @@||5721004.xyz^
 @@||58hu.com^
 @@||5bf7b725107e5.streamlock.net^
-@@||5ddce30eb4b55.streamlock.net^
 @@||5dy6.vip^
 @@||5e73cf528f404.streamlock.net^
 @@||5f2c1b0d880e5.streamlock.net^
@@ -207,9 +209,11 @@
 @@||amg01106-amg01106c7-amgplt0747.playout.now3.amagi.tv^
 @@||amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv^
 @@||amg01416-amg01416c4-firetv-us-4522.playouts.now.amagi.tv^
+@@||amg01438-amg01438c12-vizio-us-10904.playouts.now.amagi.tv^
 @@||amg01448-samsungin-news18bangla-samsungin-ad-qy.amagi.tv^
 @@||amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv^
 @@||amg01821-lovetvchannels-lovemagazineuk-samsungse-p1sf1.amagi.tv^
+@@||amg01918-cnnus-amg01918c1-vizio-us-1813.playouts.now.amagi.tv^
 @@||amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv^
 @@||amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv^
 @@||amg17596-ntdtv-amg17596c1-rakuten-gb-6741.playouts.now.amagi.tv^
@@ -555,7 +559,6 @@
 @@||dmxq39.com^
 @@||dns.watch^
 @@||dnvod.org^
-@@||dogpan.com^
 @@||domain.com^
 @@||donmedia.bonus-tv.ru^
 @@||dood.la^
@@ -677,6 +680,7 @@
 @@||fishapi.wya6.com^
 @@||flixflop.com^
 @@||flowus.cn^
+@@||fm.t4tv.hz.cz^
 @@||fmao.shop^
 @@||fmao.site^
 @@||fmbox.cc^
@@ -739,7 +743,6 @@
 @@||gimytv.com^
 @@||git.yylx.win^
 @@||gitcafe.net^
-@@||gitee.cn^
 @@||github.ednovas.xyz^
 @@||gitlink.org.cn^
 @@||global.apirun.xn--vsqw5hh18a8vw.com^
@@ -791,6 +794,7 @@
 @@||hdfby.com^
 @@||hdfby.net^
 @@||hdfby.org^
+@@||hdhive.com^
 @@||hdhive.online^
 @@||hdzu.org^
 @@||hebeigoogle.com^
@@ -1096,6 +1100,7 @@
 @@||lebozy5.com^
 @@||lecteur.iconetv.bj^
 @@||legitpro.co.in^
+@@||leijing.xyz^
 @@||lencatelevision.com^
 @@||leuse.top^
 @@||lextertv300.com^
@@ -1202,6 +1207,7 @@
 @@||lmlgdjr.com^
 @@||lnd0t3b922.tenbytecdn.com^
 @@||lnk5511.bstrm.net^
+@@||localnow-vizio.amagi.tv^
 @@||long.lgtcpnb.cn^
 @@||lookluping.xyz^
 @@||lovedan.net^
@@ -1529,7 +1535,6 @@
 @@||pt.sxtv.top^
 @@||ptt.red^
 @@||q2cyl7.cdnedge.live^
-@@||qcfile.qcrmt.com^
 @@||qdys1.cc^
 @@||qdys2.cc^
 @@||qemao.com^
@@ -1723,6 +1728,7 @@
 @@||sta-cafe.com^
 @@||starlink.fan^
 @@||starmenajo.com^
+@@||static.am.mediaoutcast.com^
 @@||static.tvtropes.org^
 @@||stmv5.samcast.com.br^
 @@||stonelodgeacademy.com^
@@ -2022,13 +2028,13 @@
 @@||wujinzy.net^
 @@||wuyaoy.cn^
 @@||wuzy9.com^
+@@||ww.zouming.com^
 @@||wwgz.cn^
 @@||www.020zhicheng.com^
 @@||www.03yy.co^
 @@||www.0759ks.com^
 @@||www.1000007.com^
 @@||www.1234y.cc^
-@@||www.12377.cn^
 @@||www.1920lgzy.top^
 @@||www.2xiaopan.top^
 @@||www.2xiaozhan.top^
@@ -2257,6 +2263,7 @@
 @@||www.lgmt.cc^
 @@||www.lgyy.vip^
 @@||www.libvio.fun^
+@@||www.libvio.mov^
 @@||www.libvio.pw^
 @@||www.livetimes.news^
 @@||www.lngwyw.com^
@@ -2272,6 +2279,7 @@
 @@||www.macms.pro^
 @@||www.maigo.cc^
 @@||www.medibiztv.com^
+@@||www.meijumi.net^
 @@||www.meijumi.xyz^
 @@||www.meijutt.net^
 @@||www.mfsp4k.top^
@@ -2322,7 +2330,6 @@
 @@||www.nycvod.com^
 @@||www.oichaw.com^
 @@||www.omnys.com^
-@@||www.openatom.org^
 @@||www.pangujiexi.cc^
 @@||www.pg8090.com^
 @@||www.pikaso.top^
@@ -2362,7 +2369,6 @@
 @@||www.shwopu.com^
 @@||www.siren93.com^
 @@||www.sitanfu.net^
-@@||www.sizhengxt.com^
 @@||www.skymp4.com^
 @@||www.sohumama.com^
 @@||www.sotvla.cc^
@@ -2372,6 +2378,7 @@
 @@||www.su7.run^
 @@||www.suarasurabaya.net^
 @@||www.suike100.com^
+@@||www.sunnafh.com^
 @@||www.suying.lol^
 @@||www.sxmzie.com^
 @@||www.sxpxsm.com.cn^
@@ -2426,6 +2433,7 @@
 @@||www.xingchenwu.com^
 @@||www.xizoursofa.com^
 @@||www.xkanju.com^
+@@||www.xn--74qz10cqsltibh40akss.com^
 @@||www.xn--rgv465a.top^
 @@||www.xn--wcv59z.com^
 @@||www.xsmp3.com^
@@ -2452,6 +2460,7 @@
 @@||www.ytshengde.com^
 @@||www.yu992.com^
 @@||www.yumus.cn^
+@@||www.yunso.net^
 @@||www.yunwuee.icu^
 @@||www.yyds.one^
 @@||www.zbkk.net^
@@ -2579,6 +2588,7 @@
 @@||xyjc8.cfd^
 @@||xzcjz.com^
 @@||xzybb1.com^
+@@||xzyshd.com^
 @@||y23xxa23duo12.xyz^
 @@||y2s52n7.com^
 @@||yaaabc.com^
@@ -2610,7 +2620,6 @@
 @@||yinsd1.sbs^
 @@||yiqiys.com^
 @@||yitingshu.com^
-@@||yiyongji.page.gd^
 @@||yj1211.work^
 @@||yjzy.me^
 @@||yk.shaozeyy.com^
