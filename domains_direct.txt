@@ -1450,6 +1450,7 @@ onepage.czl.net
 op-group1-swiftservehd-1.dens.tv
 op.cdloop.eu
 op.ysdqjs.cn
+operativmm.az
 origin2.afxp.telemedia.co.za
 other.ottiptv.cc
 ott-7.sevstar.net
@@ -1639,6 +1640,7 @@ se.xiaosejie73.xyz
 seacms.net
 seacms.org
 seaige.com
+seedog.cc
 seeduck.cc
 sekihfde.com
 semaozy1.com
@@ -1737,7 +1739,6 @@ stream-gtlc.telecentro.net.ar
 stream-hls.castr.net
 stream-live.lrt.lt
 stream.agatin.hr
-stream.apa.tv
 stream.arcast.com.ar
 stream.az-multimedia.com
 stream.badinan.xyz
@@ -2198,7 +2199,8 @@ www.hangtong168.com
 www.hanjukankan.com
 www.hanjutu.com
 www.hanjuzy.com
-www.hdmoli.com
+www.hdmoli.me
+www.hdmoli.org
 www.hdmoli.pro
 www.hdsgt.com
 www.heyik.cn
