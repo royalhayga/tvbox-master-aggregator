@@ -1,7 +1,7 @@
 # TVBox 强制代理 Mihomo / Clash 规则集 (behavior: domain)
 payload:
-  - 'gfw.press'
-  - 'huangguoai.com'
-  - 'themoviedb.org'
-  - 'tmdb.org'
-  - 'v2fly.org'
+  - '+.gfw.press'
+  - '+.huangguoai.com'
+  - '+.themoviedb.org'
+  - '+.tmdb.org'
+  - '+.v2fly.org'
