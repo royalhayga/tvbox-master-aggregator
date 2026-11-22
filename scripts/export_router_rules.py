@@ -333,8 +333,8 @@ def export_grouped_router_rules(work_dir, sites=None, grouped_cdn_domains=None, 
             if final_d: f.write(f"{final_d}\n")
 
     yaml_header = "# TVBox 纯域名 Mihomo / Clash 直连规则集 (behavior: domain)\npayload:\n"
-    # 符合 Mihomo 官方规范：导出干净纯正的域名字符串，擦除非标准 +. 前缀
-    yaml_body = "".join(f"  - '{final_clean_before_write(d, is_proxy_context=False)}'\n" for d in sorted_direct_doms if final_clean_before_write(d, is_proxy_context=False))
+    # 符合 Mihomo 官方规范：添加 +. 前缀以匹配主域名及所有各级子域名
+    yaml_body = "".join(f"  - '+.{final_clean_before_write(d, is_proxy_context=False)}'\n" for d in sorted_direct_doms if final_clean_before_write(d, is_proxy_context=False))
 
     open(domains_direct_yaml, "w", encoding="utf-8").write(yaml_header + yaml_body)
     open(clash_rules_direct_yaml, "w", encoding="utf-8").write(yaml_header + yaml_body)
@@ -374,11 +374,11 @@ def export_grouped_router_rules(work_dir, sites=None, grouped_cdn_domains=None, 
             if final_d: f.write(f"@@||{final_d}^\n")
 
     proxy_yaml_header = "# TVBox 强制代理 Mihomo / Clash 规则集 (behavior: domain)\npayload:\n"
-    proxy_yaml_body = "".join(f"  - '{final_clean_before_write(d, is_proxy_context=True)}'\n" for d in sorted_proxy_doms if final_clean_before_write(d, is_proxy_context=True))
+    proxy_yaml_body = "".join(f"  - '+.{final_clean_before_write(d, is_proxy_context=True)}'\n" for d in sorted_proxy_doms if final_clean_before_write(d, is_proxy_context=True))
 
     open(domains_proxy_yaml, "w", encoding="utf-8").write(proxy_yaml_header + proxy_yaml_body)
     open(clash_rules_proxy_yaml, "w", encoding="utf-8").write(proxy_yaml_header + proxy_yaml_body)
-
+ 
     # 4. 1:1 严格调用 CRThu/clash-rules-mrs 官方命令 mihomo convert-ruleset 编译导出二进制 .mrs 规则集
     compile_mihomo_mrs("domain", domains_direct_yaml, os.path.join(work_dir, "domains_direct.mrs"))
     compile_mihomo_mrs("ipcidr", ips_direct_yaml, os.path.join(work_dir, "ips_direct.mrs"))
