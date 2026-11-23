@@ -45,7 +45,7 @@
     },
     {
       "key": "点我切源",
-      "name": "豆豆┃片单 <fix+升级弹幕>",
+      "name": "豆豆┃片单 <Fix所有>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -572,27 +572,6 @@
       }
     },
     {
-      "key": "橘子",
-      "name": "🍊橘子┃影视",
-      "type": 3,
-      "api": "csp_AppDramaV5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "橘汁",
-        "commonKey": "ed5fdsgucxumegqa",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-        "dataKey": "ZU1DSFFWNENKMDYXVUQRN0ZJDUC4PQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.asjdhjhd.mgd.p3",
-        "host": "",
-        "site": "https://1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
-        "version": "3.0.7.0",
-        "decrypt": "1"
-      }
-    },
-    {
       "key": "金牌123",
       "name": "🥇金牌｜影视",
       "type": 3,
@@ -637,7 +616,7 @@
       "jar": "https://zl.wpscdn.cn/2026/06/18/space_img/3c75da06-54f9-4e41-8f3a-57ce390c889e.png"
     },
     {
-      "name": "🔥经典┃推荐",
+      "name": "🔥┃经典┃推荐",
       "key": "Xxxg",
       "type": 3,
       "api": "csp_XxxgAmns",
