@@ -45,7 +45,7 @@
     },
     {
       "key": "点我切源",
-      "name": "豆豆┃片单 <Fix所有>",
+      "name": "豆豆┃片单 <修复扫码Bug>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -193,6 +193,16 @@
       "api": "csp_WebDAVGuard",
       "searchable": 1,
       "changeable": 0
+    },
+    {
+      "key": "csp_XYQHiker_大地",
+      "name": "大地|御",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/御_大地影视.json"
     },
     {
       "key": "rrys",

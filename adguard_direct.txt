@@ -123,6 +123,7 @@
 @@||86516.tk^
 @@||87735d5.com^
 @@||887717.xyz^
+@@||888mov.com^
 @@||892539.xyz^
 @@||8a5.cn^
 @@||8bb88.cdnedge.live^
@@ -189,6 +190,7 @@
 @@||aliys.cn^
 @@||alloforfait.fr^
 @@||alwifaklive.info^
+@@||amchls.wns.live^
 @@||amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv^
 @@||amg00327-coxmediagroup-wsocbreaking-plex-t51et.amagi.tv^
 @@||amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv^
@@ -432,7 +434,6 @@
 @@||cenguigui.cn^
 @@||chabeihuvideo.com^
 @@||chaloli.cn^
-@@||channel.vrlivegujarat.com^
 @@||channel.wcrmt.cn^
 @@||chardikalagurbanitv.gigabitcdn.net^
 @@||chardikalanorthamerica.gigabitcdn.net^
@@ -874,6 +875,7 @@
 @@||hws.com^
 @@||hzhcbkj.cn^
 @@||hzqingshan.com^
+@@||i.guancha.cn^
 @@||i24newsfrench-cdn.encoders.immergo.tv^
 @@||i24newshebrew-cdn.encoders.immergo.tv^
 @@||i275.com^
@@ -1004,6 +1006,7 @@
 @@||jvnmtr.cn^
 @@||jvx.i3ubxvj.com^
 @@||jx.255tv.cn^
+@@||jx.4kdv.com^
 @@||jx.52ruo.cc^
 @@||jx.58g8.com^
 @@||jx.777jiexi.com^
@@ -1019,6 +1022,7 @@
 @@||jx.jsonplayer.com^
 @@||jx.kptv.us^
 @@||jx.mczdyw.com^
+@@||jx.ppjbk.cn^
 @@||jx.shipinbofang.net^
 @@||jx.vipmv.co^
 @@||jx.wujinkk.com^
@@ -1162,11 +1166,11 @@
 @@||live.paltodaytv.com^
 @@||live.qthnews.org.cn^
 @@||live.saharamedias.net^
+@@||live.skystream.in^
 @@||live.sli.ke^
 @@||live.streaming.a2d.tv^
 @@||live.tcm10.com.br^
 @@||live.topnews.co.th^
-@@||live.vipnews24x7.co.in^
 @@||live.visir.is^
 @@||live.wcetv.com^
 @@||live.wrencdn.in^
@@ -1189,7 +1193,6 @@
 @@||livestream-bt.nmtv.cn^
 @@||livestream.a3sv.ro^
 @@||livestream.jswk.online^
-@@||livestream.rajtvnet.in^
 @@||livestream.unlimitedcdn.com^
 @@||livingindia.ottlive.co.in^
 @@||ljiaovm.com^
@@ -1444,7 +1447,6 @@
 @@||op-group1-swiftservehd-1.dens.tv^
 @@||op.cdloop.eu^
 @@||op.ysdqjs.cn^
-@@||operativmm.az^
 @@||origin2.afxp.telemedia.co.za^
 @@||other.ottiptv.cc^
 @@||ott-7.sevstar.net^
@@ -1600,6 +1602,7 @@
 @@||rpprod.hbbtv.cdn.cra.cz^
 @@||rqtq.mom^
 @@||rqxk.gdata.fun^
+@@||rrys25.com^
 @@||rtm-player.glueapi.io^
 @@||rtvelivestream.rtve.es^
 @@||ruv.xxkk7.com^
@@ -1618,6 +1621,7 @@
 @@||sabconetanw.cdn.mangomolo.com^
 @@||sabctretalh.cdn.mangomolo.com^
 @@||samitaorigin.tangotv.in^
+@@||samsung-republictv.amagi.tv^
 @@||sankei.mo^
 @@||saodu.work^
 @@||saohuo.tv^
@@ -1641,6 +1645,7 @@
 @@||serv00.net^
 @@||server.gointernet.gr^
 @@||server.playontv.in^
+@@||server.thelegitpro.in^
 @@||server.zillarbarta.com^
 @@||servilive.com^
 @@||sevas.1tvcrimea.ru^
@@ -1736,7 +1741,6 @@
 @@||stream.beninwebtv.bj^
 @@||stream.berosat.live^
 @@||stream.hc2tv.bj^
-@@||stream.joytvindia.com^
 @@||stream.logichost.in^
 @@||stream.mcquack.net^
 @@||stream.ottlive.co.in^
@@ -1751,7 +1755,6 @@
 @@||stream1.bitred.cl^
 @@||stream1.freetv.fun^
 @@||stream2.live-stream.ro^
-@@||stream2.livebox.co.in^
 @@||stream8.cinerama.uz^
 @@||streamhg.com^
 @@||streaming-android.freshnewsasia.tv^
@@ -1805,7 +1808,6 @@
 @@||teveo.cu^
 @@||tgydy.com^
 @@||thefirst-oando.amagi.tv^
-@@||thelegitpro.in^
 @@||thisav.my^
 @@||thu.bnmdquasi.cc^
 @@||thu.gpcqqmsof.cc^
@@ -1855,6 +1857,7 @@
 @@||tvpnlogopeu.samsungcloud.tv^
 @@||tvr-info.lg.mncdn.com^
 @@||tvsen6.aynaott.com^
+@@||tvstream.az^
 @@||tvu.umsa.bo^
 @@||txnp.cn^
 @@||ty1010.com^
@@ -1935,6 +1938,7 @@
 @@||vip.nxflv.com^
 @@||vip.rongxingvr.top^
 @@||vip.xfyun.one^
+@@||vip.xilibo.com^
 @@||vip.yybjs.top^
 @@||vip.zykbf.com^
 @@||vip1.fhbf9.com^
@@ -2064,6 +2068,7 @@
 @@||www.8hysw.com^
 @@||www.91panta.cn^
 @@||www.91w2i.com^
+@@||www.926dy.com^
 @@||www.92kyy.com^
 @@||www.937tv.vip^
 @@||www.9fy.cc^
@@ -2080,6 +2085,7 @@
 @@||www.airfun.fun^
 @@||www.airpurging.com^
 @@||www.alaqsanet.news^
+@@||www.alkywg.com^
 @@||www.amixtv.com^
 @@||www.appmovie.vip^
 @@||www.asmrtd.com^
@@ -2180,6 +2186,7 @@
 @@||www.gs4x7nq4.com^
 @@||www.gsjtlxy.top^
 @@||www.guahd.com^
+@@||www.guan-feng.com^
 @@||www.guangya.net^
 @@||www.gugu3.com^
 @@||www.guipian365.com^
@@ -2275,6 +2282,7 @@
 @@||www.meijumi.xyz^
 @@||www.meijutt.net^
 @@||www.mfsp4k.top^
+@@||www.miaoys.cc^
 @@||www.midianshi.com^
 @@||www.milkidc.cn^
 @@||www.milvdou.fun^
