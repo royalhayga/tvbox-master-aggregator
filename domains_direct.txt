@@ -1171,6 +1171,7 @@ live.sli.ke
 live.streaming.a2d.tv
 live.tcm10.com.br
 live.topnews.co.th
+live.unutv.md
 live.visir.is
 live.wcetv.com
 live.wrencdn.in
@@ -1524,7 +1525,6 @@ ppxzy.net
 prasarbharti-nn.vidgyor.com
 probabyml.com
 protokolldns.xyz
-proxy-v.rctiplus.id
 prshinezenx.blog
 prudentmcdn.rixcast.com
 prx-y5cf8.mediatool.tv
@@ -2407,7 +2407,6 @@ www.tvkuys.xyz
 www.tvyb03.com
 www.tvyb10.com
 www.viptu.com
-www.visionplus.id
 www.vivalivetv.com
 www.voflix.me
 www.vssdy.com
@@ -2531,6 +2530,7 @@ xiu5793xiu.cc
 xiutan.shiyifacai.com
 xiuxxxxxiu.cc
 xiwutv.com
+xkykmovie.com
 xl01.com.de
 xltupian.com
 xlys.me
