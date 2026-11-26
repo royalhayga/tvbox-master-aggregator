@@ -190,7 +190,6 @@ alist.xn--z7x900a.live
 aliys.cn
 alloforfait.fr
 alwifaklive.info
-amchls.wns.live
 amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv
 amg00327-coxmediagroup-wsocbreaking-plex-t51et.amagi.tv
 amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv
@@ -1508,6 +1507,7 @@ player.77lehuo.com
 player.castr.com
 player.gimy.bot
 player.hw8.lol
+player.instantvideocloud.net
 player.mrgaocloud.com
 playerjy.com
 playm3u8.cn

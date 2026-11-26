@@ -44,16 +44,6 @@
       }
     },
     {
-      "key": "点我切源",
-      "name": "豆豆┃片单 <修复扫码BUG>",
-      "type": 3,
-      "api": "csp_DouDouGuard",
-      "indexs": 1,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
       "key": "fanqecms",
       "name": "番茄┃零零",
       "type": 3,
