@@ -190,6 +190,7 @@
 @@||aliys.cn^
 @@||alloforfait.fr^
 @@||alwifaklive.info^
+@@||amchls.wns.live^
 @@||amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv^
 @@||amg00327-coxmediagroup-wsocbreaking-plex-t51et.amagi.tv^
 @@||amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv^
@@ -280,7 +281,6 @@
 @@||app.ishen520.com^
 @@||app.kzjtv.com^
 @@||app.movie^
-@@||app.moyu666666.top^
 @@||app.ncare.live^
 @@||app.okmedcos.com^
 @@||app.omofun1.top^
@@ -358,7 +358,6 @@
 @@||btjg.net^
 @@||bttwoo.com^
 @@||bubutv.top^
-@@||bubuzhuiju.com^
 @@||bwind.fr.to^
 @@||bwzyz.com^
 @@||by24h.com^
@@ -388,6 +387,7 @@
 @@||cbs12.com^
 @@||ccjxweesh.cc^
 @@||cd-zj.com^
+@@||cda7bae2.wurl.com^
 @@||cddys.me^
 @@||cdn-5.nxplay.com.br^
 @@||cdn-apse1-prod.tsv2.amagi.tv^
@@ -674,7 +674,6 @@
 @@||fish.y456y.com^
 @@||fishapi.wya6.com^
 @@||flixflop.com^
-@@||flowus.cn^
 @@||fm.t4tv.hz.cz^
 @@||fmao.shop^
 @@||fmao.site^
@@ -1163,7 +1162,6 @@
 @@||live.obslivestream.com^
 @@||live.ottiptv.cc^
 @@||live.paltodaytv.com^
-@@||live.qthnews.org.cn^
 @@||live.saharamedias.net^
 @@||live.skystream.in^
 @@||live.sli.ke^
@@ -1306,6 +1304,7 @@
 @@||miaotvs.cn^
 @@||migu.188766.xyz^
 @@||mihdr.top^
+@@||mimi.yuxino.cn^
 @@||minba-abus.buzz^
 @@||mingapi.top^
 @@||miqk.cc^
@@ -1367,7 +1366,6 @@
 @@||mzrjk.top^
 @@||n-5-2.eu.cdn-redge.media^
 @@||n2d4z.top^
-@@||naifei.fyi^
 @@||naifei.im^
 @@||naitang8.top^
 @@||naixxzy.com^
@@ -2070,7 +2068,6 @@
 @@||www.91w2i.com^
 @@||www.926dy.com^
 @@||www.92kyy.com^
-@@||www.937tv.vip^
 @@||www.9fy.cc^
 @@||www.9kdy.com^
 @@||www.acfuns.net^
@@ -2162,7 +2159,6 @@
 @@||www.dubokuz.com^
 @@||www.dudu30.com^
 @@||www.duonaovod.com^
-@@||www.duse0.com^
 @@||www.dushe7.app^
 @@||www.duzili.cc^
 @@||www.dy131.org^
@@ -2467,7 +2463,6 @@
 @@||www.zhizhenpan.fun^
 @@||www.zhjlks.com^
 @@||www.zhuiju.us^
-@@||www.zhushifu.cn^
 @@||www.zjcvod.com^
 @@||www.zjgydsj.com^
 @@||www.zmp4.com^
