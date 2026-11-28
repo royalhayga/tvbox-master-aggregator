@@ -190,7 +190,6 @@ alist.xn--z7x900a.live
 aliys.cn
 alloforfait.fr
 alwifaklive.info
-amchls.wns.live
 amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv
 amg00327-coxmediagroup-wsocbreaking-plex-t51et.amagi.tv
 amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv
@@ -281,6 +280,7 @@ app.iminna.com
 app.ishen520.com
 app.kzjtv.com
 app.movie
+app.moyu666666.top
 app.ncare.live
 app.okmedcos.com
 app.omofun1.top
@@ -615,6 +615,7 @@ enbymae.com
 enhd.ar
 epg.cdn.loc.cc
 epg.iill.top
+epg.kanya.io
 epg.one
 epg.pw
 epg.v1.mk
@@ -674,6 +675,7 @@ film.symx.club
 fish.y456y.com
 fishapi.wya6.com
 flixflop.com
+flowus.cn
 fm.t4tv.hz.cz
 fmao.shop
 fmao.site
@@ -782,6 +784,7 @@ haohanba.cn
 haohuazy.com
 haojuwu.cc
 haokanyingshi.com
+haopianwang.com
 hc.izny.cn
 hc9lby9bzw8zcar.wcetv.com
 hclyz.com
@@ -1138,6 +1141,7 @@ live.264788.xyz
 live.alarabiya.net
 live.alissahost.net
 live.artidijitalmedya.com
+live.atlanticotelevision.com
 live.cdnbridge.tv
 live.channel8.com
 live.dottotv.ro
@@ -1162,6 +1166,7 @@ live.nowtelly.com
 live.obslivestream.com
 live.ottiptv.cc
 live.paltodaytv.com
+live.qthnews.org.cn
 live.saharamedias.net
 live.skystream.in
 live.sli.ke
@@ -1909,7 +1914,6 @@ vgwtswi.xyz
 video.adminqt.cn
 video.ainunu.com
 video.detik.com
-video.epaper.pybtv.cn
 video.primexsports.com
 video01.brascast.com
 video01.logicahost.com.br
@@ -2006,6 +2010,7 @@ wolongzy.cc
 wolongzyw.com
 woog.430520.xyz
 woog.nxog.fun
+worker-9dd4.onrender.com
 wp.kayyw.com
 wpcoder.cn
 wsapi.dafenqi.mom
@@ -2463,6 +2468,7 @@ www.zghhjt.com
 www.zhizhenpan.fun
 www.zhjlks.com
 www.zhuiju.us
+www.zhushifu.cn
 www.zjcvod.com
 www.zjgydsj.com
 www.zmp4.com

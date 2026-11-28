@@ -10740,14 +10740,14 @@
     },
     {
       "key": "点我切源",
-      "name": "[饭太硬] 片单┃ <修复AI剧>",
+      "name": "[饭太硬] 片单┃ <修复夸父扫码>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10764,7 +10764,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -10780,7 +10780,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10791,7 +10791,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10809,7 +10809,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "uqGL1fpJNAUN8ORQgIPD+b6l+CzC2t8=",
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10825,7 +10825,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10841,7 +10841,7 @@
         "ratio": 1.597
       },
       "ext": {},
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10854,7 +10854,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "indexs": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10866,7 +10866,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10878,7 +10878,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10890,7 +10890,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "rfOIzPkSUkANv6AT2prC8aD6+WjK3tPozSUvL572CklJZV9L6ysy+LVxZfJR1dM5o3ePLoIPjnos/W4yTqlgUtqU/aeuWHa5fKzelf2sVzGilRkvdFcCpBwt4dB24J1GEdZi4DsMHkz6Ge+zjX/4lHrfVcSOjIFNIHP1TGLmwiCpZd34DfAtn2npr5u6BiYW36CCIID+khfgtA1QQQjazWJBV3hjZT57WbmPs4WoqoDf3MGfd+4AaVzVjPnSLAOD2edXSp3gLgdURjXO5rPlrsRhysXbhlAyQA15/MbFhVwQeGBiKp/Om1PLYiw01LYiplgqx1mxcnCu3SSrfadD2cKgPdJhQi6Ns55eNIeZoiEWrnfgxcAnnhd5nWDZ67WBbRK1YBs1pV05B3ICXao4njVgOB+AbpZJjzs+4PgYLocnQhq0w5RxRFDq1REMpMgSdgE8wYzUtzPO0HcKhCUb01/DQiU9Iy/kZor8+cABH603aMYHOqNXQFJ4R4LFZ8IbYaWLmqhvUm8iQV0ZLHj4NqF+uQnjy89nsQQT2q8FzQG9bod3dmQXCuRaHYCS9ghnVTWCd8TE2CIhY02jyXbE3APr+YN9l/ey1FgdYR7G4c9ZlkHOpEtorwSksB/tkX1+AA==",
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10903,7 +10903,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10919,7 +10919,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "siteUrl": "https://www.libvio.pw/"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10931,7 +10931,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10943,7 +10943,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10958,7 +10958,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10970,7 +10970,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10983,7 +10983,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -10995,7 +10995,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4jq3i8iepe3AAlFJlcJ8nEyo7U0Zv5Ly99uvDeRbsAQwngm4DhwCew4GZ2NpO2FWja5GbiLw/2+VyOxmwVkfRMWv4r7F0yFFcgHZdBu8XhZS17qCOz4hFXmThTNJJ6r6izqIDiy35MRVt1r5SFVFYMtnUTQrp+ZBiYW36CCI5fykR7RtA1QQQjazGJoVUFvZT57WbmPsbmEq4PL3sG/d+4AaXHujcfaLgOj2edXRYrRLyZgRDXu5rPlrch5yOPchlAyQA15/MbFhVwQeGBiKp/Ol0PSYQ0L1LYiplgqx0aqcFWB3SSrfadD1ta+PdJhQi6Ns55eNKyCrQIerEX3CWe/XK76nWvQ56ODrocvbicwZNeFBEManAuunz1sNQ2DrzHETbmz4uIhIKURTSi2DzPpheVx1xMUpM0KdwYvDStMdYpN338GiDAa0ljQjoKl4a1pZL7G+94WHpgTaMYHOYBZQWdjR4LFZ8IbYaWLmbViXGQ0Q1467upx9DPMuiXhyvxJcKCd25sXD7kQb7RxdFMuy0DUzXHYRuD9",
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11007,7 +11007,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11020,7 +11020,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "uqGL1bNENExT7/hGxpSE5qU=",
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11035,7 +11035,7 @@
       "quickSearch": 1,
       "searchable": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11047,7 +11047,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11059,7 +11059,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11072,7 +11072,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "https://www.xb6v.com/",
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11089,7 +11089,7 @@
       "quickSearch": 1,
       "searchable": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11101,7 +11101,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11115,7 +11115,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -11130,7 +11130,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11144,7 +11144,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11162,7 +11162,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11177,7 +11177,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11192,7 +11192,7 @@
         "type": "rect",
         "ratio": 3.8
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11210,7 +11210,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11228,7 +11228,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11246,7 +11246,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11264,7 +11264,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11278,7 +11278,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11292,7 +11292,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11306,7 +11306,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11320,7 +11320,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11338,7 +11338,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11356,7 +11356,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11372,7 +11372,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11390,7 +11390,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11408,7 +11408,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11426,7 +11426,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11444,7 +11444,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11457,7 +11457,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -11468,7 +11468,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;5302302a73a9e27cfaa65f3873b727ab",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;fa149671d3bfb3a718b98c77f47cef45",
       "filterable": 1
     },
     {
@@ -12401,7 +12401,7 @@
       "type": 3,
       "api": "csp_Douban",
       "searchable": 1,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -12417,7 +12417,7 @@
         "type": "rect",
         "ratio": 1.618
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -12426,7 +12426,7 @@
       "name": "[潇洒] 本地 • 视频",
       "type": 3,
       "api": "csp_LocalFile",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -12437,7 +12437,7 @@
       "type": 3,
       "api": "csp_YGP",
       "searchable": 1,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -12452,7 +12452,7 @@
       "ext": {
         "url": "http://v.rbotv.cn"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "云播",
@@ -12462,7 +12462,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "未来",
@@ -12472,7 +12472,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "快映fox",
@@ -12483,7 +12483,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./json/ky4kbgq7b273.json",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "一起影视",
@@ -12493,7 +12493,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "布布",
@@ -12511,7 +12511,7 @@
         "client": "8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a",
         "sign": "ddtvf65f3a83d6d9ad6f"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "马猴影视",
@@ -12528,7 +12528,7 @@
         "sk": "SK-woniu-thanks",
         "ver": "1"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -12541,7 +12541,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "师兄",
@@ -12561,7 +12561,7 @@
         "user_agent": "Dart/3.11 (dart:io)",
         "private_key": "MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAO9omsi+ys7fmBH3w1d0DfvRAQlj0wLB1BI3Xsb9WSiu4lEc1Me+XubnzTxaQPCBbnuZURerRrO981n9GhsQkDcWmtW+X1mpCllOWt8bbnWwKPsHqemRFxncDWE/d0nA9yrZn6nLVy/J7DJ3cVJlIs9bNLArqEiR8KVrAf1PNSLXAgMBAAECgYBGPn3z2q8s5cP7uaOSHFYiBZ/1PlniXDa6JY7ked9YJX/35qqz9LJps6evRpf5OTDOiRyXAkUbZedqBu5K9KArSGVyxp/Vym4b0siEVeM8qq9Gbf74lHPH+L+X/NmXemydwZHR1lU9PiLJVMsh8o6aAazkB8ijZcsNMyYZUSH36QJBAPvHq511Uz45lx5BtVSZClcUnqPRFSmNnRdjATikDzFTObemnGJU3eL/7VIPWtjEj9LvGP/WyX6gyo1zKc8BRtUCQQDza9oFnSmMHPkvrll/zMxcy3FeOTW0hctBhdIMbBmjJJyhlfTmBOvxwm8I91F05ydkSZ1yLuLhAjLxbjqs2fD7AkB/KOHQvW+UTqu22ULGfiCNyFkyrSc9/EqphBQa0ijmJX1R9nCm7Ou/eLgYKK8eKW/l/WGn3IeZT4XdGJu185QdAkBthqmivQRktuSoP5qlllCdsCxiaPtxLoI2CTBpxnoCngab7g0zMiO3s/Sh5CYSo69lwHnHVrFe7M5fM2nTPHzhAkEAiJETUvYFwCVKNGTYMzUg7v3QblqYXB+IhzcU37sHZOn6a46V5eJDadavIvuEmoxJHWTybi+1ZkN7LeUUg4ylCw=="
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -12579,7 +12579,7 @@
         "buildNumber": "2002",
         "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -12597,7 +12597,7 @@
         "buildNumber": "2001",
         "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -12621,7 +12621,7 @@
         "version": "3.0.0.7",
         "decrypt": "0"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "橘汁",
@@ -12642,7 +12642,7 @@
         "version": "3.0.7.0",
         "decrypt": "1"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "华谊",
@@ -12663,7 +12663,7 @@
         "version": "6.0.0.1",
         "decrypt": "0"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "苹果",
@@ -12684,7 +12684,7 @@
         "version": "1.0.0.3",
         "decrypt": "0"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "蓝鹰",
@@ -12700,7 +12700,7 @@
         "init": "initV122",
         "ua": "okhttp/3.10.0"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -12718,7 +12718,7 @@
         "init": "initV122",
         "ua": "okhttp/3.10.0"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -12734,7 +12734,7 @@
         "dataKey": "5a9w6x58dsq6z3a6",
         "dataIv": "5a9w6x58dsq6z3a6"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -12750,7 +12750,7 @@
         "dataKey": "88689667dce61725",
         "dataIv": "88689667dce61725"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -12771,7 +12771,7 @@
         "n": "哔哩合集",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "哔哩视频",
@@ -12789,14 +12789,14 @@
       "ext": {
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "三六零",
       "name": "[潇洒] 三六零 • 视频",
       "type": 3,
       "api": "csp_SP360",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -12819,7 +12819,7 @@
         ]
       },
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "快映",
@@ -12837,7 +12837,7 @@
         ]
       },
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "木偶",
@@ -12857,7 +12857,7 @@
         ]
       },
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "蜡笔",
@@ -12877,7 +12877,7 @@
         ]
       },
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "闪电",
@@ -12895,7 +12895,7 @@
         ]
       },
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "多多_945",
@@ -12914,7 +12914,7 @@
         ]
       },
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "虎斑",
@@ -12932,7 +12932,7 @@
         ]
       },
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "花卷_947",
@@ -12950,7 +12950,7 @@
         ]
       },
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "种子",
@@ -12967,7 +12967,7 @@
         ]
       },
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -12979,7 +12979,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "指南",
@@ -12995,7 +12995,7 @@
         ]
       },
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "小丑",
@@ -13011,7 +13011,7 @@
         ]
       },
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "茉莉",
@@ -13028,7 +13028,7 @@
         ]
       },
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "爱盼",
@@ -13039,7 +13039,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "移动",
@@ -13050,7 +13050,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "即刻",
@@ -13064,7 +13064,7 @@
         "type": "list"
       },
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "双星",
@@ -13078,7 +13078,7 @@
         "type": "list"
       },
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "卡卡",
@@ -13092,7 +13092,7 @@
         "type": "list"
       },
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "红果短剧",
@@ -13100,7 +13100,7 @@
       "type": 3,
       "api": "./py/红果短剧.py",
       "genre": "shortdrama",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13111,7 +13111,7 @@
       "type": 3,
       "api": "csp_ShortQimao",
       "genre": "shortdrama",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13122,7 +13122,7 @@
       "type": 3,
       "api": "csp_ShortHema",
       "genre": "shortdrama",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13133,7 +13133,7 @@
       "type": 3,
       "api": "csp_ShortWeiguan",
       "genre": "shortdrama",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13144,7 +13144,7 @@
       "type": 3,
       "api": "csp_ShortHaokan",
       "genre": "shortdrama",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13155,7 +13155,7 @@
       "type": 3,
       "api": "csp_ShortXingya",
       "genre": "shortdrama",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13172,7 +13172,7 @@
         "分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"
       },
       "genre": "shortdrama",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13182,7 +13182,7 @@
       "name": "[潇洒] 看剧 • 影视",
       "type": 3,
       "api": "csp_KanJuAI",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13192,7 +13192,7 @@
       "name": "[潇洒] 星辰 • 影视",
       "type": 3,
       "api": "csp_XingChen",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13202,7 +13202,7 @@
       "name": "[潇洒] 独播 • 影视",
       "type": 3,
       "api": "csp_Duboku",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13213,7 +13213,7 @@
       "type": 3,
       "api": "csp_Jpys",
       "ext": "https://www.sunnafh.com,https://m.sizhengxt.com,https://m.jiabaide.cn",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13224,7 +13224,7 @@
       "type": 3,
       "api": "csp_SaoHuo",
       "ext": "https://shdy5.us",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13237,7 +13237,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "1905",
@@ -13247,7 +13247,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "番社动漫",
@@ -13275,7 +13275,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13285,7 +13285,7 @@
       "name": "[潇洒] 赏月 • 动漫",
       "type": 3,
       "api": "csp_AnimeTsukimi",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13295,7 +13295,7 @@
       "name": "[潇洒] 稀饭 • 动漫",
       "type": 3,
       "api": "csp_AnimeXifan",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13305,7 +13305,7 @@
       "name": "[潇洒] 巴士 • 动漫",
       "type": 3,
       "api": "csp_AnimeBashi",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13315,7 +13315,7 @@
       "name": "[潇洒] 吉里 • 动漫",
       "type": 3,
       "api": "csp_AnimeGiri",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13325,7 +13325,7 @@
       "name": "[潇洒] 花子 • 动漫",
       "type": 3,
       "api": "csp_AnimeHuazi",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13335,7 +13335,7 @@
       "name": "[潇洒] 漫国 • 动漫",
       "type": 3,
       "api": "csp_AnimeGHG",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13351,7 +13351,7 @@
           "https://www.zxfmj.com"
         ]
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13365,7 +13365,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.xb6v.com",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "美剧迷",
@@ -13375,7 +13375,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "迅雷吧",
@@ -13386,7 +13386,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://xunlei8.me",
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "电影港",
@@ -13396,7 +13396,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "阿里云盘",
@@ -13410,7 +13410,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "quickSearch": 1
     },
     {
@@ -13425,7 +13425,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "quickSearch": 1
     },
     {
@@ -13440,7 +13440,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "quickSearch": 1
     },
     {
@@ -13455,7 +13455,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "quickSearch": 1
     },
     {
@@ -13470,7 +13470,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "quickSearch": 1
     },
     {
@@ -13485,7 +13485,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "quickSearch": 1
     },
     {
@@ -13500,7 +13500,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "quickSearch": 1
     },
     {
@@ -13515,7 +13515,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "quickSearch": 1
     },
     {
@@ -13527,7 +13527,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "盘搜",
@@ -13538,7 +13538,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "酷乐",
@@ -13549,7 +13549,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "百酷",
@@ -13560,7 +13560,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "趣盘",
@@ -13571,7 +13571,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "timeout": 60,
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "88看球_997",
@@ -13584,7 +13584,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13598,7 +13598,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13612,7 +13612,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13626,7 +13626,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13640,7 +13640,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13654,7 +13654,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13668,7 +13668,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13682,7 +13682,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13693,7 +13693,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13710,7 +13710,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13724,7 +13724,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13738,7 +13738,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13753,7 +13753,7 @@
         "type": "rect",
         "ratio": 1.618
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13768,7 +13768,7 @@
         "type": "rect",
         "ratio": 1.618
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13783,7 +13783,7 @@
         "type": "rect",
         "ratio": 1.618
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13802,7 +13802,7 @@
         "type": "rect",
         "ratio": 1.618
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13821,7 +13821,7 @@
         "type": "rect",
         "ratio": 1.618
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13840,7 +13840,7 @@
         "type": "rect",
         "ratio": 1.618
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13859,7 +13859,7 @@
         "type": "rect",
         "ratio": 1.618
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13878,7 +13878,7 @@
         "type": "rect",
         "ratio": 1.618
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13897,7 +13897,7 @@
         "type": "rect",
         "ratio": 1.618
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13916,7 +13916,7 @@
         "type": "rect",
         "ratio": 1.618
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13935,7 +13935,7 @@
         "type": "rect",
         "ratio": 1.618
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13954,7 +13954,7 @@
         "type": "rect",
         "ratio": 1.618
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -13969,7 +13969,7 @@
         "type": "rect",
         "ratio": 1.618
       },
-      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "filterable": 1
     },
     {
@@ -20514,7 +20514,7 @@
       "header": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -20535,7 +20535,7 @@
       "header": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "cupfox_in",
@@ -20550,7 +20550,7 @@
       "header": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "italkbbtv",
@@ -20561,7 +20561,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "OleLive",
@@ -20572,7 +20572,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "华数",
@@ -20583,7 +20583,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "华谊影视",
@@ -20594,7 +20594,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "Didahd",
@@ -20605,7 +20605,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "TVB云播",
@@ -20616,7 +20616,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "天涯采集",
@@ -20632,7 +20632,7 @@
       "filterable": 1,
       "changeable": 1,
       "playerType": 2,
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "非凡_1487",
@@ -20667,7 +20667,7 @@
         "港台动漫",
         "海外动漫"
       ],
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "索尼",
@@ -20703,7 +20703,7 @@
         "海外动漫",
         "影视解说"
       ],
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "卧龙资源",
@@ -20712,7 +20712,7 @@
       "api": "https://wolongzyw.com/api.php/provide/vod",
       "searchable": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "U酷资源風",
@@ -20746,7 +20746,7 @@
       "header": {
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
       },
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "建安采集",
@@ -20762,7 +20762,7 @@
       "filterable": 1,
       "changeable": 1,
       "playerType": 2,
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "金蝉采集",
@@ -20778,7 +20778,7 @@
       "filterable": 1,
       "changeable": 1,
       "playerType": 2,
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "小绵阳采集",
@@ -20794,7 +20794,7 @@
       "filterable": 1,
       "changeable": 1,
       "playerType": 2,
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "Ncat",
@@ -20805,7 +20805,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384"
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c"
     },
     {
       "key": "drpy_js_Anime1动畫",
@@ -20813,7 +20813,7 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/Anime1动畫.js",
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -20824,7 +20824,7 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/NT动漫.js",
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -20835,7 +20835,7 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/路漫漫.js",
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -20846,7 +20846,7 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/去看吧.js",
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -20857,7 +20857,7 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/A8音乐.js",
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -20873,7 +20873,7 @@
         "ratio": 1
       },
       "ext": "./js/海洋听书.js",
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -20884,7 +20884,7 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/播客.js",
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -20896,7 +20896,7 @@
       "api": "./lib/drpy2.min.js",
       "changeable": 0,
       "ext": "./js/酷6网.js",
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -20912,7 +20912,7 @@
         "ratio": 1.597
       },
       "ext": "./js/网易公版影像.js",
-      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;62c4d3d61fb1b3c5d3ce8fad3a6d966c",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
